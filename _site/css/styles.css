@@ -1,0 +1,252 @@
+body{
+font-family: Georgia, serif;
+margin: 0;
+-webkit-font-smoothing: antialiased;
+}
+
+a{
+color: #227CE8;
+}
+
+a:hover{
+text-decoration: none;
+}
+
+p code, li code{
+background-color: #F9F9F9;
+border: 1px solid #eee;
+font-size: 14px;
+padding: 2px 3px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+}
+hr{
+border: 0;
+height: 1px;
+background-color: #ccc;
+margin: 2em 1em;
+}
+.content{
+margin-left: 140px;
+width: 800px;
+margin-bottom: 50px;
+}
+.related{
+margin-top: 5px;
+}
+.related ul{
+margin: 0;
+padding: 0;
+}
+.related li{
+font-size: 16px;
+list-style: none;
+padding: 8px 0px;
+margin: 0;
+color: #777;
+border-bottom: 5px solid #eee;
+}
+
+.related li span{
+float:right;
+}
+
+.related a{
+text-decoration: none;
+}
+.related a:hover{
+text-decoration: underline;
+}
+
+h1, h2, h3, h4{
+color: #555;
+font-family: Futura, Helvetica, sans-serif;
+font-weight: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a{
+color: #555;
+text-decoration: none;
+}
+
+h1{
+  font-size: 32px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: .25em;
+}
+
+#header{
+position: fixed;
+left: 15px;
+top: 15px;
+width: 110px;
+
+font-family: Helvetica, sans-serif;
+
+}
+ 
+
+#header a{
+text-decoration: none;
+}
+
+#header #me{
+font-family: 'Leckerli One', cursive;
+margin: 10px 0 20px 0;
+}
+
+#header #Rashna{
+font-size: 22px;
+letter-spacing: 1px;
+color: #666;
+}
+
+#header #Rashna:hover{
+color: #000;
+}
+
+#header #Razdan{
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 1px;
+color: #000;
+}
+
+ 
+#header .site img{
+padding: 0 3px;
+border: 0;
+}
+#header #mousing{
+font-size: 12px;
+color: #999;
+padding-left: 2px;
+letter-spacing: 1px;
+}
+
+
+/*///////// SIDEBAR ////////*/
+#sidebar {
+	margin: -60px 0 0 -25px;
+  
+	text-align:center;
+ 	padding:0px 0 0 0;
+	text-align:center;
+	font: normal 13px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	float:left;
+}	
+#sidebar img {
+	border:0;
+	margin:0;
+	padding:0;
+}
+#mainnav {
+	text-align:center;
+	width:100px;
+	margin-top:33px;
+	line-height:70%;
+}
+#mainnav li {
+	list-style:none;
+	margin:0px auto 0 auto;
+	width:88px;
+	height:68px;
+	padding:30px 0 0 0;
+}
+
+#mainnav a {
+	text-decoration:none;
+	color:#0b2444;
+	-webkit-transition: color .15s ease-in; /*safari and chrome */
+	 -o-transition: color .15s ease-in; /* opera */
+}
+
+#mainnav a.upperlink:hover {
+	color:#5c9dc5;
+}
+#mainnav a.lowerlink:hover {
+	color:#447797;
+}
+
+/*///////// END SIDEBAR ////////*/
+
+
+/*Highlight header*/
+.hl:hover { background:#00BFFF; } 
+.silver:hover { background:#E6E8FA; } 
+
+#post{
+  padding-bottom: 15px;
+  border-bottom: 1px solid #3299CC;
+}
+#post ul{
+  font-size: 15px;
+
+}
+#post li{
+  line-height: 1.25em;
+  margin-bottom: .75em;
+  color: #0000;
+  list-style-type: square;
+}
+#post li code{
+  border: 1px solid #3299CC;
+}
+#post p{
+  font-size: 14px;
+  margin-bottom: 1.2em;
+  line-height: 1.7em;
+}
+#post img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 610px;
+  -webkit-border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 10px #555;
+}
+#post .authoring{
+  padding-left: 3px;
+  font-size: 14px;
+  color: #777;
+}
+#post .authoring a{
+  color: #777;
+  text-decoration: none;
+  border-bottom: 5px solid #ccc;
+  padding: 0;
+}
+#post .authoring a:hover{
+  color: #555;
+  border-color: #555;
+}
+#post blockquote{
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  padding: 1em 3em;
+  margin: 2em 6em;
+  color: #444;
+}
+#post blockquote cite:before{
+  content: 'Ñ ';
+}
+#post blockquote cite{
+  text-align: right;
+  color: #111;
+  font-style: normal;
+}
+ 
+
+#header #icons{
+text-align: center;
+margin-top: 80px;
+}
+
+#archives a{ 
+text-decoration:none;
+text-align: center;
+font-family: 'Metamorphous', cursive;
+font-size:18px;
+}
+ 

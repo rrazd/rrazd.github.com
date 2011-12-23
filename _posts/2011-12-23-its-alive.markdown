@@ -1,0 +1,8 @@
+---
+layout: post
+title: Its Alive!
+excerpt: You cannot underestimate the power of good communication at work.
+---
+
+##Reincarnated the website over to Jekyll. It's the thing to do these days. 
+
