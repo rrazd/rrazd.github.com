@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portfolio Site
+title: Portfolio site
 excerpt: You cannot underestimate the power of static sites.
 ---
 
