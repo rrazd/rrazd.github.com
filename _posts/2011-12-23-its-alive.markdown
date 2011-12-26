@@ -27,7 +27,6 @@ An example of the efficiency of using jekyll is evident in the following snippet
 </ul>
 {% endhighlight %}
 <br/>
-<br/>
 ###The layout/design and all coding was done from scratch by me.   
 
 
