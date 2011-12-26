@@ -13,9 +13,11 @@ title: "Rashna Razdan"
 <div class="content">
 <div class="related">
    <ul>
-	{% for post in site.posts%}
+	{% for post in site.posts limit: 5 %}
    <li>
 <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+ <br/><br/><em>{{ post.excerpt }} </em>
+
     </li>
 </br>
   {% endfor %}
