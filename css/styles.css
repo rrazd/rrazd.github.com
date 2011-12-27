@@ -55,7 +55,7 @@ text-decoration: none;
 text-decoration: underline;
 }
 #home_head {
-	color: #0000;
+	color: #000;
 	font-family: Arial, Futura, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size:18px;
@@ -67,7 +67,7 @@ a:hover {color:#CC1100;}  /* mouse over link */
 
 h1{
 color: #555;
-font-family: 'Metamorphous', cursive; Futura, Helvetica, sans-serif;
+font-family: 'Metamorphous', cursive, Futura, Helvetica, sans-serif;
 font-weight: normal;
 }
 
