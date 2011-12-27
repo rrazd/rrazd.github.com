@@ -14,6 +14,7 @@ host this site from GitHub!
 
 An example of the efficiency of using jekyll is evident in the following snippet:
 {% highlight html%}
+
 <ul class="posts">
 { for post in site.posts limit: 5 }
   <div class="post_info">
@@ -25,6 +26,7 @@ An example of the efficiency of using jekyll is evident in the following snippet
     </div>
   { endfor }
 </ul>
+
 {% endhighlight %}
 <br/>
 ###The layout/design and all coding was done from scratch by me.   
