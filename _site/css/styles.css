@@ -61,9 +61,12 @@ text-decoration: underline;
 	color: #0000;
 	font-family: Arial, Futura, Helvetica, sans-serif;
 	font-weight: bold;
-	font-size:20px;
+	font-size:18px;
 }
 
+a:link {color:#3299CC;}      /* unvisited link */
+a:visited {color:#3299CC;}  /* visited link */
+a:hover {color:#CC1100;}  /* mouse over link */
 
 h1{
 color: #555;
