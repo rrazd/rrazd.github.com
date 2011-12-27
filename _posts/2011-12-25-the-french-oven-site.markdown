@@ -12,5 +12,5 @@ I communicated with the client mostly via email and they were happy with the end
 manage the website and do any content updates that the client requires. 
 
 Please visit the site to see the end result of my work:
-<a href="http://www.thefrenchoven.on.ca/index.html" />
+<a href="http://www.thefrenchoven.on.ca/index.html">The French Oven</a>
 
