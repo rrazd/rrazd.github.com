@@ -60,7 +60,7 @@ text-decoration: underline;
 
 h1, h2, h3, h4{
 color: #555;
-font-family: Futura, Helvetica, sans-serif;
+font-family: 'Metamorphous', cursive; Futura, Helvetica, sans-serif;
 font-weight: normal;
 }
 
@@ -169,11 +169,6 @@ letter-spacing: 1px;
 }
 
 /*///////// END SIDEBAR ////////*/
-
-
-/*Highlight header*/
-.hl:hover { background:#00BFFF; } 
-.silver:hover { background:#E6E8FA; } 
 
 #post{
   padding-bottom: 15px;
