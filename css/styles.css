@@ -1,7 +1,6 @@
 body{
 font-family: Georgia, serif;
 margin: 0;
--webkit-font-smoothing: antialiased;
 }
 
 a{
@@ -17,8 +16,6 @@ background-color: #F9F9F9;
 border: 1px solid #eee;
 font-size: 14px;
 padding: 2px 3px;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
 }
 hr{
 border: 0;
@@ -175,8 +172,6 @@ letter-spacing: 1px;
 #mainnav a {
 	text-decoration:none;
 	color:#0b2444;
-	-webkit-transition: color .15s ease-in; /*safari and chrome */
-	 -o-transition: color .15s ease-in; /* opera */
 }
 
 #mainnav a.upperlink:hover {
@@ -199,7 +194,7 @@ letter-spacing: 1px;
 #post li{
   line-height: 1.25em;
   margin-bottom: .75em;
-  color: #0000;
+  color: #000;
   list-style-type: square;
 }
 #post li code{
