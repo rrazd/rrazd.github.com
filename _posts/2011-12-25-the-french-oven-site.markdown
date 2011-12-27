@@ -4,15 +4,11 @@ title: The French Oven site
 excerpt: I created this website from scratch and currently manage it
 ---
 
-I created this website from scratch. From coming up with the design, to coding the html and css. 
-I also edited all the photos of the cakes in order to make all the display photos consistent with 
-each other. 
-
+I created this website from scratch: I started with laying out the design, then coding the website and setting up the web host and domain name. 
+I also used photoshop for editing all the photos of the cakes in order to make all the display photos consistent with 
+each other and creating the header etc. 
 I communicated with the client mostly via email and they were happy with the end product. I still 
 manage the website and do any content updates that the client requires. 
-
-Please visit the site to see the end result of my work:
+Please visit the site:
 <a href="http://www.thefrenchoven.on.ca/index.html">The French Oven</a>
-<br/><br/>
-One of the best things about working with this client is the seasonal complementary nut free baked good:
-<img src = "images/portfolio_french_oven.jpg"/> 
+<img src = "/images/frenchoven_icon.jpg"/> 
