@@ -1,7 +1,6 @@
 body{
 font-family: Georgia, serif;
 margin: 0;
--webkit-font-smoothing: antialiased;
 }
 
 a{
@@ -17,8 +16,6 @@ background-color: #F9F9F9;
 border: 1px solid #eee;
 font-size: 14px;
 padding: 2px 3px;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
 }
 hr{
 border: 0;
@@ -58,7 +55,7 @@ text-decoration: none;
 text-decoration: underline;
 }
 #home_head {
-	color: #0000;
+	color: #000;
 	font-family: Arial, Futura, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size:18px;
@@ -70,7 +67,7 @@ a:hover {color:#CC1100;}  /* mouse over link */
 
 h1{
 color: #555;
-font-family: 'Metamorphous', cursive; Futura, Helvetica, sans-serif;
+font-family: 'Metamorphous', cursive, Futura, Helvetica, sans-serif;
 font-weight: normal;
 }
 
@@ -152,6 +149,7 @@ letter-spacing: 1px;
 	text-align:center;
 	font: normal 13px 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	float:left;
+	position: fixed;
 }	
 #sidebar img {
 	border:0;
@@ -175,8 +173,6 @@ letter-spacing: 1px;
 #mainnav a {
 	text-decoration:none;
 	color:#0b2444;
-	-webkit-transition: color .15s ease-in; /*safari and chrome */
-	 -o-transition: color .15s ease-in; /* opera */
 }
 
 #mainnav a.upperlink:hover {
@@ -199,7 +195,7 @@ letter-spacing: 1px;
 #post li{
   line-height: 1.25em;
   margin-bottom: .75em;
-  color: #0000;
+  color: #000;
   list-style-type: square;
 }
 #post li code{
@@ -210,14 +206,7 @@ letter-spacing: 1px;
   margin-bottom: 1.2em;
   line-height: 1.7em;
 }
-/*#post img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 610px;
-  -webkit-border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 10px #555;
-}*/
+
 #post .authoring{
   padding-left: 3px;
   font-size: 14px;
@@ -250,7 +239,6 @@ letter-spacing: 1px;
   font-style: normal;
 }
  
-
 #header #icons{
 text-align: center;
 margin-top: 80px;
