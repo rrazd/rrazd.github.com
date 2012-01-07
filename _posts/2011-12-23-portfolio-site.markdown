@@ -14,6 +14,9 @@ host this site from GitHub!
 
 An example of the efficiency of using jekyll is evident in the following snippet:
 
+<div class="aboutContent">
+ 	<!-- Begin content -->
+     <div class="description">
 <p>
 {% highlight html%}  
 
@@ -26,6 +29,9 @@ An example of the efficiency of using jekyll is evident in the following snippet
 
  {% endhighlight %} 
 </p>
-<br/>
+
+</div>
+</div>
+ <br/>
  
 
