@@ -4,4 +4,3 @@ permalink: /blog/:title
 auto: true
 rdiscount:
   extensions: [smart]
-paginate: true
