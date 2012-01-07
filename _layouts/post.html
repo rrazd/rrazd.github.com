@@ -14,10 +14,10 @@ layout: layout
 	<nav class="pagenation">
 	<ul>
 	{% if page.previous %}
-	<li class="before left"><a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}"><p>Before</p></a></li>
+	<li class="before left"><p><a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">Before</a><p></li>
 	{% endif %}
 	{% if page.next %}
-	<li class="next right"><a rel="next" href="{{ page.next.url }}"  title="View {{ page.next.title }}"><p>Next</p></a></li>
+	<li class="next right"><p><a rel="next" href="{{ page.next.url }}"  title="View {{ page.next.title }}">Next</a></p></li>
 	{% endif %}
 	</ul>
 	</nav>
