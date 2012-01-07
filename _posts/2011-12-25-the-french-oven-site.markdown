@@ -12,5 +12,3 @@ manage the website and do any content updates that the client requires.
 
 Please visit the site:
 <a href="http://www.thefrenchoven.on.ca/index.html">The French Oven</a>
-<br/>
-<img src = "/images/frenchoven_icon.jpg"/> 
