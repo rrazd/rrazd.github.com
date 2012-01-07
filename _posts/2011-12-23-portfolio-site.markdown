@@ -11,21 +11,4 @@ design elements and cool features. However, in the end I realized that I much pr
 and simple interface, that focused more on the content.
 I decided to use the Jekyll static site generator. I had heard good things about it and by using it I could
 host this site from GitHub!
-
-An example of the efficiency of using jekyll is evident in the following snippet:
-
-
-{% highlight html%}  
-
-<!-- { for post in site.posts limit: 5 }
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span>({{ post.date | date:"%Y-%m-%d" }})</span>
-    </br> <em>{ post.excerpt } </em>
-    </div>
-  { endfor } -->
-
- {% endhighlight %} 
  
- <br/>
- 
-
