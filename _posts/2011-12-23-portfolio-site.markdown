@@ -13,12 +13,12 @@ I decided to use the Jekyll static site generator. I had heard good things about
 host this site from GitHub!
 
 An example of the efficiency of using jekyll is evident in the following snippet:
-{% highlight html%}
 
-<ul class="posts">
+
+{% highlight html%}
+<ul >
 { for post in site.posts limit: 5 }
-  <div class="post_info">
-    <li>
+     <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
             <span>({{ post.date | date:"%Y-%m-%d" }})</span>
     </li>
@@ -29,6 +29,5 @@ An example of the efficiency of using jekyll is evident in the following snippet
 
 {% endhighlight %}
 <br/>
-###The layout/design and all coding was done from scratch by me.   
-
+ 
 

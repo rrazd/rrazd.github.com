@@ -1,11 +1,26 @@
 ---
 layout: layout
 ---
+<!-- Begin about content -->
+  <div class="aboutContent">
+  	<!-- Begin content -->
+      <div class="description">
+         
 
-<div class="content">
-  <div id="post">
-    {% include post_header.html %}
-    {{ content }}
-  </div>
+   {% include post_header.html %}  
+   {{ content }}
 
+ 
+	<nav class="pagenation">
+	<ul>
+	{% if page.previous %}
+	<li class="before left"><a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">Before</a></li>
+	{% endif %}
+	{% if page.next %}
+	<li class="next right"><a rel="next" href="{{ page.next.url }}"  title="View {{ page.next.title }}">Next</a></li>
+	{% endif %}
+	</ul>
+	</nav>
+ 
+</div>
 </div>
