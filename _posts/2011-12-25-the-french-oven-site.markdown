@@ -12,8 +12,8 @@ each other and creating the header etc.
 I communicated with the client mostly via email and they were happy with the end product. 
 <br/>
 ####About the Client
-The French Oven, offers a wide variety of tempting nut-free flavours. The French Oven owns a state of the art cake factory and they make many different baked goods that use the freshest ingredients. They also offer custom cupcakes, mini cupcakes and cakes illustrated by hand for special celebrations and events. 
-I still manage the bakery's website and do any content updates that the client requires... Now if only I got paid in mini cupcakes and hot out of the oven cakes...  
+The French Oven bakery offers a wide variety of baked goods in many tempting nut-free flavours. The company owns a state of the art cake factory and their different baked goods use the freshest of ingredients. In particular, they offer whole sale cakes, custom cupcakes, mini cupcakes and cakes illustrated by hand for special celebrations and events. 
+I still manage the bakery's website and do any content updates that the client requires... Now if only I got paid in mini cupcakes and hot out of the oven cookies...  
 <br/>
 ####See it Live
 See the end result for yourself. Please visit the site:
