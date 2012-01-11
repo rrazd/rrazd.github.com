@@ -10,7 +10,7 @@ excerpt: You cannot underestimate the power of static sites.
 This site is a place to display my software portfolio. 
 There have been plenty of "portfolio site" versions that have come to pass. A lot of tinkering and inspirational
 sites have led me to creating the current version that you see on your browsers. Most of the previous version
-were flashy with a lot of flashy features. However, one day I realized that I much preferred a minimalistic
+were flashy with a lot of frivolous features. However, one day I realized that I much preferred a minimalistic
 and simple interface, that focused more on the content. After all content is King. 
 <br/>
 
