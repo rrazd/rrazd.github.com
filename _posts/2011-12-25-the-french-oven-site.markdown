@@ -21,6 +21,7 @@ See the end result for yourself. Please visit the site:
 
 Any feedback and suggestions are welcome. Please email me by clicking the Contact tab at the top. 
 
+
 {% highlight html %}
 
 <script src="http://www.google.com/jsapi?key=your_api_key" type="text/javascript"></script>
