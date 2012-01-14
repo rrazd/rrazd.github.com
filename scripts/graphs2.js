@@ -19,8 +19,8 @@
     ['FPGAs & Microcontrollers', 60],
     ['C & C++', 80],
     ['JAVA & C#', 65], 
-    ['VHDL', 60],
-    ['Assembly 68K & Coldfire',75]
+    ['VHDL', 30],
+    ['Assembly 68K & Coldfire',45]
   ]);
 
   // Set chart options

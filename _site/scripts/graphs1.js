@@ -18,7 +18,7 @@
   data.addRows([
     ['XHTML & CSS', 80],
     ['PHP, Wordpress, Jekyll', 65],
-    ['JQuery & JavaScript', 60], 
+    ['JQuery & JavaScript', 40], 
     ['MySql, Oracle, JDBC', 70],
     ['Search Engine Optimization, Web security',50]
   ]);

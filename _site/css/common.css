@@ -11,7 +11,7 @@ body
 {
 	margin: 0 auto;
 	padding: 0;
-	font-size: 24px;
+	font-size: 1em;
 	text-align: center;
 	background-color: #f6f5f1;
 }
@@ -29,12 +29,12 @@ h2 {
  
 h2 span {
     font-family:baskerville,'palatino linotype',georgia,serif;
-        font-size:25px;
+    font-size:25px;
     font-weight:100;
 }
 
 b{
-	color:#FF4500;
+	color: #f00;
 }
 
 
@@ -83,35 +83,11 @@ Container
 
 
 
-/* #######################################################
-Contact Info
-####################################################### */
-#container .contactInfo
-{
-	float: right;
-	margin: 40px 0 0 0;
-	padding: 0;
-	font: normal .5em "Times New Roman", Times, serif;
-	color: #807873;
-	text-align: right;
-}
-
-#container .contactInfo ul
-{
-	list-style: none;
-}
-/* #######################################################
----/ End Contact Info
-####################################################### */
-
-
-
-
 
 /* #######################################################
 Navigation Container
 ####################################################### */
-#container .navigationContainer
+ .navigationContainer
 {
 	clear: both;
 	margin: 5px 0 0 0;
@@ -131,14 +107,14 @@ Navigation Container
 Logo
 ####################################################### */
 
-#container .navigationContainer .logo
+ .navigationContainer .logo
 {
 	float: left;
 	margin: 0;
 	padding: 0;	
 }
 
-#container .navigationContainer .logo img
+ .navigationContainer .logo img
 {
 	border: 0;
 }
@@ -154,14 +130,14 @@ Logo
 Navigation
 ####################################################### */
 
-#container .navigationContainer .navigation
+ .navigationContainer .navigation
 {
 	float: right;
 	margin: 44px 0 0 0;
 	padding: 0;	
 }
 
-#container .navigationContainer .navigation ul
+ .navigationContainer .navigation ul
 {
 	list-style: none;	
 }
@@ -173,14 +149,13 @@ Navigation
 	width: 156px;
 	display: inline;
 	float: left;
-	font: normal .75em "Times New Roman", Times, serif;
+	font: normal 15px "Times New Roman", Times, serif;
 	color: #8f8f8f;
 	border-top: solid 2px #b9b6b4;
 }
 
 #container .navigationContainer .navigation li a,
 #container .navigationContainer .navigation li a:link,
-#container .navigationContainer .navigation li a:active,
 #container .navigationContainer .navigation li a:visited
 {
 	color: #8f8f8f;
@@ -190,10 +165,10 @@ Navigation
 
 #container .navigationContainer .navigation li a:hover
 {
-	color: #373431;
+	color: #ff5e00;
 }
 
-#container .navigationContainer .navigation .active
+ .navigationContainer .navigation .active
 {
 	margin: 0 0 0 26px;
 	padding: 12px 0 0 0;
@@ -223,12 +198,12 @@ Navigation
 /* #######################################################
 Footer
 ####################################################### */
-#container .footer
+ .footer
 {
 	clear: both;
 	margin: 20px 0 20px 0;
 	text-align: left;
-	font: normal .5em "Times New Roman", Times, serif;
+	font: normal 12px "Times New Roman", Times, serif;
 	color: #807873;
 }
 /* #######################################################
