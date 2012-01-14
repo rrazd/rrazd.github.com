@@ -188,6 +188,8 @@ Navigation
 }
 
 #container .navigationContainer .navigation li a:hover
+#container .navigationContainer .navigation li a:active
+
 {
 	color: #ff5e00;
 }
