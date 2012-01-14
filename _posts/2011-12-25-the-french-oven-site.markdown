@@ -20,3 +20,33 @@ See the end result for yourself. Please visit the site:
 <a href="http://www.thefrenchoven.on.ca/index.html">The French Oven</a>
 
 Any feedback and suggestions are welcome. Please email me by clicking the Contact tab at the top. 
+
+{% highlight html %}
+
+<script src="http://www.google.com/jsapi?key=your_api_key" type="text/javascript"></script>
+<script language="Javascript" type="text/javascript">
+  
+  google.load("search", "1");
+  
+  function OnLoad() {
+    // Create a search control
+    var searchControl = new google.search.SearchControl();
+    
+    // Add in a WebSearch
+    var webSearch = new google.search.WebSearch();
+    
+    // Restrict our search to pages from this site
+    webSearch.setSiteRestriction('your site url');
+    
+    // Add the searcher to the SearchControl
+    searchControl.addSearcher(webSearch);
+    
+    // tell the searcher to draw itself and tell it where to attach
+    searchControl.draw(document.getElementById("search"));
+  }
+  google.setOnLoadCallback(OnLoad);
+  
+</script>
+
+{% endhighlight %}
+
