@@ -36,13 +36,15 @@ About Content
 /* #####################################################
 Description 
 ###################################################### */
-#container .aboutContent .description
+ .aboutContent .description
 {
 	float: left;
 	width: 515px;
+	font: normal 3em "Times New Roman", Times, serif;
+
 }
 
-#container .aboutContent .description h1
+ .aboutContent .description h1
 {
 	margin: 0;
 	padding: 0 0 5px 0;
@@ -58,24 +60,24 @@ Description
 	line-height: 1.5em;
 }
 
-#container .aboutContent .description p
+ .aboutContent .description p
 {
 	margin: 20px 0 20px 0;
 	font: normal 0.583em "Times New Roman", Times, serif;
 	line-height: 1.5em;
 }
 
-#container .aboutContent .description a,
-#container .aboutContent .description a:link,
-#container .aboutContent .description a:active,
-#container .aboutContent .description a:visited
+ .aboutContent .description a,
+ .aboutContent .description a:link,
+ .aboutContent .description a:active,
+ .aboutContent .description a:visited
 {
 	font-style: normal;
 	color: #e97004;
 	text-decoration: none;
 }
 
-#container .aboutContent .description a:hover
+ .aboutContent .description a:hover
 {
 	text-decoration: underline;
 }
