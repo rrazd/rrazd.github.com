@@ -188,12 +188,12 @@ Navigation
 	width: 156px;
 }
 
-#container .navigationContainer .navigation li a:hover
+.navigationContainer .navigation li a:hover
 {
 	color: #373431;
 }
 
-#container .navigationContainer .navigation .active
+ .navigationContainer .navigation .active
 {
 	margin: 0 0 0 26px;
 	padding: 12px 0 0 0;
@@ -228,7 +228,7 @@ Footer
 	clear: both;
 	margin: 20px 0 20px 0;
 	text-align: left;
-	font: normal .5em "Times New Roman", Times, serif;
+	font: normal 12px "Times New Roman", Times, serif;
 	color: #807873;
 }
 /* #######################################################
