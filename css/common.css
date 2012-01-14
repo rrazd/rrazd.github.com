@@ -111,7 +111,7 @@ Contact Info
 /* #######################################################
 Navigation Container
 ####################################################### */
-#container .navigationContainer
+ .navigationContainer
 {
 	clear: both;
 	margin: 5px 0 0 0;
@@ -131,14 +131,14 @@ Navigation Container
 Logo
 ####################################################### */
 
-#container .navigationContainer .logo
+ .navigationContainer .logo
 {
 	float: left;
 	margin: 0;
 	padding: 0;	
 }
 
-#container .navigationContainer .logo img
+ .navigationContainer .logo img
 {
 	border: 0;
 }
@@ -154,19 +154,19 @@ Logo
 Navigation
 ####################################################### */
 
-#container .navigationContainer .navigation
+ .navigationContainer .navigation
 {
 	float: right;
 	margin: 44px 0 0 0;
 	padding: 0;	
 }
 
-#container .navigationContainer .navigation ul
+ .navigationContainer .navigation ul
 {
 	list-style: none;	
 }
 
-#container .navigationContainer .navigation li
+ .navigationContainer .navigation li
 {
 	margin: 0 0 0 26px;
 	padding: 12px 0 0 0;
