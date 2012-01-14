@@ -187,7 +187,7 @@ Navigation
 	width: 156px;
 }
 
-.navigationContainer .navigation li a:hover
+#container .navigationContainer .navigation li a:hover
 {
 	color: #373431;
 }
