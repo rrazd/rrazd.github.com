@@ -32,9 +32,11 @@ git (if it isn't already).<br/>
 On a completely unrelated note, if you are using a Mac terminal or any other UNIX 
 terminal you can find out your top 10 commands in the command line by entering: 
 <br/>
+<br/>
 
-######history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
-
+{% highlight bash %}
+history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head
+{% endhighlight %}
 <br/>
 
 ####The Hardest part
