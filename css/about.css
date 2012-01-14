@@ -36,11 +36,11 @@ About Content
 /* #####################################################
 Description 
 ###################################################### */
- .aboutContent .description
+.intro .aboutContent .description
 {
 	float: left;
 	width: 515px;
-	font: normal 3em "Times New Roman", Times, serif;
+	font: normal 1.5em "Times New Roman", Times, serif;
 
 }
 
