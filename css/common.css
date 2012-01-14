@@ -166,7 +166,7 @@ Navigation
 	list-style: none;	
 }
 
- .navigationContainer .navigation li
+#container .navigationContainer .navigation li
 {
 	margin: 0 0 0 26px;
 	padding: 12px 0 0 0;
@@ -189,7 +189,7 @@ Navigation
 
 #container .navigationContainer .navigation li a:hover
 {
-	color: #373431;
+	color: #ff5e00;
 }
 
  .navigationContainer .navigation .active
