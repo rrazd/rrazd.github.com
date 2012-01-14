@@ -19,7 +19,7 @@ Grey Separator
 /*######################################################
 About Content
 ##################################################### */
-#container .aboutContent
+ .aboutContent
 {
 	margin: 54px 0 0 0;
 	text-align: left;
@@ -51,6 +51,12 @@ Description
 	font-style: italic;
 }
 
+.description
+{
+	margin: 20px 0 20px 0;
+	font: normal 1.583em "Times New Roman", Times, serif;
+	line-height: 1.5em;
+}
 
 #container .aboutContent .description p
 {
