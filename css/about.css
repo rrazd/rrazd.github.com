@@ -19,7 +19,7 @@ Grey Separator
 /*######################################################
 About Content
 ##################################################### */
-.aboutContent
+#container .aboutContent
 {
 	margin: 54px 0 0 0;
 	text-align: left;
@@ -36,13 +36,13 @@ About Content
 /* #####################################################
 Description 
 ###################################################### */
-.aboutContent .description
+#container .aboutContent .description
 {
 	float: left;
 	width: 515px;
 }
 
- .aboutContent .description h1
+#container .aboutContent .description h1
 {
 	margin: 0;
 	padding: 0 0 5px 0;
@@ -51,7 +51,7 @@ Description
 	font-style: italic;
 }
 
- 
+
 #container .aboutContent .description p
 {
 	margin: 20px 0 20px 0;
