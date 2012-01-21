@@ -42,7 +42,7 @@ I decided to make a website where a user could login to their own webspace. Once
 The best part was writing out the PHP logic and figuring out how to implement my ideas into code and in turn into 
 reality! The code wasn't too complex. A lot of it was validation code as I wanted to make the site as secure as 
 possible. Below is a very small snippet showing the interaction with the database. 
-
+<br/>
 {% highlight ruby %}
 
 $command = "select postId from ".$table_name;
