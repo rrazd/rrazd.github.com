@@ -11,10 +11,11 @@ layout: layout
 	<nav class="pagenation">
 	<ul>
 	{% if page.previous %}
-	<li class="before left"><p><a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">Before</a><p></li>
+	<li><p><a rel="prev" href="{{ page.previous.url }}" title="View {{ page.previous.title }}">Before</a>
 	{% endif %}
+	&nbsp;&nbsp;&nbsp;&nbsp;..........................&nbsp;&nbsp;&nbsp;
 	{% if page.next %}
-	<li class="next right"><p><a rel="next" href="{{ page.next.url }}"  title="View {{ page.next.title }}">Next</a></p></li>
+	<a rel="next" href="{{ page.next.url }}"  title="View {{ page.next.title }}">Next</a></p></li>
 	{% endif %}
 	</ul>
 	</nav>
