@@ -43,7 +43,7 @@ The best part was writing out the PHP logic and figuring out how to implement my
 reality! The code wasn't too complex. A lot of it was validation code as I wanted to make the site as secure as 
 possible. Below is a very small snippet showing the interaction with the database. 
 
-{% highlight html %}
+{% highlight Php %}
 
 $command = "select postId from ".$table_name;
 $result = mysql_query($command);
