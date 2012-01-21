@@ -3,7 +3,7 @@ layout: post
 title: Mini Web Notes  
 excerpt: I created a secure site where users could go to jot downs ideas, thoughts and notes
 ---
-#Mini WebNotes
+#Mini Web Notes
 <br/>
 
 ####The Start of Something New
