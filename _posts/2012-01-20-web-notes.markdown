@@ -16,8 +16,8 @@ I kept mine simple so that it would be easy to change if need be.
 
 <br/>
 ####A Brief Overview of the End Product
-To create the website I used PHP + SQL. I wanted to refine my skills in these two topics and during the
-arduous journey that was the process of creating this website, I learnt more that a few things! It's important 
+To create the website I used PHP + SQL. I wanted to refine my skills in these two areas and during the
+rewarding journey of creating the website, I learnt a lot of new things! It's important 
 to note that the main objective was to LEARN! If I had wanted to create the most feature rich website in very little
 time, I would have used a framework. 
 The end product was a website where a user could login to their own webspace. Once in, they had the option of:
