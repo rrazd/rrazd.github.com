@@ -26,22 +26,17 @@ The end product was a website where a user could login to their own webspace. On
 
 ####1. Jotting down any quick reminders, ideas and notes. These entries are posted after the user clicks "Submit" 
 <br/>
-####2. Emailing user login details to friends so that people can comment on the entries 
+####2. Basic SQL injection protection during the login process
 <br/>
-####3. Controlling who can sign-in to the webspace in order to prevent any abuse, by banning a guest's IP
+####3. A minimal and sleek display of all previous entries, sorted according to date. 
 <br/>
-####4. Basic SQL injection protection during the login process
-<br/>
-####5. A minimal and sleek display of all previous entries, sorted according to date. 
-<br/>
-####6. A banner displaying an active countdown to the end of the current month.  
+####4. A banner displaying an active countdown to the end of the current month.  
 
 <br/>
 <br/>
 ####The Best Part
 The best part was writing out the PHP logic and figuring out how to implement my ideas into code and in turn into 
-reality! The code wasn't too complex. A lot of it was validation code as I wanted to make the site as secure as 
-possible. Below is a very small snippet showing the interaction with the database. 
+reality! 
 <br/>
 {% highlight ruby %}
 
@@ -65,15 +60,6 @@ I did not use a lot of CSS for the site. The reason being that this way all the 
 user entries.  
 
 <br/>
-####See it Live?
-
-Unfortunately it is not possible to see the end product live at the moment since I don't have a webhost account.
-All development was done locally using MAMP. I will try and upload screenshots if they are requested
-in the future.  
-
-
-Any feedback and suggestions are welcome. Please email me by clicking the Contact tab at the top. 
- 
 
 
   
