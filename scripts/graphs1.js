@@ -16,11 +16,11 @@
   data.addColumn('string', 'Software Skills');
   data.addColumn('number', 'Proficiency');
   data.addRows([
-    ['XHTML & CSS', 70],
-    ['PHP, Wordpress, Jekyll', 65],
-    ['JQuery & JavaScript', 20], 
+    ['XHTML & CSS', 60],
+    ['PHP, Wordpress, Jekyll', 55],
+    ['JQuery & JavaScript', 10], 
     ['MySql, Oracle, JDBC', 70],
-    ['Search Engine Optimization, Web security',20]
+    ['Search Engine Optimization, Web security',5]
   ]);
  
   // Set chart options
