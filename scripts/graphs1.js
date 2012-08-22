@@ -16,10 +16,10 @@
   data.addColumn('string', 'Software Skills');
   data.addColumn('number', 'Proficiency');
   data.addRows([
-    ['XHTML & CSS', 60],
-    ['PHP, Wordpress, Jekyll', 55],
+    ['XHTML & CSS', 30],
+    ['PHP, Wordpress, Jekyll', 15],
     ['JQuery & JavaScript', 10], 
-    ['MySql, Oracle, JDBC', 70],
+    ['MySql, Oracle, JDBC', 40],
     ['Search Engine Optimization, Web security',5]
   ]);
  
