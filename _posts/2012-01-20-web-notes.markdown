@@ -12,8 +12,6 @@ complete a project in a time sensitive environment. I knew that in order to pull
 I had to make a plan: a visual site map is quick to make, it can be fairly detailed yet 
 I kept mine simple so that it would be easy to change if need be. 
 
-![alt text](/images/make.jpg "Innovation")
-
 <br/>
 ####A Brief Overview of the End Product
 To create the website I used PHP + SQL. I wanted to refine my skills in these two areas and during the
