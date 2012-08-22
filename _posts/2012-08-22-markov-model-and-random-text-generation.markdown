@@ -7,7 +7,7 @@ excerpt: For those times when you just need to fill up space on a long dull essa
 <br/>
 ####Motivation
 In third year Computer Engineering at the University of Waterloo I took a course called Probability Theory and Random Processes 
-(ECE 316). The course was by no means easy, but I found it to be immensely interesting and very useful in all applications of life. The course was taught by Professor Xie, an excellent professor. With knowledge about probability I became quite interested in the Markov model and its uses in natural language processing.
+(ECE 316). The course was by no means easy, but I found it to be immensely interesting and very useful in all applications of life. The course was taught by Professor Xie, an excellent professor. Equipped with theoretical knowledge about probability I became quite interested in the Markov model and its uses in natural language processing.
 <br/>
 ####About the Application
 I created an application called Essay Space Filler in C++, based on the Markov Model. This application generates 'random' constant number of characters, enough to pass as a short paragraph. I say 'random' but it isn't truly random. In fact the output is controlled by the programmer in my loose adaptation of the Markov model. My program always outputs the one character following the current seed that has the highest probability. The way most Markov chains are implemented is, after every character that is output, it generates an entire probability distribution of possible characters and subsequently chooses one of them randomly, according to the probability distribution calculated. 
