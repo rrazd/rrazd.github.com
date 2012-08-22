@@ -16,11 +16,10 @@
   data.addColumn('string', 'Software Skills');
   data.addColumn('number', 'Proficiency');
   data.addRows([
-    ['FPGAs & Microcontrollers', 60],
+    ['FPGAs & Microcontrollers', 20],
     ['C & C++', 80],
     ['JAVA & C#', 65], 
-    ['VHDL', 30],
-    ['Assembly 68K & Coldfire',45]
+    ['Assembly 68K & Coldfire',15]
   ]);
 
   // Set chart options
