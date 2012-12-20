@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Sctict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta charset="utf-8" />
+
+		<!-- Set the viewport width to device width for mobile -->
+		<meta name="viewport" content="width=device-width" />
+		<meta name="author" content="Rashna Razdan"/>
+
+		<title>Essay Space Filler</title>
+		
+		<!--Load the AJAX API-->
+	    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	    <script type="text/javascript" src = "/scripts/graphs1.js"></script>
+	    <script type="text/javascript" src = "/scripts/graphs2.js"></script>
+	
+		<!--End of Load the AJAX API-->
+
+		
+		
+		<link href="/css/common.css" type="text/css" rel="stylesheet" />
+		<link href="/css/index.css" type="text/css" rel="stylesheet" />
+ 		<link href="/css/syntax.css" type="text/css" rel="stylesheet" />
+ 		
+		<link rel="icon" 
+		      type="image/png" 
+		      href="/images/favicon.png" />
+	</head>
+	
+	<body>
+		<div class="topBar"></div>
+		<!-- Begin container -->
+		<div id="container">
+		    <!-- Begin contact -->
+		    <div class="contactInfo">
+		    <ul>
+		        <li>Hi, this is <b> Rashna Razdan's </b> Portfolio site.</li>
+		        <li>I study at the University of Waterloo in Ontario, Canada</li>
+		    </ul>
+		    </div>
+		    <!--/ End contact -->
+
+
+		    <!-- Begin navigation container -->
+		    <div class="navigationContainer">   
+
+		        <!-- Begin logo -->
+		        <div class="logo">
+		            <a href="/index.html"><img src="/images/logo.png" alt="Rashna Razdan" /></a>
+		        </div>
+		        <!--/ End logo --> 
+
+		        <!-- Begin navigation -->
+		        <div class="navigation">
+		            <ul>
+		            	<li><a href="/index.html">Home</a></li>
+		               	<li><a href="/portfolio.html">Portfolio</a></li>
+		            	<li><a href="/about.html">About</a></li>
+		               	<li><a href="/contact.html">Contact</a></li>
+		            </ul>
+		        </div>
+		        <!--/ End navigation -->
+
+		    </div>
+		    <!--/ End navigation container -->
+
+
+		    <!-- Begin grey separator -->
+		    <div class="greySeparator"></div>
+		    <!--/ End grey separator -->    
+
+
+		    <!-- Begin intro -->
+		    <div class="intro">
+
+				<!-- Begin about content -->
+  <div class="intro">
+   <p>
+ 
+   		<h1>Random Text Generation Application</h1>
+
+<br/>
+
+
+<h4>Motivation</h4>
+
+<p>In third year Computer Engineering at the University of Waterloo I took a course called Probability Theory and Random Processes
+(ECE 316). The course was by no means easy, but I found it to be immensely interesting and very useful in all applications of life. The course was taught by Professor Xie, an excellent professor. Equipped with theoretical knowledge about probability I became quite interested in the Markov model and its uses in natural language processing.</p>
+
+<br/>
+
+
+<h4>About the Application</h4>
+
+<p>I created an application called Essay Space Filler in C++, based on the Markov Model. This application generates &lsquo;random&rsquo; constant number of characters, enough to pass as a short paragraph. I say &lsquo;random&rsquo; but it isn&rsquo;t truly random. In fact the output is controlled by the programmer in my loose adaptation of the Markov model. My program always outputs the one character following the current seed that has the highest probability. The way most Markov chains are implemented is, after every character that is output, it generates an entire probability distribution of possible characters and subsequently chooses one of them randomly, according to the probability distribution calculated.</p>
+
+<br/>
+
+
+<h4>See it in Acton</h4>
+
+<p>The application source code along with more details regarding the development process can be found at my
+<a href="https://github.com/rrazd/EssaySpaceFiller">GitHub page.</a> It is always really awesome to be able to apply what was taught
+in university!</p>
+
+<br/><br/>
+
+
+<h5>Sample Input file:</h5>
+
+<p><code>
+Professor Dumbledore sent all the Gryffindors back to the Great Hall, where they were joined ten minutes later by the students from Hufflepuff, Ravenclaw, and Slytherin, who all looked extremely confused.
+“The teachers and I need to conduct a thorough search of the castle,” Professor Dumbledore told them as Professors McGonagall and Flitwick closed all doors into the hall. “I’m afraid that, for your own safety, you will have to spend the night here. I want the prefects to stand guard over the entrances to the hall and I am leaving the Head Boy and Girl in charge. Any disturbance should be reported to me immediately,” he added to Percy, who was looking immensely proud and important.
+</code></p>
+
+<br/>
+
+
+<h5>Output at order 20 (My approximation of Markov model):</h5>
+
+<p><code>
+Professor Dumbledore rofessor Dumbledore sofessor Dumbledore sefessor Dumbledore senessor Dumbledore sentssor Dumbledore sent sor Dumbledore sent aor Dumbledore sent alr Dumbledore sent all Dumbledore sent all Dumbledore sent all tumbledore sent all thmbledore sent all thebledore sent all the ledore sent all the Gedore sent all the Grdore sent all the Gryore sent all the Gryfre sent all the Gryffe sent all the Gryffi sent all the Gryffinsent all the Gryffindent all the Gryffindont all the Gryffindort all the Gryffindors all the Gryffindors all the Gryffindors bll the Gryffindors bal the Gryffindors bac the Gryffindors backthe Gryffindors back he Gryffindors back te Gryffindors back to Gryffindors back to Gryffindors back to tryffindors back to thyffindors back to th
+</code></p>
+
+<br/>
+
+
+<h5>Output at order 10 (Following the Markov model precisely)</h5>
+
+<p><code>
+Professor Dumbledore told them as Professor Dumbledore sent all the Gryffindors back to the Great Hall, where they were joined ten minutes later by the students from Hufflepuff, Ravenclaw, and Slytherin, who all looked extremely confused.
+‚ÄúThe teachers and I need to conduct a thorough search of the castle,‚Äù Professor Dumbledore told them as Professor Dumbledore told them as Professors McGonagall and Flitwick closed all doors into the hall. ‚ÄúI‚Äôm afraid that, for your own safety, you will have to spend the night here. I want the prefects to stand guard over the entrances to the hall and I am leaving the Head Boy and Girl in charge. Any disturbance should be reported to me immediately,‚Äù he added to Percy, who was looking immensely proud and important.
+</code></p>
+
+
+ 	</p>
+	<nav class="pagenation">
+	<ul>
+	
+	<li><p><a rel="prev" href="/blog/web-notes" title="View Mini Web Notes">Before</a>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;..........................&nbsp;&nbsp;&nbsp;
+	
+	</ul>
+	</nav>
+ 
+ </div>
+		    
+		    </div>
+		    <!--/ End intro -->
+
+
+			  <!-- Begin grey separator -->
+			    <div class="greySeparator"></div>
+			    <!--/ End grey separator -->
+
+			    <!-- Begin footer -->
+			    <div class="footer">
+			    	Copyright &copy; 2012, Rashna Razdan. All Rights Reserved.
+			    </div>
+			    <!--/ End footer -->
+			</div>
+			<!--/ End container -->
+		</div>
+	</div>
+
+
+ 	</body>
+</html>
