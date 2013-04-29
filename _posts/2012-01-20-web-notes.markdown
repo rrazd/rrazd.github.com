@@ -36,7 +36,7 @@ The end product was a website where a user could login to their own webspace. On
 The best part was writing out the PHP logic and figuring out how to implement my ideas into code and in turn into 
 reality! 
 <br/>
-{% highlight ruby %}
+{% highlight html %}
 
 $command = "select postId from ".$table_name;
 $result = mysql_query($command);
