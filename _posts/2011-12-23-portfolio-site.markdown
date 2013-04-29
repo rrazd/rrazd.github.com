@@ -51,3 +51,7 @@ is not phenomenal then it will save you time and frustration to use a profession
 Although there is much still to do to improve this site, the lack of the hours in the day prevent me from 
 working more on it. For now it functions as it should and serves its main purpose: to display a description of
 my past projects along with any links to them or screenshots of them. 
+
+<br/>
+=========================	  
+<h3><a href = "/portfolio.html"> Go Back To See All Projects</a></h3>

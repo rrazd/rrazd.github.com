@@ -58,6 +58,6 @@ I did not use a lot of CSS for the site. The reason being that this way all the 
 user entries.  
 
 <br/>
-
-
-  
+=========================	  
+<h3><a href = "/portfolio.html"> Go Back To See All Projects</a></h3>
+ 

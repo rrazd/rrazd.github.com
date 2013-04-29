@@ -35,5 +35,7 @@ Professor Dumbledore told them as Professor Dumbledore sent all the Gryffindors 
 ‚ÄúThe teachers and I need to conduct a thorough search of the castle,‚Äù Professor Dumbledore told them as Professor Dumbledore told them as Professors McGonagall and Flitwick closed all doors into the hall. ‚ÄúI‚Äôm afraid that, for your own safety, you will have to spend the night here. I want the prefects to stand guard over the entrances to the hall and I am leaving the Head Boy and Girl in charge. Any disturbance should be reported to me immediately,‚Äù he added to Percy, who was looking immensely proud and important.
 </code>
 
-
+<br/>
+=========================	  
+<h3><a href = "/portfolio.html"> Go Back To See All Projects</a></h3>
 
