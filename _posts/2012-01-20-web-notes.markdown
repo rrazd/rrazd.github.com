@@ -5,13 +5,11 @@ excerpt: I created a secure site where users could go to jot downs ideas, though
 ---
 #Mini Web Notes
 <br/>
-
 ####The Start of Something New
 Quite recently I had the urge to create something. I gave myself a limit of three days so as to 
 complete a project in a time sensitive environment. I knew that in order to pull of this project
 I had to make a plan: a visual site map is quick to make, it can be fairly detailed yet 
 I kept mine simple so that it would be easy to change if need be. 
-
 <br/>
 ####A Brief Overview of the End Product
 To create the website I used PHP + SQL. I wanted to refine my skills in these two areas and during the
@@ -20,8 +18,6 @@ to note that the main objective was to LEARN! If I had wanted to create the most
 time, I would have used a framework. 
 The end product was a website where a user could login to their own webspace. Once in, they had the option of:
 <br/>
-
-
 ####1. Jotting down any quick reminders, ideas and notes. These entries are posted after the user clicks "Submit" 
 <br/>
 ####2. Basic SQL injection protection during the login process
@@ -29,7 +25,6 @@ The end product was a website where a user could login to their own webspace. On
 ####3. A minimal and sleek display of all previous entries, sorted according to date. 
 <br/>
 ####4. A banner displaying an active countdown to the end of the current month.  
-
 <br/>
 <br/>
 ####The Best Part
@@ -37,7 +32,6 @@ The best part was writing out the PHP logic and figuring out how to implement my
 reality! 
 <br/>
 {% highlight html %}
-
 $command = "select postId from ".$table_name;
 $result = mysql_query($command);
 while ($data = mysql_fetch_object($result))
@@ -49,14 +43,10 @@ mysql_close($db);
 print "<div class = blog_entry>";
 include("pointer.php"); 
 print "</div>";
-
 {% endhighlight %}
-
 <br/>
-
 I did not use a lot of CSS for the site. The reason being that this way all the focus would remain on the 
 user entries.  
-
 <br/>
 =========================	  
 <h3><a href = "/portfolio.html"> Go Back To See All Projects</a></h3>

@@ -16,7 +16,6 @@ I created an application called Essay Space Filler in C++, based on the Markov M
 The application source code along with more details regarding the development process can be found at my 
 <a href="https://github.com/rrazd/EssaySpaceFiller">GitHub page.</a> It is always really awesome to be able to apply what was taught
 in university! 
-
 <br/><br/>
 #####Sample Input file: 
 <code>
@@ -34,8 +33,6 @@ Professor Dumbledore rofessor Dumbledore sofessor Dumbledore sefessor Dumbledore
 Professor Dumbledore told them as Professor Dumbledore sent all the Gryffindors back to the Great Hall, where they were joined ten minutes later by the students from Hufflepuff, Ravenclaw, and Slytherin, who all looked extremely confused.
 ‚ÄúThe teachers and I need to conduct a thorough search of the castle,‚Äù Professor Dumbledore told them as Professor Dumbledore told them as Professors McGonagall and Flitwick closed all doors into the hall. ‚ÄúI‚Äôm afraid that, for your own safety, you will have to spend the night here. I want the prefects to stand guard over the entrances to the hall and I am leaving the Head Boy and Girl in charge. Any disturbance should be reported to me immediately,‚Äù he added to Percy, who was looking immensely proud and important.
 </code>
-
 <br/>
 =========================	  
 <h3><a href = "/portfolio.html"> Go Back To See All Projects</a></h3>
-

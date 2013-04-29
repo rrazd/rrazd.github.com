@@ -15,12 +15,10 @@ I communicated with the client mostly via email and they were happy with the end
 The French Oven bakery offers a wide variety of baked goods in many tempting nut-free flavours. The company owns a state of the art cake factory and their different baked goods use the freshest of ingredients. In particular, they offer whole sale cakes, custom cupcakes, mini cupcakes and cakes illustrated by hand for special celebrations and events. 
 I still manage the bakery's website and do any content updates that the client requires... Now if only I got paid in mini cupcakes and hot out of the oven cookies...  
 <br/>
-####See it Live
-See the end result for yourself. Please visit the site:
-<a href="http://www.thefrenchoven.on.ca/index.html">The French Oven</a>
-
-Any feedback and suggestions are welcome. Please email me by clicking the Contact tab at the top. 
-
+<br/>
+####<a href="http://www.thefrenchoven.on.ca/index.html">Click here to go to The French Oven website</a>
+<br/>
+![Screenshot1](/images/work/theFrenchOven1.png "Screenshot of website")
 <br/>
 =========================	  
 <h3><a href = "/portfolio.html"> Go Back To See All Projects</a></h3>
