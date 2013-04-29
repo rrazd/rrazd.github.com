@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postLayout
 title: Mini Web Notes  
 excerpt: I created a secure site where users could go to jot downs ideas, thoughts and notes
 ---

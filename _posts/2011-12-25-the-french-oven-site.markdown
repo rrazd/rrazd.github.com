@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postLayout
 title: The French Oven site
 excerpt: I created this website from scratch and currently manage it
 ---

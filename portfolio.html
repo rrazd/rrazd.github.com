@@ -1,31 +1,19 @@
 ---
-layout: layout
+layout: postLayout
 title: "Rashna Razdan"
 --- 
 
 
-<div class="description">
-
-  {% for post in site.posts limit: 5 %}
+ 
+  {% for post in site.posts limit: 900 %}
 	<p>	
-    	{{ post.date | date: "%B %e, %Y" }} &nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
-		 <br/>
+    	<b>{{ post.date | date: "%B %e, %Y" }} &nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a></b>
+		<br/>
 		{{ post.excerpt }} 
-		<br/><br/>    
+		<br/><br/><br/><br/>    
 	</p>
     
   {% endfor %}
  
-</div>
-
-
-<nav class="pagenation">
-<ul>
-{% if page.previous %}
-<li class="before left"><a rel="prev" href="{{ page.previous.url }}" class="btn" title="View {{ page.previous.title }}">Before</a></li>
-{% endif %}
-{% if page.next %}
-<li class="next right"><a rel="next" href="{{ page.next.url }}" class="btn" title="View {{ page.next.title }}">Next</a></li>
-{% endif %}
-</ul>
-</nav>
+ 
+ 
