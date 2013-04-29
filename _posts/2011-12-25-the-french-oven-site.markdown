@@ -18,7 +18,7 @@ I still manage the bakery's website and do any content updates that the client r
 <br/>
 ####<a href="http://www.thefrenchoven.on.ca/index.html">Click here to go to The French Oven website</a>
 <br/>
-![Screenshot1](/images/work/theFrenchOven1.png "Screenshot of website")
+![Screenshot1](/images/work/theFrenchOven1.jpg "Screenshot of website")
 <br/>
 =========================	  
 <h3><a href = "/portfolio.html"> Go Back To See All Projects</a></h3>

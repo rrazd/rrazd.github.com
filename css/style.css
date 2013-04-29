@@ -320,10 +320,9 @@ footer{
 }
 
 .icon{
-	float:right;
+	float:left;
 	width:32px;
-	margin:95px 0 2px 4%;
-	opacity:0.85;
+ 	opacity:0.35;
 }
 
 .icon:hover{
