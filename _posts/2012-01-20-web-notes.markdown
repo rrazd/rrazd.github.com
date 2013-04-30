@@ -16,7 +16,7 @@ To create the website I used PHP + SQL. I wanted to refine my skills in these tw
 rewarding journey of creating the website, I learnt a lot of new things! It's important 
 to note that the main objective was to LEARN! If I had wanted to create the most feature rich website in very little
 time, I would have used a framework. 
-The end product was a website where a user could login to their own webspace. Once in, they had the option of:
+The end product was a website where a user could login to their own webspace. Main highlights of the app include:
 <br/>
 ####1. Jotting down any quick reminders, ideas and notes. These entries are posted after the user clicks "Submit" 
 <br/>
