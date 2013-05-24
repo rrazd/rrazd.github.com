@@ -26,6 +26,7 @@ They can enter a new record regarding their meal, they can view previous entries
 As always there is plenty of improvements and enhancements I could implement. For instance, if the app was to be released commercially then there would need to be a login system in place so that each user sees only their information. This is fairly easy to implement. I would also add more options for the graphical representation of data. For instance I would like to see the correlation between mood (this field is part of the entry that the user makes) and calories consumed per month. Lastly, it would be better if the application pulls data regarding calories of food items instead of asking the user to enter in that information. In sum, I could continue coming up with enhancements and ways to make the app better, however, I was quite happy with the current product: it is sleek and it meets the requierements that I  initially had in mind.  
 <br/>
 Source code can be found on my <a href="https://github.com/rrazd/HealthyEatingApp">github</a> page  
+test
 <div class="fb-like" data-send="true" data-width="450" data-show-faces="true"></div>
 
 <br/>
