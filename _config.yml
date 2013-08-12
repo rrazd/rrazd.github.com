@@ -1,8 +1,7 @@
-markdown: rdiscount
+name: Portfolio Site by Rashna Razdan
+markdown: redcarpet
 pygments: true
-permalink: /blog/:title
-paginate: 2
 auto: true
-rdiscount:
-  extensions: [smart]
-  
+comments: true
+paginate: 20
+
