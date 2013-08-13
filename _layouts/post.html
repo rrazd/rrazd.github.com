@@ -3,14 +3,9 @@ layout: default
 comments: true
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
-
- 
-
-
+ 	{{ content }}
+ 	
 	% if page.comments %
 	<div id="disqus_thread"></div>
 	    <script type="text/javascript">
@@ -28,4 +23,4 @@ comments: true
 	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 	% endif %
 	  
-</div>
+ 
