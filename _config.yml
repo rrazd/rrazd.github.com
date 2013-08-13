@@ -4,4 +4,4 @@ pygments: true
 auto: true
 comments: true
 paginate: 20
-
+safe: false
