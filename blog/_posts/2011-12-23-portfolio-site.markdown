@@ -3,6 +3,7 @@ layout: linkage
 category: blog
 title: "Portfolio Site"
 author: Rashna Razdan
+comments: true
 ---
 
  
