@@ -360,7 +360,7 @@ section[role="main"] {
     max-width: 76%}
 }@media only screen and (min-width: 971px) {
     .content, .single {
-    max-width: 64%}
+    max-width: 75%}
 }.pull {
     margin-left: 0;
     margin-right: 0;
@@ -381,6 +381,7 @@ section[role="main"] {
     padding: 0;
     list-style: none;
 }
+ 
 .post-list.grid-row {
     margin-left: -20px;
 }
@@ -401,6 +402,7 @@ section[role="main"] {
     border-bottom: 1px solid #999;
     display: block;
     margin-bottom: 1rem;
+
 }
 header[role="banner"] {
     border-bottom: 0.4rem solid #eee;
@@ -676,3 +678,9 @@ footer[role="contentinfo"] {
 }.main-title {
     margin-top: 0;
 }
+
+a.tag_list_link{border-left: 1px solid #ccc;color:#888;font-size:14px;font-variant:small-caps;margin:0;padding: 0 6px;text-transform:lowercase;}
+a.tag_list_link:first-child{border:0}
+a.tag_list_link:hover{color:#444;}
+
+ 
