@@ -642,6 +642,7 @@ footer[role="contentinfo"] {
 }
 }.main-title {
     margin-top: 0;
+    font-family: 'Rum Raisin', 'Helvetica';
 }
 
 a.tag_list_link{border-left: 1px solid #ccc;color:#888;font-size:14px;font-variant:small-caps;margin:0;padding: 0 6px;text-transform:lowercase;}
