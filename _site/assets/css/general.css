@@ -266,13 +266,16 @@ figcaption {
     font-style: italic;
 }
 .post-date {
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
     font-weight: 100;
     color: #999;
 }
 .title {
     margin-top: 0;
+    font-family: 'Geneva';
+    font-size: 1.2rem;
 }
+  
 .btn {
     margin: 1em 0;
     padding: .25em .5em;
@@ -394,6 +397,7 @@ section[role="main"] {
     margin-bottom: 1rem;
 
 }
+
 header[role="banner"] {
     border-bottom: 0.4rem solid #eee;
     position: relative;
@@ -645,7 +649,7 @@ footer[role="contentinfo"] {
     font-family: 'Rum Raisin', 'Helvetica';
 }
 
-a.tag_list_link{border-left: 1px solid #ccc;color:#888;font-size:14px;font-variant:small-caps;margin:0;padding: 0 6px;text-transform:lowercase;}
+a.tag_list_link{border-left: 1px solid #ccc;color:#888;font-size:18px;font-family: 'Helvetica'; font-variant:small-caps;margin:0;padding: 0 6px;text-transform:lowercase;}
 a.tag_list_link:first-child{border:0}
 a.tag_list_link:hover{color:#444;}
 
