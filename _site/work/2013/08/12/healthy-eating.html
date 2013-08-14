@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> Healthy Eating App |  Rashna Razdan</title>
+    <meta name="description" content="Hi! I'm Rashna Razdan. I'm a computer engineering student at the University of Waterloo.">
+    <meta author="Rashna Razdan">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="stylesheet" href="/assets/css/general.css">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/assets/css/syntax.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Rum+Raisin' rel='stylesheet' type='text/css'>    
+    <script src="/assets/js/modernizr-2.6.2.min.js"></script>
+ 
+
+    </head>
+
+    <body class="work">
+      <!--[if lt IE 7]>
+          <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+      <![endif]-->
+      <div class="fact-spinner">
+	<div class="wrap">
+		<p class="facts"><span class="fact"></span> </p>
+	</div>
+</div>
+
+      <header role="banner" class="page-wrap">
+	<h1 class="branding"><a href="/">Rashna Razdan</a></h1>
+	<nav role="navigation">
+		<ul>
+			<li><a href="/work" class="work">Work</a></li>
+			<li><a href="/blog" class="blog">Blog</a></li>			
+			<li><a href="/about" class="about">About</a></li>
+			<li><a href = "/contact" class = "contact">Contact</a></li>	
+ 		</ul>
+	</nav>
+</header>	
+
+
+      <div class="page-wrap">
+
+<article class="work single" role="main">
+
+	<header>
+		
+		<h1 class="main-title">Healthy Eating App</h1>
+	</header>
+
+	<h6>Introduction</h6>
+
+<p>The Healthy Eating application is a dynamic web application that users can utilize to keep track of the amount of calorie that they are consuming. This task is made more interesting by the fact that this application interacts with Facebook to link the user with all of their friends who also use the application for keeping track of calories. Furthermore, users can compete with their friends in order to determine who is superior in term of eating healthy.</p>
+
+<h6>Final Application</h6>
+
+<p>To create the actual application Google Web Toolkit was used (GWT). Using this framework made it easier to implement design patterns and use Jave and Eclipse to create the product. Furthermore, the framework ensured the presence of cross browser compatibility and other non-functional ‘nice to have’ features. </p>
+
+<p>The application had some notable technical complexity. It utilized:</p>
+
+<ul>
+<li> Remote Procedure to communicate with MySQL database</li>
+<li> BCrypt framework for login password hashing </li>
+<li> Facebook API</li>
+<li> Google Web Toolkit Visualizations API </li>
+<li> Google Web Tookit Framework</li>
+</ul>
+
+<p>Some screenshots of the application are seen below:</p>
+
+<figure>
+    <div class="web">
+    <img src="/images/work/Login.png" alt="Screenshot of app home page">
+    </div>
+    <figurecaption>Secure login for the application</figurecaption>
+</figure> 
+
+<figure>
+    <div class="web">
+    <img src="/images/work/FoodEntry.png" alt="Screenshot of app home page">
+    </div>
+    <figurecaption>Food Log page of the application</figurecaption>
+</figure> 
+
+<figure>
+    <div class="web">
+    <img src="/images/work/FoodEntry2.png" alt="Screenshot of app home page">
+    </div>
+    <figurecaption>User entering a new food item</figurecaption>
+</figure> 
+
+<h6>Proof of Concept</h6>
+
+<p>In order to see if there was interest in the application&#39;s services a sample application that provided the very basic simplified features was created. Java Servlets, Java Server Pages and MySql were used. The pertinent screenshots are shown below:</p>
+
+<figure>
+    <div class="web">
+    <img src="/images/work/HealthyEating1.jpg" alt="Screenshot of app home page">
+    </div>
+    <figurecaption>Home page of the application</figurecaption>
+</figure> 
+
+<figure>
+    <div class="web">   
+    <img src="/images/work/HealthyEating2.jpg" alt="Screenshot of app">
+    </div>
+    <figurecaption>Enter a new record regarding their meal</figurecaption>
+</figure> 
+  
+
+<figure>
+    <div class="web">   
+    <img src="/images/work/HealthyEating3.jpg" alt="Screenshot of app">
+    </div>
+    <figurecaption>View previous entries based on the year of choice</figurecaption>
+</figure>   
+
+<figure>
+    <div class="web">   
+    <img src="/images/work/HealthyEating4.jpg" alt="Screenshot of app">
+    </div>
+    <figurecaption>See the amount of calories consumed in graphical format</figurecaption>
+</figure>   
+
+<p>Furthermore, the SQL database that was designed for this application was normalized to be in BCNF which gets rid of most function dependency redundencies. It should be noted that BCNF is a lossless decomposition however it does not guarentee preservation of depencies. Nevertheless, since the database for this application did turn out to be dependency preserving. Views were used for database queries and prepared statements were used when necessary.  </p>
+
+
+	
+		<a href="/work/" title="work" class="large btn">Back to all posts</a>
+	
+
+</article>
+
+</div>
+
+
+       
+
+        
+           <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'rashnarazdanportfoliosite'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+            </script>
+            <noscript> <a href="http://disqus.com/?ref_noscript"></a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink"><span class="logo-disqus"></span></a>
+            
+      <header role="banner" class="page-wrap">
+ 	 
+</header>	
+
+      
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="/assets/js/jquery-1.8.3.min.js"><\/script>')</script>
+      <script src="/assets/js/plugins.js"></script>
+      <script src="/assets/js/banner.js"></script>
+
+
+       
+ 
+    </body>
+</html>

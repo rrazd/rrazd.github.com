@@ -344,7 +344,7 @@ figure img {
     margin-right: auto;
 }
 figurecaption {
-    font-size: .875em;
+    font-size: .775em;
     color: #999;
     font-style: italic;
 }
@@ -361,19 +361,9 @@ section[role="main"] {
 }@media only screen and (min-width: 971px) {
     .content, .single {
     max-width: 75%}
-}.pull {
-    margin-left: 0;
-    margin-right: 0;
 }
-@media only screen and (min-width: 491px) and (max-width: 970px) {
-    .pull {
-    margin-left: -12%;
-    margin-right: -12%}
-}@media only screen and (min-width: 971px) {
-    .pull {
-    margin-left: -28%;
-    margin-right: -28%}
-}.copy-block {
+
+.copy-block {
     margin-bottom: 1.6rem;
 }
 .post-list {
@@ -382,7 +372,7 @@ section[role="main"] {
     list-style: none;
 }
  
-.post-list.grid-row {
+.post-list .grid-row {
     margin-left: -20px;
 }
 .paginate {
@@ -535,31 +525,6 @@ footer[role="contentinfo"] {
     position: absolute;
     top: -1em;
     right: 0;
-}
-}.social-media {
-    margin: 0 0 .5em 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    *zoom: 1;
-}
-@media only screen and (max-width: 490px) {
-    .social-media {
-    margin-bottom: 0;
-}
-}.social-media li {
-    float: left;
-    margin-right: 20px;
-}
-.social-media li a {
-    display: block;
-    float: left;
-    color: #ccc;
-    width: 25%;
-    font-size: 2.25em;
-}
-.social-media li a:hover {
-    color: #38B0DE;
 }
 .disclaim {
     font-size: 12px;
