@@ -5,3 +5,12 @@ auto: true
 comments: true
 paginate: 20
 safe: false
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-43160756-1'
+  getclicky :
+    site_id :
+
+
+  
