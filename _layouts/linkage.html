@@ -19,7 +19,7 @@ layout: default
 
 	{{ content }}
 
-	{% if page.category != 'about' %}
+	{% if page.category != 'about' and page.category != 'contact' %}
 		<a href="/{{ page.category }}/" title="{{ page.category }}" class="large btn">Back to all posts</a>
 	{% endif %}
 
