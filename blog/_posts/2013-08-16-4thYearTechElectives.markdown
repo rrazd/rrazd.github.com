@@ -6,7 +6,6 @@ author: Rashna Razdan
 comments: true
 tags:
 - university
-- courses
 ---
 
 sdffsddsfdf
