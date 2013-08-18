@@ -1,7 +1,7 @@
 ---
 layout: linkage
 category: blog
-title: "Waterloo Comp. Eng. Programming Skills"
+title: "Computer Eng - Programming Skills Needed?"
 author: Rashna Razdan
 comments: true
 tags:
