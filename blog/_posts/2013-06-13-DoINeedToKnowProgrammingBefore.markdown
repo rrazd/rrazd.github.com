@@ -10,8 +10,7 @@ tags:
 
 <p>If you are going into Computer Engineering I would strongly recommend that you accumulate some experience programming in Java or C#. In first year (1A term) there is an <b>Introduction to Programming course (ECE 150)</b> offered by the university. However, I found this course to be very unhelpful as a novice programmer at the time. This was because it was slightly overwhelming having to learn all the main programming concepts in the span of 4 months along with studying for 4 other engineering courses and adjusting to life at university. Going into computer engineering I really had no idea what programming was. On the first day of classes I wrote the obligatory Hello World program in C#:</p>
 
-```html
-// Hello1.cs
+```javascript
 public class Hello1
 {
    public static void Main()
