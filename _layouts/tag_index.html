@@ -9,7 +9,7 @@ layout: default
   {% for tag in post.tags %}
   {% if tag == page.tag %}
   <li class="archive_list">
-    <time class="post-date" datetime='{{post.date | date: "%Y-%m-%d"}}'>{{post.date | date: "%m/%d/%y"}}</time> <a class="title" href='{{post.url}}'>{{post.title}}</a>
+    <time class="post-date" datetime='{{post.date | date: "%Y-%m-%d"}}'>{{post.date | date: "%m/%d/%y"}}</time><a class="title" href='{{post.url}}'>{{post.title}}</a>
    </li>
   {% endif %}
   {% endfor %}
