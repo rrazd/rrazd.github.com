@@ -20,8 +20,8 @@ Projects that people have completed for this course include:
 <li> Desktop applications </li>
 </ul>
 
-The course project is usually done in groups of 4 and it is an excellent way to learn how to work with others and improve on some essential 'soft skills.' However, I do know some people who chose to work alone and did just as well in the project
-If you choose to work alone they you should be prepared to do more work and give up the oppertunity to learn new and interesting things about from your team members. The flip side of working in a group is arranging a common time to meet. I know some groups that had problems setting a meeting time and getting other members of the group to participate. I found the grading for the project was quite leniant and it was easy to do well if you read the lecture slides or attended lectures regularly. Similarly the midterm and final exam were extremely fair.  
+The course project is usually done in groups of 4 and it is an excellent way to learn how to work with others and improve on some essential 'soft skills.' However, I do know some people who chose to work alone and did very well in the project.
+If you choose to work alone then you should be prepared to do more work and give up the opportunity to learn new and interesting things about from your team members. The flip side of working in a group is arranging a common time to meet. I know some groups that had problems setting a meeting time and getting other members of the group to participate. I found the grading for the project was quite leniant and it was easy to do well if you read the lecture slides or attended lectures regularly. Similarly the midterm and final exam were extremely fair.  
 
 *Grading: midterm, final exam and a term project*
 
