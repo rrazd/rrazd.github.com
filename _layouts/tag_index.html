@@ -16,7 +16,11 @@ layout: default
   {% endfor %}
 </ul>
  
-
-  <h7>Tag List: | <a href='/tag/university'>University</a> |</h7>
-
+ <h7>
+Tags:
+ {% for tag in site.tags %}
+      |<a href="/tag/{{ tag[0] }}" id="{{ forloop.index }}" class="__tag" style="margin: 5px">{{ tag[0] }}</a>|
+   
+ {% endfor %}
+</h7>
 </div>

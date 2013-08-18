@@ -5,7 +5,7 @@ title: "4th Year Technical Electives"
 author: Rashna Razdan
 comments: true
 tags:
-- university
+- courses
 ---
 
 I thought to write a post on electives I took in 4th Year. Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture) and ECE 455 (Embedded Software).
