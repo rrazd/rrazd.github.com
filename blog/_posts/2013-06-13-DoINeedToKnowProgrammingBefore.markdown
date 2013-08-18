@@ -8,7 +8,7 @@ tags:
 - university
 ---
 
-<p>If you are going into Computer Engineering I would strongly reccommend that you accumulate some experience programming in Java or C#. In first year (1A term) there is an Introduction to Programming course offerred by the university. However, I found this course to be very unhelpful as a novice programmer at the time. Going in to computer engineering I really had no idea what programming was. I was extremely unprepared and rather clueless. I should have taken some sort of course on the subject in highschool however computer science was hardly mentioned in the all-girls private school that I attended in Toronto.</p> 
+<p>If you are going into Computer Engineering I would strongly reccommend that you accumulate some experience programming in Java or C#. In first year (1A term) there is an <b>Introduction to Programming course (ECE 150)</b> offerred by the university. However, I found this course to be very unhelpful as a novice programmer at the time. This was because it was slightly overwhelming having to learn all the main programming concepts in the span of 4 months along with studying for 4 other Engineering courses and adjusting to life at University. Going in to computer engineering I really had no idea what programming was. I was extremely unprepared and rather clueless. I should have taken some sort of course on the subject in highschool however computer science was hardly mentioned in the all-girls private school that I attended in Toronto.</p> 
 
 <p>I did the IB Diploma Programme in highschool. I took higher level Chemistry, English and History and standard level Math, Physics and Spanish. I believe that IB does offer some Computer Science courses however these were not offered at my school.</p>
 
@@ -18,4 +18,4 @@ tags:
 
 <p>The labs for this course consisted of some programming projects. The first two projects were very easy, even for the amateur programmer. However the difficulty level for all subsequent project increased exponentially. I remember spending many days toiling over them. There is a lot of help available from Teaching Assistants (TA), however sometimes their comments end up causing more confusion. This is because they might have a totally different approach to solving the problem at hand and they might not fully understand your plan to tackle the problem. Additionally, the TA's can only help you to a certain degree when it comes to debugging your code.</p>
 
-<p>All in all, I think the university should adopt that same approach for Computer Engineering as they do for Software Engineering: they should really encourage incoming students to have some programming experience.</p>
+<p>All in all, I think the university should adopt that same approach for Computer Engineering as they do for Software Engineering: <b>they should really encourage incoming students to have some programming experience.</b></p>
