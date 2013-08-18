@@ -8,8 +8,6 @@ tags:
 - university
 ---
 
-
-
 I thought to write a post on electives I took in 4th Year. Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture) and ECE 455 (Embedded Software).
 
 ######ECE 452: Software Design and Architecture 
@@ -27,5 +25,23 @@ The course project is usually done in groups of 4 and it is an excellent way to 
 *Grading: midterm, final exam and a term project*
 
 ######ECE 455: Embedded Software
-I had expected this to be a tough course. I was prepared to spend a long time stuggling with the labs. However, it turned out that my expectations were misguided. I found the labs to not be too difficult and I did really well in them without having to put in a lot of time. The professor for this course was Sebastian Fischmeister. The labs focused a lot on timing and getting the timing of certain events correct. In total there were 5 labs; they were very well organized. The labs were done online, the student could compile and deploy the code onto STM32F405 microcontrollers located in a lab room somewhere in the university. A dashboard then showed the outcomes of the runs. This was really great as it allowed students to complete the labs from the conveniance of their homes, no tool chain setup was needed and we did not have to worry about any wiring issues. A picture of the coding environment online is shown below:
-<img src="/images/blog/ece455_1.jpg">
+I took this couse during a spring term, the professor was Sebastian Fischmeister. I had expected this to be a tough course. I was prepared to spend a long time struggling with the labs. However, it turned out that my expectations were misguided. I found the labs to not be too difficult and I did really well on them without having to put in a lot of time. The labs focused a lot on timing and getting the timing of certain events correct. In total there were 5 labs done using C programming; they were very well organized. The labs were done online; the student could compile and deploy the code onto STM32F405 microcontrollers located in a lab room somewhere in the university. A dashboard then showed the outcomes of the runs. This was really great as it allowed students to complete the labs from the convenience of their homes, no tool chain setup was needed and we did not have to worry about any wiring issues. A picture of the coding environment is shown below:
+<figure>
+	<div class="web">
+		<img src="/images/blog/ece455_1.png">
+	</div>
+	<figurecaption>Starting Page</figurecaption>
+</figure> 
+
+<figure>
+	<div class="web">
+		<img src="/images/blog/ece455_3.png">
+	</div>
+	<figurecaption>Main Lab Environment</figurecaption>
+</figure> 
+
+Furthermore, the theoretical part of the course was not too hard to grasp. The lectures were quite helpful and I would definitely recommend going to them. There were two quizzes and no midterm. The quizzes were very simple and all the questions on them were based on questions already covered in the tutorials. On the other hand, the final exam was not easy and most people seemed to find it very challenging. 
+
+*Grading: best of 2 quizzes, final exam and 5 labs*
+
+
