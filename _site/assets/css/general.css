@@ -227,17 +227,19 @@ h4, .h4 {
     font-size: 21px;
     font-size: 1.325rem;
 }
-h5, .h5 {
+
+h6, .h6 {
+    font-size: .9rem;
+    margin-top: 24px;
     margin-top: 1.5rem;
     margin-bottom: 4px !important;
     margin-bottom: 0.25rem !important;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Rum Raisin', 'Georgia', 'Helvetica';
 }
-h6, .h6 {
-    font-size: .9rem;
+h7, .h7 {
+    font-size: .6rem;
     margin-top: 24px;
     margin-top: 1.5rem;
     margin-bottom: 4px !important;
