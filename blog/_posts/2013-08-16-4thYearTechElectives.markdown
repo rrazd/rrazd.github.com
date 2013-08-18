@@ -1,11 +1,10 @@
 ---
 layout: linkage
 category: blog
-title: "Technical Electives"
+title: "4th Year Technical Electives"
 author: Rashna Razdan
 comments: true
 tags:
 - university
 ---
 
-sdffsddsfdf
