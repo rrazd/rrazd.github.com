@@ -1,7 +1,7 @@
 ---
 layout: linkage
 category: blog
-title: "U of T Vs. Waterloo for Computer Eng."
+title: "Toronto Vs. Waterloo for Computer Eng."
 author: Rashna Razdan
 comments: true
 tags:
