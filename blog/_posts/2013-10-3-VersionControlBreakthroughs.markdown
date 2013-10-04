@@ -1,7 +1,7 @@
 ---
 layout: linkage
 category: blog
-title: "Insights into version control systems"
+title: "Insights Into Version Control Systems"
 author: Rashna Razdan
 comments: true
 tags:
