@@ -45,7 +45,7 @@ svn propset svn:ignore "*.class" .
 
 ```
 
-Ignore a particulare folder:
+Ignore a particular folder:
 
 ```javascript
 
