@@ -10,6 +10,13 @@ tags:
 
 <p>This past term I have been working a lot with SVN. Some essential things to remember:</p>
 
+You gotta check it out:
+
+```javascript
+
+svn checkout --username sstudent svn://linux024.student.cs.uwaterloo.ca:6002/RepoName/sstudent .
+
+```
 
 You gotta add first:	
 
@@ -56,6 +63,7 @@ svn propset svn:ignore tmp .
 Ignore  multiple items:
 
 ```javascript
+
 create a file called svnignore.txt (vim svnignore.txt)
 
 input all the files and directories you wanna ignore:  
@@ -67,6 +75,14 @@ bin
 *.la
 
 run the following command: svn propset svn:ignore -F svnignore.txt .
+```
+
+You may wanna delete files in the repo to match the deleted local files that were already added to svn:
+
+```javascript
+
+svn status | grep "^\!" | sed 's/^\! *//g' | xargs svn rm
+
 ```
 
 Extra tips:<br/>
