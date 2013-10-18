@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> Insights into version control systems |  Rashna Razdan</title>
+    <title> Insights Into Version Control Systems |  Rashna Razdan</title>
     <meta name="description" content="Hi! I'm Rashna Razdan. I'm a computer engineering student at the University of Waterloo.">
     <meta author="Rashna Razdan">
     <meta name="viewport" content="width=device-width">
@@ -70,25 +70,28 @@
  			
 
 		
-		<h1 class="main-title">Insights into version control systems</h1>
+		<h1 class="main-title">Insights Into Version Control Systems</h1>
 	</header>
 
 	<p>This past term I have been working a lot with SVN. Some essential things to remember:</p>
 
+<p>You gotta check it out:</p>
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">checkout</span> <span class="o">--</span><span class="nx">username</span> <span class="nx">sstudent</span> <span class="nx">svn</span><span class="o">:</span><span class="c1">//linux024.student.cs.uwaterloo.ca:6002/RepoName/sstudent .</span>
+</code></pre></div>
 <p>You gotta add first:    </p>
 <div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">add</span> <span class="o">*</span>
 </code></pre></div>
 <p>You gotta commit early and often:</p>
 <div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">commit</span> <span class="o">-</span><span class="nx">m</span> <span class="s2">&quot;added motion detection&quot;</span>
 </code></pre></div>
-<p>You gotta check your status</p>
+<p>You gotta check your status:</p>
 <div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">status</span>
 </code></pre></div>
 <p>You gotta ignore the unimportant files so they don&#39;t bother you:<br/>
 For instance, ignore all files that end in .class:</p>
 <div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">propset</span> <span class="nx">svn</span><span class="o">:</span><span class="nx">ignore</span> <span class="s2">&quot;*.class&quot;</span> <span class="p">.</span>
 </code></pre></div>
-<p>Ignore a particulare folder:</p>
+<p>Ignore a particular folder:</p>
 <div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">propset</span> <span class="nx">svn</span><span class="o">:</span><span class="nx">ignore</span> <span class="nx">tmp</span> <span class="p">.</span>
 </code></pre></div>
 <p>Ignore  multiple items:</p>
@@ -103,6 +106,9 @@ For instance, ignore all files that end in .class:</p>
 <span class="o">*</span><span class="p">.</span><span class="nx">la</span>
 
 <span class="nx">run</span> <span class="nx">the</span> <span class="nx">following</span> <span class="nx">command</span><span class="o">:</span> <span class="nx">svn</span> <span class="nx">propset</span> <span class="nx">svn</span><span class="o">:</span><span class="nx">ignore</span> <span class="o">-</span><span class="nx">F</span> <span class="nx">svnignore</span><span class="p">.</span><span class="nx">txt</span> <span class="p">.</span>
+</code></pre></div>
+<p>You may wanna delete files in the repo to match the deleted local files that were already added to svn:</p>
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">status</span> <span class="o">|</span> <span class="nx">grep</span> <span class="s2">&quot;^\!&quot;</span> <span class="o">|</span> <span class="nx">sed</span> <span class="s1">&#39;s/^\! *//g&#39;</span> <span class="o">|</span> <span class="nx">xargs</span> <span class="nx">svn</span> <span class="nx">rm</span>
 </code></pre></div>
 <p>Extra tips:<br/>
 -Sometimes you have to navigate into the specific folder and perform the svn commands on the files that reside there in order for the operation to occur successfully. <br/>

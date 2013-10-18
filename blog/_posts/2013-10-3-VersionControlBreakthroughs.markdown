@@ -35,7 +35,7 @@ svn commit -m "added motion detection"
 
 ```
 
-You gotta check your status
+You gotta check your status:
 
 ```javascript
 
