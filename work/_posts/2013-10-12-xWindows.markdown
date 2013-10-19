@@ -45,17 +45,20 @@ You can see some screenshots of the end product below:
 
 </figure> 
 
-######Functionalities
+``` html
+
+Functionalities:
 
 1. The Character can:
 
-	Stand still, facing either right or left
+	-Stand still, facing either right or left
 
-	Run, either right or left
+	-Run, either right or left
 	
-	Jump, either to the right or left, the distance/height jumped depends on if he is running or not
+	-Jump, either to the right or left, the distance/height jumped depends on if he is 
+	running
 	
-	Perform simple collision detection
+	-Perform simple collision detection
 
 2. The game world contains a sun that moves across the sky at a constant speed regardless of what the character is doing.
 
@@ -67,4 +70,8 @@ You can see some screenshots of the end product below:
 
 6. All speeds should be independent of each other
 
-7. If window is resized the game positions itself in the center. A message is displayed if the window is made too small
+7. If window is resized the game positions itself in the center. 
+
+8. A message is displayed if the window is made too small
+
+```
