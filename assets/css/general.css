@@ -647,10 +647,6 @@ footer[role="contentinfo"] {
 }
 
 
- only screen and (max-width: 490px) {
-    .blog .title {
-    padding-left: 0;
-}
 }.main-title {
     margin-top: 0;
     font-family: 'Karla', 'Helvetica';
