@@ -188,7 +188,7 @@ h1, .h1 {
     line-height: 1.4;
 }
 @media only screen and (max-width: 490px) {
-    h1, .h1 {
+    h1, .h1, .title {
     font-size: 32px;
     font-size: 2rem;
     font-family: 'Karla', Helvetica;
@@ -359,7 +359,8 @@ section[role="main"] {
 @media only screen and (min-width: 491px) and (max-width: 970px) {
     .content, .single {
     max-width: 76%}
-}@media only screen and (min-width: 971px) {
+}
+@media only screen and (min-width: 971px) {
     .content, .single {
     max-width: 75%}
 }
@@ -644,6 +645,7 @@ footer[role="contentinfo"] {
 .blog .title {
     padding-left: 6.6rem;
 }
+
 
  only screen and (max-width: 490px) {
     .blog .title {
