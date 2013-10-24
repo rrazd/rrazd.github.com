@@ -125,16 +125,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-@font-face {
-    font-family: 'entypo';
-    src: url("/assets/fonts/entypo/entypo.eot");
-    src: url("/assets/fonts/entypo/entypo.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/entypo/entypo.woff") format("woff"), url("/assets/fonts/entypo/entypo.ttf") format("truetype"), url("/assets/fonts/entypo/entypo.svg#svgFontName") format("svg");
-}
-@font-face {
-    font-family: 'entypo-social';
-    src: url("/assets/fonts/entypo-social/entypo-social.eot");
-    src: url("/assets/fonts/entypo-social/entypo-social.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/entypo-social/entypo-social.woff") format("woff"), url("/assets/fonts/entypo-social/entypo-social.ttf") format("truetype"), url("/assets/fonts/entypo-social/entypo-social.svg#svgFontName") format("svg");
-}
 [class*='icon-'], [class*='socialicon-'] {
     font-size: 1.25em;
 }
@@ -333,7 +323,8 @@ figcaption {
     padding-left: 20px;
     padding-right: 20px;
 }
-}@media only screen and (max-width: 490px) {
+}
+@media only screen and (max-width: 490px) {
     .page-wrap {
     padding-left: 20px;
     padding-right: 20px;
