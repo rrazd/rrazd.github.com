@@ -17,6 +17,8 @@ html {
     -ms-text-size-adjust: 100%}
 body {
     margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 0.9em;
 }
 a:focus {
     outline: thin dotted;
@@ -150,7 +152,8 @@ html {
 @media only screen and (min-width: 491px) and (max-width: 970px) {
     html {
     font-size: 112.5%}
-}@media only screen and (min-width: 971px) {
+}
+@media only screen and (min-width: 971px) {
     html {
     font-size: 125%}
 }a {
@@ -414,13 +417,13 @@ header[role="banner"] a:hover {
     color: #38B0DE;
 }
 .branding {
-    font-family: Cookie, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: 'Karla', Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2em;
     text-shadow: 0 1px 1px #FFF;
     margin: 0;
-    font-size: 1.5rem;
     text-align: center;
-    padding-top: 1.6rem;
+    padding-top: 0.5rem;
 }
 @media only screen and (min-width: 491px) and (max-width: 970px) {
     .branding {
@@ -488,12 +491,13 @@ nav[role="navigation"] {
     nav[role="navigation"] {
     float: right;
 }
-}@media only screen and (min-width: 971px) {
+}
+@media only screen and (min-width: 971px) {
     nav[role="navigation"] {
     float: right;
 }
 }nav[role="navigation"] ul {
-    margin-top: 0;
+    margin-top: 3;
     padding-left: 0;
 }
 @media only screen and (min-width: 491px) and (max-width: 970px) {
@@ -511,7 +515,7 @@ nav[role="navigation"] ul li a {
     width: 18%;
     text-align: center;
 }
-.about a.about, .work a.work, .blog a.blog {
+.about a.about, .work a.work, .blog a.blog, .contact a.contact, .home a.home {
     color: #38B0DE;
 }
 footer[role="contentinfo"] {
@@ -545,16 +549,17 @@ footer[role="contentinfo"] {
 .hello {
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Helvetica', sans-serif;
-    font-size: 1.25em
     margin-bottom: 0px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1em;
+
 }
 .helloMain {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Rum Raisin', sans-serif;
-    font-size: 3.25em
+    font-size: 4.75em
 }
 .work.archive li {
     float: left;
@@ -649,7 +654,7 @@ footer[role="contentinfo"] {
 }
 }.main-title {
     margin-top: 0;
-    font-family: 'Rum Raisin', 'Helvetica';
+    font-family: 'Karla', 'Helvetica';
 }
 
 a.tag_list_link{border-left: 1px solid #ccc;color:#888;font-size:15px;font-family: 'Helvetica'; font-variant:small-caps;margin:0;padding: 0 6px;text-transform:lowercase;}
