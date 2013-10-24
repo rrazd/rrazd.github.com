@@ -417,28 +417,31 @@ header[role="banner"] a:hover {
     color: #38B0DE;
 }
 .branding {
-    font-family: 'Karla', Helvetica, sans-serif;
+    font-family: 'Rum Raisin', Helvetica, sans-serif;
     font-weight: 800;
     font-size: 2em;
-    text-shadow: 0 1px 1px #FFF;
     margin: 0;
     text-align: center;
     padding-top: 0.5rem;
 }
 @media only screen and (min-width: 491px) and (max-width: 970px) {
     .branding {
+    font-family: 'Rum Raisin', Helvetica, sans-serif;    
     text-align: left;
     float: left;
     padding-top: .625em;
 }
-}@media only screen and (min-width: 971px) {
+}
+@media only screen and (min-width: 971px) {
     .branding {
+    font-family: 'Rum Raisin', Helvetica, sans-serif;        
     padding-left: 0;
     text-align: left;
     float: left;
     padding-top: .5em;
 }
-}.fact-spinner {
+}
+.fact-spinner {
     padding: 0.26667rem 20px;
     font-size: 1.125em;
     font-weight: 400;
