@@ -11,7 +11,7 @@ I learnt a lot about direct manipulation while developing a Java application tha
 
 One of the goals of this application was to explore the best the interaction mechanism such that the user would be able to rotate and stretch body parts without having to read any instructions. Thus the interaction mechanism has to be easily discoverable. 
 
-This project involved working with Java 2D API, sprites, scene graphs and affine transforms. Furthermore a scripting infrastructure was included. This allowed one to create a demo script that could be played back. Thus one could record the dragging of the doll's arms and play this back, simulating a waving motion. 
+This project involved working with **Java 2D API, sprites, scene graphs and affine transforms.** Furthermore a **scripting infrastructure** was included.This allowed one to create a demo script that could be played back. Thus one could record the dragging of the doll's arms and play this back, simulating a waving motion. 
 
 Certain cool features of the application include facial animation when the user drags the head sideways!
 
@@ -21,17 +21,13 @@ The code for this project can be found <a href="https://github.com/rrazd/PaperDo
 You can see a screenshot of the end product below: 
 
 <figure>
-	<div class="web">
-		<img src="/images/work/PaperDoll1.png" alt="Smiley face">
-	</div>
+	<img src="/images/work/PaperDoll1.png" alt="Smiley face">
 	<figurecaption>Smiling facial expression</figurecaption>
 
 </figure> 
 
 <figure>
-	<div class="web">
-		<img src="/images/work/PaperDoll2.png" alt="Frown face">
-	</div>
+	<img src="/images/work/PaperDoll2.png" alt="Frown face">
 	<figurecaption>Frowning facial expression with some body parts manipulated</figurecaption>
 
 </figure> 
