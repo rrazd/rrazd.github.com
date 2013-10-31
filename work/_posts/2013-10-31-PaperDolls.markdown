@@ -7,9 +7,9 @@ category: work
 
 ######Direct Manipulation
 
-I learnt a lot about direct manipulation while developing a Java application that allowed the user to manipulate the parts of a paper doll via the mouse. You might be wondering, what is direct manipulation? Well, direct manipulation is an interaction style with some digital device. We often employ direct manipulation when using an iPad where we swipe our finger across the screen to flip a page and drag our hand down in order to move a page down. 
+I learnt a lot about direct manipulation while developing the Paper Dolls Java Swing application. The software allowed the user to manipulate various parts of a paper doll via the mouse. You might be wondering, what is direct manipulation? Well, direct manipulation is an interaction style with (in this case) some digital device. We often employ direct manipulation when using an iPad where we swipe our finger across the screen to flip a page and drag our hand down in order to move a page down. 
 
-One of the goals of this application was to explore the best the interaction mechanism such that the user would be able to rotate and stretch body parts without having to read any instructions. Thus the interaction mechanism has to be easily discoverable. 
+One of the goals of this application was to explore the best interaction mechanism such that the user would be able to rotate and stretch body parts without having to read any instructions. The interaction mechanism has to be **easily** discoverable. 
 
 This project involved working with:
 
