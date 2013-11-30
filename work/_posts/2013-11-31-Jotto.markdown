@@ -1,6 +1,6 @@
 ---
 layout: linkage
-title: 	Jotto: A Word Game
+title: 	Jotto, A Word Game
 thumbnail: /images/work/jotto_thumb.png
 category: work
 ---
