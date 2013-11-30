@@ -602,7 +602,7 @@ nav[role="navigation"] {
 .copy-block {
     margin-bottom: 1.6rem;
 }
-.copy-block a:hover { background-color:#D1D4E0; }
+.copy-block a:hover { background-color:#38b0de; }
 @media only screen and (min-width: 491px) and (max-width: 970px) {
     nav[role="navigation"] ul {
     max-width: 300px;
