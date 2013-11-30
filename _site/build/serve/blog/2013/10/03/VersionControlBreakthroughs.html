@@ -112,16 +112,15 @@
 
 	<p>This past term I have been working a lot with SVN. Some essential things to remember:</p>
 
-
 <p>You gotta check it out:</p>
 
 <p>```javascript</p>
 
-<p>svn checkout --username sstudent svn://linux024.student.cs.uwaterloo.ca:6002/RepoName/sstudent .</p>
+<p>svn checkout &ndash;username sstudent svn://linux024.student.cs.uwaterloo.ca:6002/RepoName/sstudent .</p>
 
 <p>```</p>
 
-<p>You gotta add first:</p>
+<p>You gotta add first:	</p>
 
 <p>```javascript</p>
 
@@ -133,7 +132,7 @@
 
 <p>```javascript</p>
 
-<p>svn commit -m "added motion detection"</p>
+<p>svn commit -m &ldquo;added motion detection&rdquo;</p>
 
 <p>```</p>
 
@@ -145,12 +144,12 @@
 
 <p>```</p>
 
-<p>You gotta ignore the unimportant files so they don't bother you:<br/>
+<p>You gotta ignore the unimportant files so they don&rsquo;t bother you:<br />
 For instance, ignore all files that end in .class:</p>
 
 <p>```javascript</p>
 
-<p>svn propset svn:ignore "*.class" .</p>
+<p>svn propset svn:ignore &ldquo;*.class&rdquo; .</p>
 
 <p>```</p>
 
@@ -168,12 +167,12 @@ For instance, ignore all files that end in .class:</p>
 
 <p>create a file called svnignore.txt (vim svnignore.txt)</p>
 
-<p>input all the files and directories you wanna ignore:<br/>
+<p>input all the files and directories you wanna ignore:<br />
 tmp
 obj
 bin
-<em>.o
-</em>.lib
+*.o
+*.lib
 *.la</p>
 
 <p>run the following command: svn propset svn:ignore -F svnignore.txt .
@@ -183,12 +182,21 @@ bin
 
 <p>```javascript</p>
 
-<p>svn status | grep "<sup>!"</sup> | sed 's/<sup>!</sup> *//g' | xargs svn rm</p>
+<table>
+  <tbody>
+    <tr>
+      <td>svn status</td>
+      <td>grep &ldquo;^!&rdquo;</td>
+      <td>sed &lsquo;s/^! *//g&rsquo;</td>
+      <td>xargs svn rm</td>
+    </tr>
+  </tbody>
+</table>
 
 <p>```</p>
 
-<p>Extra tips:<br/>
--Sometimes you have to navigate into the specific folder and perform the svn commands on the files that reside there in order for the operation to occur successfully. <br/>
+<p>Extra tips:<br />
+-Sometimes you have to navigate into the specific folder and perform the svn commands on the files that reside there in order for the operation to occur successfully. <br />
 -To check what the state the svn repo is, you can checkout your repo into a fresh location or use svn list:</p>
 
 <p>```javascript</p>
@@ -196,6 +204,7 @@ bin
 <p>svn list svn list svn://linux024.student.cs.uwaterloo.ca:6002/testRepo/studentId</p>
 
 <p>```</p>
+
 
 
 	

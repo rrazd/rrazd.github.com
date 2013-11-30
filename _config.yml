@@ -1,5 +1,5 @@
 name: Portfolio Site by Rashna Razdan
-markdown: rdiscount
+markdown: kramdown
 pygments: true
 auto: true
 comments: true

@@ -104,102 +104,80 @@
 		<h1 class="main-title">Healthy Eating App</h1>
 	</header>
 
-	<h6>Introduction</h6>
-
+	<h6 id="introduction">Introduction</h6>
 <p>The Healthy Eating application is a dynamic web application that users can utilize to keep track of the amount of calorie that they are consuming. This task is made more interesting by the fact that this application interacts with Facebook to link the user with all of their friends who also use the application for keeping track of calories. Furthermore, users can compete with their friends in order to determine who is superior in term of eating healthy.</p>
 
-<h6>Final Application</h6>
+<h6 id="final-application">Final Application</h6>
 
-<p>To create the actual application Google Web Toolkit was used (GWT). Using this framework made it easier to implement design patterns and use Jave and Eclipse to create the product. Furthermore, the framework ensured the presence of cross browser compatibility and other non-functional ‘nice to have’ features.</p>
+<p>To create the actual application Google Web Toolkit was used (GWT). Using this framework made it easier to implement design patterns and use Jave and Eclipse to create the product. Furthermore, the framework ensured the presence of cross browser compatibility and other non-functional ‘nice to have’ features. </p>
 
 <p>The application had some notable technical complexity. It utilized:</p>
 
 <ul>
-<li>Remote Procedure to communicate with MySQL database</li>
-<li>BCrypt framework for login password hashing</li>
-<li>Facebook API</li>
-<li>Google Web Toolkit Visualizations API</li>
-<li>Google Web Tookit Framework</li>
+  <li>Remote Procedure to communicate with MySQL database</li>
+  <li>BCrypt framework for login password hashing </li>
+  <li>Facebook API</li>
+  <li>Google Web Toolkit Visualizations API </li>
+  <li>Google Web Tookit Framework</li>
 </ul>
-
 
 <p>Some screenshots of the application are seen below:</p>
 
-<p><figure></p>
+<figure>
+	<div class="web">
+	<img src="/images/work/Login.png" alt="Screenshot of app home page" />
+	</div>
+	<figurecaption>Secure login for the application</figurecaption>
+</figure>
 
-<pre><code>&lt;div class="web"&gt;
-&lt;img src="/images/work/Login.png" alt="Screenshot of app home page"&gt;
-&lt;/div&gt;
-&lt;figurecaption&gt;Secure login for the application&lt;/figurecaption&gt;
-</code></pre>
+<figure>
+	<div class="web">
+	<img src="/images/work/FoodEntry.png" alt="Screenshot of app home page" />
+	</div>
+	<figurecaption>Food Log page of the application</figurecaption>
+</figure>
 
-<p></figure></p>
+<figure>
+	<div class="web">
+	<img src="/images/work/FoodEntry2.png" alt="Screenshot of app home page" />
+	</div>
+	<figurecaption>User entering a new food item</figurecaption>
+</figure>
 
-<p><figure></p>
+<h6 id="proof-of-concept">Proof of Concept</h6>
 
-<pre><code>&lt;div class="web"&gt;
-&lt;img src="/images/work/FoodEntry.png" alt="Screenshot of app home page"&gt;
-&lt;/div&gt;
-&lt;figurecaption&gt;Food Log page of the application&lt;/figurecaption&gt;
-</code></pre>
+<p>In order to see if there was interest in the application&rsquo;s services a sample application that provided the very basic simplified features was created. Java Servlets, Java Server Pages and MySql were used. The pertinent screenshots are shown below:</p>
 
-<p></figure></p>
+<figure>
+	<div class="web">
+	<img src="/images/work/HealthyEating1.jpg" alt="Screenshot of app home page" />
+	</div>
+	<figurecaption>Home page of the application</figurecaption>
+</figure>
 
-<p><figure></p>
+<figure>
+	<div class="web">	
+	<img src="/images/work/HealthyEating2.jpg" alt="Screenshot of app" />
+	</div>
+	<figurecaption>Enter a new record regarding their meal</figurecaption>
+</figure>
 
-<pre><code>&lt;div class="web"&gt;
-&lt;img src="/images/work/FoodEntry2.png" alt="Screenshot of app home page"&gt;
-&lt;/div&gt;
-&lt;figurecaption&gt;User entering a new food item&lt;/figurecaption&gt;
-</code></pre>
+<figure>
+	<div class="web">	
+	<img src="/images/work/HealthyEating3.jpg" alt="Screenshot of app" />
+	</div>
+	<figurecaption>View previous entries based on the year of choice</figurecaption>
+</figure>
 
-<p></figure></p>
+<figure>
+	<div class="web">	
+	<img src="/images/work/HealthyEating4.jpg" alt="Screenshot of app" />
+	</div>
+	<figurecaption>See the amount of calories consumed in graphical format</figurecaption>
+</figure>
 
-<h6>Proof of Concept</h6>
+<p>Furthermore, the SQL database that was designed for this application was normalized to be in BCNF which gets rid of most function dependency redundencies. It should be noted that BCNF is a lossless decomposition however it does not guarentee preservation of depencies. Nevertheless, since the database for this application did turn out to be dependency preserving. Views were used for database queries and prepared statements were used when necessary.  </p>
 
-<p>In order to see if there was interest in the application's services a sample application that provided the very basic simplified features was created. Java Servlets, Java Server Pages and MySql were used. The pertinent screenshots are shown below:</p>
-
-<p><figure></p>
-
-<pre><code>&lt;div class="web"&gt;
-&lt;img src="/images/work/HealthyEating1.jpg" alt="Screenshot of app home page"&gt;
-&lt;/div&gt;
-&lt;figurecaption&gt;Home page of the application&lt;/figurecaption&gt;
-</code></pre>
-
-<p></figure></p>
-
-<p><figure></p>
-
-<pre><code>&lt;div class="web"&gt;   
-&lt;img src="/images/work/HealthyEating2.jpg" alt="Screenshot of app"&gt;
-&lt;/div&gt;
-&lt;figurecaption&gt;Enter a new record regarding their meal&lt;/figurecaption&gt;
-</code></pre>
-
-<p></figure></p>
-
-<p><figure></p>
-
-<pre><code>&lt;div class="web"&gt;   
-&lt;img src="/images/work/HealthyEating3.jpg" alt="Screenshot of app"&gt;
-&lt;/div&gt;
-&lt;figurecaption&gt;View previous entries based on the year of choice&lt;/figurecaption&gt;
-</code></pre>
-
-<p></figure></p>
-
-<p><figure></p>
-
-<pre><code>&lt;div class="web"&gt;   
-&lt;img src="/images/work/HealthyEating4.jpg" alt="Screenshot of app"&gt;
-&lt;/div&gt;
-&lt;figurecaption&gt;See the amount of calories consumed in graphical format&lt;/figurecaption&gt;
-</code></pre>
-
-<p></figure></p>
-
-<p>Furthermore, the SQL database that was designed for this application was normalized to be in BCNF which gets rid of most function dependency redundencies. It should be noted that BCNF is a lossless decomposition however it does not guarentee preservation of depencies. Nevertheless, since the database for this application did turn out to be dependency preserving. Views were used for database queries and prepared statements were used when necessary.</p>
 
 
 	
