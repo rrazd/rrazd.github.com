@@ -1,3 +1,99 @@
+/*css for logo*/
+.parachute-logo {
+    float: left;
+     
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: bounceIn;
+    -moz-animation-name: bounceIn;
+    -o-animation-name: bounceIn;
+    animation-name: bounceIn;
+}
+@-webkit-keyframes bounceIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+}
+50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+}
+70% {
+    -webkit-transform: scale(0.9);
+}
+100% {
+    -webkit-transform: scale(1);
+}
+}@-moz-keyframes bounceIn {
+    0% {
+    opacity: 0;
+    -moz-transform: scale(0.3);
+}
+50% {
+    opacity: 1;
+    -moz-transform: scale(1.05);
+}
+70% {
+    -moz-transform: scale(0.9);
+}
+100% {
+    -moz-transform: scale(1);
+}
+}@-o-keyframes bounceIn {
+    0% {
+    opacity: 0;
+    -o-transform: scale(0.3);
+}
+50% {
+    opacity: 1;
+    -o-transform: scale(1.05);
+}
+70% {
+    -o-transform: scale(0.9);
+}
+100% {
+    -o-transform: scale(1);
+}
+}@keyframes bounceIn {
+    0% {
+    opacity: 0;
+    transform: scale(0.3);
+}
+50% {
+    opacity: 1;
+    transform: scale(1.05);
+}
+70% {
+    transform: scale(0.9);
+}
+100% {
+    transform: scale(1);
+}
+}.svg-logo {
+    width: 90px;
+    width: 6rem;
+    height: 90px;
+    height: 3rem;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    margin-top: -10px;
+}
+.svg-logo:hover {
+    -webkit-transform: scale(1.125) rotate(2deg);
+    -ms-transform: scale(1.125) rotate(2deg);
+    transform: scale(1.125) rotate(2deg);
+}
+
+/*end of logo css*/
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
     display: block;
 }
@@ -417,7 +513,7 @@ header[role="banner"] a:hover {
     text-align: center;
     padding-top: 0.5rem;
 }
-@media only screen and (min-width: 491px) and (max-width: 970px) {
+@media only screen and (min-width: 635px) and (max-width: 1970px) {
     .branding {
     font-family: 'Rum Raisin', Helvetica, sans-serif;    
     text-align: left;
@@ -425,7 +521,7 @@ header[role="banner"] a:hover {
     padding-top: .625em;
 }
 }
-@media only screen and (min-width: 971px) {
+/*@media only screen and (max-width: 971px) {
     .branding {
     font-family: 'Rum Raisin', Helvetica, sans-serif;        
     padding-left: 0;
@@ -433,7 +529,12 @@ header[role="banner"] a:hover {
     float: left;
     padding-top: .5em;
 }
+}*/
 
+@media all and (max-width: 634px) {
+    .branding{
+        display: none;
+    }
 }
 .fact-spinner {
     padding: 0.26667rem 20px;
@@ -495,7 +596,7 @@ nav[role="navigation"] {
     float: right;
 }
 }nav[role="navigation"] ul {
-    margin-top: 3;
+    margin-top: 13px;  /*change amount of height offset of menu*/
     padding-left: 0;
 }
 .copy-block {

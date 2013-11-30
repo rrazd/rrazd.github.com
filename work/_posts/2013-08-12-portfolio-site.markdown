@@ -27,7 +27,7 @@ Github essentials:
 
 ```html
 git init  
-add .  
+git add .  
 git commit -m 'updated' 
 git push origin master
 ```
