@@ -27,7 +27,7 @@ The code for this project can be found <a href="https://github.com/rrazd/JottoWo
 You can see a screenshot of the end product below: 
 
 <figure>
-	<img src="/images/work/JottoMain.png" alt="JottoMain">
+	<img src="/images/work/JottoMain.tiff" alt="JottoMain">
 	<figurecaption>Main game board (A splash screen (not shown) preceeded this)</figurecaption>
 
 </figure> 
