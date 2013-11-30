@@ -5,40 +5,30 @@ thumbnail: /images/work/jotto_thumb.png
 category: work
 ---
 
-######Java Swing Application Development
+######Java Swing Application: Model View Controller
 
-I learnt a lot about direct manipulation while developing the Paper Dolls Java Swing application. The software allowed the user to manipulate various parts of a paper doll via the mouse. You might be wondering, what is direct manipulation? Well, direct manipulation is an interaction style with (in this case) some digital device. We often employ direct manipulation when using an iPad where we swipe our finger across the screen to flip a page and drag our hand down in order to move a page down. 
+This project involved working with Java Swing, strictly adhering to the MVC design pattern and understanding the various layouts that could be used to design the application. Anyone can use a GUI layout tool, but that does not mean that they understand what is going on under the hood! Part of the challenge was hand coding the layout using nested layout managers. I believe that the best way to actually learn a new programming language or software is to do things the hard way first a.k.a manually. This way one understands the important concepts, only then should automation and external plugins/libraries be applied to speed up development. Hence, if I were to do this project again, I would happily opt to use a GUI layout tool since I now understand how the different layout managers work behind the scenes. 
 
-One of the goals of this application was to explore the best interaction mechanism such that the user would be able to rotate and stretch body parts without having to read any instructions. The interaction mechanism has to be **easily** discoverable. 
+Note, when designing the layout, the Gestalt principles were kept in mind! This resulted in a sleek and visually pleasing application. 
 
-This project involved working with:
+The Model-View-Controller architecture that was used in this project grouped the View and Controller under the same class. However the Model was kept completely separate. I really came to appreciate the power of MVC while developing this app: when a new View was added, all it had to do was register with the model by calling the Model's addView() method and henceforth would be notified of all relevant changes in the model via a the model's simple notifyObservers() method. Moreover, by getting the Model's instance passes to the View, the view can easily access a plethora of data. 
 
-1) Java 2D API
+You should keep the following in mind when implementing MVC:
 
-2) Sprites
+-  Model: manages the data and its manipulation
+-  View: manages the presentation of the data 
+- Controller: manages the user interaction
 
-3) Scene Graphs 
 
-4) Affine Transforms
 
-Furthermore a **scripting infrastructure** was included. This allowed one to create a demo script that could be played back. Thus one could record the dragging of the doll's arms and play this back, simulating a waving motion. 
-
-Certain cool features of the application include facial animation when the user drags the head sideways!
-
-The code for this project can be found <a href="https://github.com/rrazd/PaperDoll">here</a>.
+The code for this project can be found <a href="https://github.com/rrazd/JottoWordGame">here</a>.
 
 
 You can see a screenshot of the end product below: 
 
 <figure>
-	<img src="/images/work/PaperDoll1.png" alt="Smiley face">
-	<figurecaption>Smiling facial expression</figurecaption>
-
-</figure> 
-
-<figure>
-	<img src="/images/work/PaperDoll2.png" alt="Frown face">
-	<figurecaption>Frowning facial expression with some body parts manipulated</figurecaption>
+	<img src="/images/work/JottoMain.png" alt="JottoMain">
+	<figurecaption>Main game board (A splash screen (not shown) preceeded this)</figurecaption>
 
 </figure> 
 
