@@ -11,13 +11,13 @@ This project involved working with Java Swing, strictly adhering to the MVC desi
 
 Note, when designing the layout, the Gestalt principles were kept in mind! This resulted in a sleek and visually pleasing application. 
 
-The Model-View-Controller architecture that was used in this project grouped the View and Controller under the same class. However the Model was kept completely separate. I really came to appreciate the power of MVC while developing this app: when a new View was added, all it had to do was register with the model by calling the Model's addView() method and henceforth would be notified of all relevant changes in the model via a the model's simple notifyObservers() method. Moreover, by getting the Model's instance passes to the View, the view can easily access a plethora of data. 
+The Model-View-Controller architecture that was used in this project grouped the View and Controller under the same class. However the Model was kept completely separate. I really came to appreciate the power of MVC while developing this app: when a new View was added, all it had to do was register with the model by calling the Model's addView() method and henceforth would be notified of all relevant changes in the model via the model's notifyObservers() method. Moreover, by getting the Model's instance passed to the View, the view can easily access a plethora of data. 
 
 You should keep the following in mind when implementing MVC:
 
 -  Model: manages the data and its manipulation
 -  View: manages the presentation of the data 
-- Controller: manages the user interaction
+-  Controller: manages the user interaction
 
 
 
