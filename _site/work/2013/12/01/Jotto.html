@@ -104,20 +104,20 @@
 		<h1 class="main-title">Jotto, A Word Game</h1>
 	</header>
 
-	<h6 id="java-swing-application-model-view-controller">Java Swing Application: Model View Controller</h6>
+	<h6>Java Swing Application: Model View Controller</h6>
 
 <p>This project involved working with Java Swing, strictly adhering to the MVC design pattern and understanding the various layouts that could be used to design the application. Anyone can use a GUI layout tool, but that does not mean that they understand what is going on under the hood! Part of the challenge was hand coding the layout using nested layout managers. I believe that the best way to actually learn a new programming language or software is to do things the hard way first a.k.a manually. This way one understands the important concepts, only then should automation and external plugins/libraries be applied to speed up development. Hence, if I were to do this project again, I would happily opt to use a GUI layout tool since I now understand how the different layout managers work behind the scenes. </p>
 
 <p>Note, when designing the layout, the Gestalt principles were kept in mind! This resulted in a sleek and visually pleasing application. </p>
 
-<p>The Model-View-Controller architecture that was used in this project grouped the View and Controller under the same class. However the Model was kept completely separate. I really came to appreciate the power of MVC while developing this app: when a new View was added, all it had to do was register with the model by calling the Model&rsquo;s addView() method and henceforth would be notified of all relevant changes in the model via a the model&rsquo;s simple notifyObservers() method. Moreover, by getting the Model&rsquo;s instance passes to the View, the view can easily access a plethora of data. </p>
+<p>The Model-View-Controller architecture that was used in this project grouped the View and Controller under the same class. However the Model was kept completely separate. I really came to appreciate the power of MVC while developing this app: when a new View was added, all it had to do was register with the model by calling the Model&#39;s addView() method and henceforth would be notified of all relevant changes in the model via the model&#39;s notifyObservers() method. Moreover, by getting the Model&#39;s instance passed to the View, the view can easily access a plethora of data. </p>
 
 <p>You should keep the following in mind when implementing MVC:</p>
 
 <ul>
-  <li>Model: manages the data and its manipulation</li>
-  <li>View: manages the presentation of the data </li>
-  <li>Controller: manages the user interaction</li>
+<li> Model: manages the data and its manipulation</li>
+<li> View: manages the presentation of the data </li>
+<li> Controller: manages the user interaction</li>
 </ul>
 
 <p>The code for this project can be found <a href="https://github.com/rrazd/JottoWordGame">here</a>.</p>
@@ -125,11 +125,10 @@
 <p>You can see a screenshot of the end product below: </p>
 
 <figure>
-	<img src="/images/work/JottoMain.png" alt="JottoMain" />
-	<figurecaption>Main game board (A splash screen (not shown) preceeded this)</figurecaption>
+    <img src="/images/work/JottoMain.png" alt="JottoMain">
+    <figurecaption>Main game board (A splash screen (not shown) preceeded this)</figurecaption>
 
-</figure>
-
+</figure> 
 
 
 	

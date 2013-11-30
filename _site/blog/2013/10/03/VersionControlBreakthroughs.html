@@ -113,99 +113,45 @@
 	<p>This past term I have been working a lot with SVN. Some essential things to remember:</p>
 
 <p>You gotta check it out:</p>
-
-<p>```javascript</p>
-
-<p>svn checkout &ndash;username sstudent svn://linux024.student.cs.uwaterloo.ca:6002/RepoName/sstudent .</p>
-
-<p>```</p>
-
-<p>You gotta add first:	</p>
-
-<p>```javascript</p>
-
-<p>svn add *</p>
-
-<p>```</p>
-
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">checkout</span> <span class="o">--</span><span class="nx">username</span> <span class="nx">sstudent</span> <span class="nx">svn</span><span class="o">:</span><span class="c1">//linux024.student.cs.uwaterloo.ca:6002/RepoName/sstudent .</span>
+</code></pre></div>
+<p>You gotta add first:    </p>
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">add</span> <span class="o">*</span>
+</code></pre></div>
 <p>You gotta commit early and often:</p>
-
-<p>```javascript</p>
-
-<p>svn commit -m &ldquo;added motion detection&rdquo;</p>
-
-<p>```</p>
-
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">commit</span> <span class="o">-</span><span class="nx">m</span> <span class="s2">&quot;added motion detection&quot;</span>
+</code></pre></div>
 <p>You gotta check your status:</p>
-
-<p>```javascript</p>
-
-<p>svn status</p>
-
-<p>```</p>
-
-<p>You gotta ignore the unimportant files so they don&rsquo;t bother you:<br />
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">status</span>
+</code></pre></div>
+<p>You gotta ignore the unimportant files so they don&#39;t bother you:<br/>
 For instance, ignore all files that end in .class:</p>
-
-<p>```javascript</p>
-
-<p>svn propset svn:ignore &ldquo;*.class&rdquo; .</p>
-
-<p>```</p>
-
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">propset</span> <span class="nx">svn</span><span class="o">:</span><span class="nx">ignore</span> <span class="s2">&quot;*.class&quot;</span> <span class="p">.</span>
+</code></pre></div>
 <p>Ignore a particular folder:</p>
-
-<p>```javascript</p>
-
-<p>svn propset svn:ignore tmp .</p>
-
-<p>```</p>
-
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">propset</span> <span class="nx">svn</span><span class="o">:</span><span class="nx">ignore</span> <span class="nx">tmp</span> <span class="p">.</span>
+</code></pre></div>
 <p>Ignore  multiple items:</p>
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">create</span> <span class="nx">a</span> <span class="nx">file</span> <span class="nx">called</span> <span class="nx">svnignore</span><span class="p">.</span><span class="nx">txt</span> <span class="p">(</span><span class="nx">vim</span> <span class="nx">svnignore</span><span class="p">.</span><span class="nx">txt</span><span class="p">)</span>
 
-<p>```javascript</p>
+<span class="nx">input</span> <span class="nx">all</span> <span class="nx">the</span> <span class="nx">files</span> <span class="nx">and</span> <span class="nx">directories</span> <span class="nx">you</span> <span class="nx">wanna</span> <span class="nx">ignore</span><span class="o">:</span>  
+<span class="nx">tmp</span>
+<span class="nx">obj</span>
+<span class="nx">bin</span>
+<span class="o">*</span><span class="p">.</span><span class="nx">o</span>
+<span class="o">*</span><span class="p">.</span><span class="nx">lib</span>
+<span class="o">*</span><span class="p">.</span><span class="nx">la</span>
 
-<p>create a file called svnignore.txt (vim svnignore.txt)</p>
-
-<p>input all the files and directories you wanna ignore:<br />
-tmp
-obj
-bin
-*.o
-*.lib
-*.la</p>
-
-<p>run the following command: svn propset svn:ignore -F svnignore.txt .
-```</p>
-
+<span class="nx">run</span> <span class="nx">the</span> <span class="nx">following</span> <span class="nx">command</span><span class="o">:</span> <span class="nx">svn</span> <span class="nx">propset</span> <span class="nx">svn</span><span class="o">:</span><span class="nx">ignore</span> <span class="o">-</span><span class="nx">F</span> <span class="nx">svnignore</span><span class="p">.</span><span class="nx">txt</span> <span class="p">.</span>
+</code></pre></div>
 <p>You may wanna delete files in the repo to match the deleted local files that were already added to svn:</p>
-
-<p>```javascript</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td>svn status</td>
-      <td>grep &ldquo;^!&rdquo;</td>
-      <td>sed &lsquo;s/^! *//g&rsquo;</td>
-      <td>xargs svn rm</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>```</p>
-
-<p>Extra tips:<br />
--Sometimes you have to navigate into the specific folder and perform the svn commands on the files that reside there in order for the operation to occur successfully. <br />
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">status</span> <span class="o">|</span> <span class="nx">grep</span> <span class="s2">&quot;^\!&quot;</span> <span class="o">|</span> <span class="nx">sed</span> <span class="s1">&#39;s/^\! *//g&#39;</span> <span class="o">|</span> <span class="nx">xargs</span> <span class="nx">svn</span> <span class="nx">rm</span>
+</code></pre></div>
+<p>Extra tips:<br/>
+-Sometimes you have to navigate into the specific folder and perform the svn commands on the files that reside there in order for the operation to occur successfully. <br/>
 -To check what the state the svn repo is, you can checkout your repo into a fresh location or use svn list:</p>
-
-<p>```javascript</p>
-
-<p>svn list svn list svn://linux024.student.cs.uwaterloo.ca:6002/testRepo/studentId</p>
-
-<p>```</p>
-
-
+<div class="highlight"><pre><code class="javascript language-javascript" data-lang="javascript"><span class="nx">svn</span> <span class="nx">list</span> <span class="nx">svn</span> <span class="nx">list</span> <span class="nx">svn</span><span class="o">:</span><span class="c1">//linux024.student.cs.uwaterloo.ca:6002/testRepo/studentId</span>
+</code></pre></div>
 
 	
 		<a href="/blog/" title="blog" class="large btn">Back to all posts</a>
