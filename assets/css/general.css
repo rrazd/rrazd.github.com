@@ -800,7 +800,7 @@ ul li.archive_list{
 @media only screen and (max-width: 660px) {
 
  #side{
-        margin-left: 10px;
-        max-width: 480px;
+        margin-left: 9px;
+        max-width: 470px;
     }
 }
