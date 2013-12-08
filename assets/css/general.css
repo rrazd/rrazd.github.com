@@ -237,12 +237,15 @@ html {
 }
 @media only screen and (min-width: 491px) and (max-width: 970px) {
     html {
-    font-size: 112.5%}
+    font-size: 112.5%
+    }
 }
 @media only screen and (min-width: 971px) {
     html {
-    font-size: 125%}
-}a {
+    font-size: 125%
+    }
+}
+a {
     text-decoration: none;
     color: #38B0DE;
 }
@@ -606,16 +609,16 @@ footer[role="contentinfo"] {
     position: absolute;
     top: -1em;
     right: 20px;
+    }
+
+    .archive .post-date {
+       display: none;
+    }
+
+    .post-introduction{ 
+        margin-left: 5px !important;
+    }
 }
-
-.archive .post-date {
-   display: none;
-}
-
-.post-introduction{ margin-left: 5px !important;}
-
-}
-
 
 .helloMain {
     width: 75%;
@@ -664,7 +667,7 @@ footer[role="contentinfo"] {
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
-
+}
 @media only screen and (min-width: 971px) {
     .work.archive li {
     width: 33.33333%;

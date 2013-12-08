@@ -108,11 +108,19 @@
 
 	<h6>Java Swing Application: Model View Controller</h6>
 
-<p>This project involved working with Java Swing, strictly adhering to the MVC design pattern and understanding the various layouts that could be used to design the application. Anyone can use a GUI layout tool, but that does not mean that they understand what is going on under the hood! Part of the challenge was hand coding the layout using nested layout managers. I believe that the best way to actually learn a new programming language or software is to do things the hard way first a.k.a manually. This way one understands the important concepts, only then should automation and external plugins/libraries be applied to speed up development. Hence, if I were to do this project again, I would happily opt to use a GUI layout tool since I now understand how the different layout managers work behind the scenes. </p>
+<p>This project involved working with Java Swing, strictly adhering to the MVC design pattern and understanding various layouts to code an app with a dynamic layout. </p>
 
-<p>Note, when designing the layout, the Gestalt principles were kept in mind! This resulted in a sleek and visually pleasing application. </p>
+<p>What did creating a dynamic layout involve? (no GUI design tool used) </p>
 
-<p>The Model-View-Controller architecture that was used in this project grouped the View and Controller under the same class. However the Model was kept completely separate. I really came to appreciate the power of MVC while developing this app: when a new View was added, all it had to do was register with the model by calling the Model&#39;s addView() method and henceforth would be notified of all relevant changes in the model via the model&#39;s notifyObservers() method. Moreover, by getting the Model&#39;s instance passed to the View, the view can easily access a plethora of data. </p>
+<ul>
+<li> re-allocate space for widgets</li>
+<li> adjust location and size of widgets</li>
+<li> change visibility, look, and/or feel of widgets</li>
+</ul>
+
+<p>Anyone can use a GUI design tool, but that does not mean that they understand what is going on under the hood! I believe that the best way to actually learn a new programming language or software is to do things the hard way first a.k.a manually. This way one understands the important concepts, only then should automation and external plugins/libraries be applied to speed up development. </p>
+
+<p>The Model-View-Controller architecture that was used in this project grouped the View and Controller under the same class. However the Model was kept completely separate.  </p>
 
 <p>You should keep the following in mind when implementing MVC:</p>
 
