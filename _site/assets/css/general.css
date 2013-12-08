@@ -793,6 +793,14 @@ ul li.archive_list{
 
     #side{
         margin-left: 70px;
-        max-width: 310px;
+        max-width: 470px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+
+ #side{
+        margin-left: 10px;
+        max-width: 480px;
     }
 }
