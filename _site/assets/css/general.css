@@ -498,7 +498,12 @@ section[role="main"] {
     border-bottom: 1px solid #999;
     display: block;
     margin-bottom: 0px;
-
+}
+.blog .post-list li:before {
+    content: " ";
+    border-top: 1px solid #999;
+    display: block;
+    margin-bottom: 0px;
 }
 
 header[role="banner"] {
