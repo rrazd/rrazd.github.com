@@ -1,11 +1,13 @@
 ---
 layout: linkage
 category: blog
-title: "Insights Into Version Control Systems"
+title: "Insights Into Version Control"
 author: Rashna Razdan
+introduction: A Quick List on the Essential things to Keep In Mind When Working With SVN.
+forSort: Academia
 comments: true
 tags:
-- -projects-
+- academia
 ---
 
 <p>This past term I have been working a lot with SVN. Some essential things to remember:</p>

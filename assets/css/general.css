@@ -283,13 +283,14 @@ h1, .h1 {
     font-size: 44px;
     line-height: 1.4;
 }
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 568px) {
     h1, .h1, .title {
     font-size: 32px;
     font-size: 2rem;
     font-family: 'Karla', Helvetica;
+    }
 }
-}h2, .h2 {
+h2, .h2 {
     margin-top: 2rem;
     margin-bottom: 16px;
     margin-bottom: 1rem;
@@ -359,7 +360,12 @@ figcaption {
     font-style: italic;
 }
 .post-date {
-    margin-bottom: 0.25rem;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #999;
+}
+.post-introduction .post-date {
+    margin-bottom: 17px;
     font-weight: 100;
     color: #999;
 }
@@ -406,11 +412,14 @@ figcaption {
     float: left;
 }
 .fourth {
-    width: 25%}
-@media only screen and (max-width: 490px) {
+    width: 25%
+}
+@media only screen and (max-width: 568px) {
     .fourth {
-    width: 100%}
-}.page-wrap {
+    width: 100%
+    }
+}
+.page-wrap {
     max-width: 1000px;
     margin: 0 auto;
     position: relative;
@@ -419,14 +428,15 @@ figcaption {
     .page-wrap {
     padding-left: 20px;
     padding-right: 20px;
+    }
 }
-}
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 568px) {
     .page-wrap {
     padding-left: 20px;
     padding-right: 20px;
+    }
 }
-}img {
+img {
     display: block;
     max-width: 100%;
     height: auto !important;
@@ -458,14 +468,15 @@ section[role="main"] {
 }
 @media only screen and (min-width: 971px) {
     .content, .single {
-    max-width: 75%}
+    max-width: 75%
+    }
 }
 
 .copy-block {
     margin-bottom: 1.6rem;
 }
 .post-list {
-    margin: 0;
+    margin-top: -34px;
     padding: 0;
     list-style: none;
 }
@@ -489,7 +500,7 @@ section[role="main"] {
     content: " ";
     border-bottom: 1px solid #999;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 0px;
 
 }
 
@@ -519,55 +530,16 @@ header[role="banner"] a:hover {
     text-align: left;
     float: left;
     padding-top: .625em;
+    }
 }
-}
-/*@media only screen and (max-width: 971px) {
-    .branding {
-    font-family: 'Rum Raisin', Helvetica, sans-serif;        
-    padding-left: 0;
-    text-align: left;
-    float: left;
-    padding-top: .5em;
-}
-}*/
+
 
 @media all and (max-width: 634px) {
     .branding{
         display: none;
     }
 }
-.fact-spinner {
-    padding: 0.26667rem 20px;
-    font-size: 1.125em;
-    font-weight: 400;
-    background: #87CEEB;
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 0.8rem;
-    -webkit-transition-property: background;
-    -moz-transition-property: background;
-    -o-transition-property: background;
-    transition-property: background;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-}
-@media only screen and (min-width: 971px) {
-    .fact-spinner {
-    padding: 0.26667rem 0;
-}
-}.fact-spinner .facts {
-    margin-bottom: 0;
-}
-.fact-spinner:hover {
-    cursor: pointer;
-    background: #38B0DE;
-}
-.fact-spinner .wrap {
-    max-width: 1000px;
-    margin: 0 auto;
-    position: relative;
-}
+
 .icon-refresh {
     color: rgba(255, 255, 255, 0.75);
     cursor: pointer;
@@ -606,8 +578,10 @@ nav[role="navigation"] {
 @media only screen and (min-width: 491px) and (max-width: 970px) {
     nav[role="navigation"] ul {
     max-width: 300px;
+    }
 }
-}nav[role="navigation"] ul li {
+
+nav[role="navigation"] ul li {
     display: inline;
     overflow: hidden;
     *zoom: 1;
@@ -634,6 +608,11 @@ footer[role="contentinfo"] {
     right: 20px;
 }
 
+.archive .post-date {
+   display: none;
+}
+
+.post-introduction{ margin-left: 5px !important;}
 
 }
 
@@ -685,19 +664,16 @@ footer[role="contentinfo"] {
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
-@media only screen and (min-width: 491px) and (max-width: 970px) {
-    .work.archive li {
-    width: 50%
-    }
 
-}
 @media only screen and (min-width: 971px) {
     .work.archive li {
-    width: 33.33333%
-
+    width: 33.33333%;
+    }
 }
-}.work.archive li img {
-    width: 100%}
+
+work.archive li img {
+    width: 100%;
+}
 .work.archive li:hover {
     background: #38B0DE; 
 }
@@ -756,9 +732,8 @@ footer[role="contentinfo"] {
     .archive .post-date {
     float: none;
     position: static;
+    }
 }
-}
-
 
 .blog .archive li {
     position: relative;
@@ -767,14 +742,52 @@ footer[role="contentinfo"] {
     padding-left: 6.6rem;
 }
 
-
-}.main-title {
+.main-title {
     margin-top: 0;
     font-family: 'Karla', 'Helvetica';
 }
 
-a.tag_list_link{border-left: 1px solid #ccc;color:#888;font-size:15px;font-family: 'Helvetica'; font-variant:small-caps;margin:0;padding: 0 6px;text-transform:lowercase;}
+a.tag_list_link{border-left: 1px solid #ccc;color:#888;font-size:14px;font-family: 'Helvetica'; font-variant:small-caps;margin:0;padding: 0 6px;text-transform:lowercase;}
 a.tag_list_link:first-child{border:0}
 a.tag_list_link:hover{color:#444;}
 
+
+/*filtering of posts*/
+#side{ font-size: 13px; padding-top: 40px; margin-left: 126px;}
+#side section{ float: left;}
+#side section:first-child{ margin-left: 0;}
+#side ul, #side li, #side a{ display: inline;}
+#side em{ color: #b0b0b0; float: left; font-style: normal;}
+#side a{ border-bottom: none; color: #808080; float: left; font-weight: bold; margin-left: 10px;}
+#side a:hover{ color: #b0b0b0; cursor: pointer;cursor: hand; }
+#side .on,
+#side .on:hover{ color: #449fdb; cursor: pointer;cursor: hand; text-decoration: none;}
+.post-introduction{ color: #7a7a7a; font-family: 'Karla', sans-serif; font-size: 14px; line-height: 1.25; margin-top: -23px; margin-left: 133px;  margin-bottom: 5px;}
+a, .post-info{
+  transition: background 250ms ease-out, border 250ms ease-out, color 250ms ease-out;
+  -moz-transition: background 250ms ease-out, border 250ms ease-out, color 250ms ease-out;
+  -ms-transition: background 250ms ease-out, border 250ms ease-out, color 250ms ease-out;
+  -o-transition: background 250ms ease-out, border 250ms ease-out, color 250ms ease-out;
+  -webkit-transition: background 250ms ease-out, border 250ms ease-out, color 250ms ease-out;
+}
+
+.post{
+  transition: border 250ms ease-out;
+  -moz-transition: border 250ms ease-out;
+  -ms-transition: border 250ms ease-out;
+  -o-transition: border 250ms ease-out;
+  -webkit-transition: border 250ms ease-out;
+}
  
+ 
+ul.archive_list{
+    list-style: none; 
+} 
+
+ul li.archive_list{
+    list-style: none; 
+    font-family: 'Karla', sans-serif;
+    font-size: 16px; 
+} 
+
+

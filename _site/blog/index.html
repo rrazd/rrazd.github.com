@@ -11,8 +11,7 @@
     <meta author="Rashna Razdan">
     <meta name="HandheldFriendly" content="true" />
     <meta name="MobileOptimized" content="320" />
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scaleable=no, width=device-width" />
-
+    <meta name="viewport" content="width=device-width, height=device-height" />
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <link rel="stylesheet" href="/assets/css/general.css">
     <!-- syntax highlighting CSS -->
@@ -34,6 +33,9 @@
       })();
 
     </script>
+    <script src="/assets/js/jquery-1.10.1.min.js"></script>
+    <script src="/assets/js/jquery.easing.min.js"></script>
+    <script src="/assets/js/filters.js"></script>
       
     </head>
 
@@ -96,45 +98,87 @@
 
 
       <div class="page-wrap">
+	<aside id="side">
+                <section>
+                        <em>Posts:</em>
+                        <ul id="filters">
+                                <li><a class="on" data-view="post">All</a></li>
+                                <li><a data-view="recommended">Recommended</a></li>
+                        </ul>
+                </section>
+                <section>
+                        <em>Categories:</em>
+                        <ul id="categories">
+                                <li><a class="on">All</a></li>
+                                <li><a data-view="Academia">Academia</a></li>
+                                <!-- <li><a data-view="ux">UX</a></li> -->
+                                <li><a data-view="Thoughts">Thoughts</a></li>
+                        </ul>
+                </section>
+                <section>
+                        <em>Intro:</em>
+                        <ul id="introductions">
+                                <li><a class="on">Yes</a></li>
+                                <li><a>No</a></li>
+                        </ul>
+                </section>
+                <div style="clear: both;"></div>
+        </aside>
 	<section class="archive content" role="main">
-
+		
 		<ul class="post-list">
 			
-				<li>
-					<p class="post-date">Oct 03, 2013</p>
-					<p class="title"><a href="/blog/2013/10/03/VersionControlBreakthroughs.html">Insights Into Version Control Systems</a>
-						
-							<a class="tag_list_link" href="/tag/-projects-">-projects-</a> 
-						
-					</p>
-	 			</li>
+				<article class="post Academia">
+					<li>
+						<p class="post-date">Oct 03, 2013</p><p class="title"><a href="/blog/2013/10/03/VersionControlBreakthroughs.html">Insights Into Version Control</a>
+							
+								<a class="tag_list_link" href="/tag/academia">academia</a> 
+							
+							
+	                            <p class="post-introduction">A Quick List on the Essential things to Keep In Mind When Working With SVN.</p>
+	                        
+						</p>
+	 				</li>
+	 			</article>
 			
-				<li>
-					<p class="post-date">Aug 17, 2013</p>
-					<p class="title"><a href="/blog/2013/08/17/4thYearTechElectives.html">4th Year Technical Electives</a>
-						
-							<a class="tag_list_link" href="/tag/-courses-">-courses-</a> 
-						
-					</p>
-	 			</li>
+				<article class="post Academia recommended">
+					<li>
+						<p class="post-date">Aug 17, 2013</p><p class="title"><a href="/blog/2013/08/17/4thYearTechElectives.html">4th Year Technical Electives</a>
+							
+								<a class="tag_list_link" href="/tag/academia">academia</a> 
+							
+							
+	                            <p class="post-introduction">Summary of My 4th Year Computer Engineering Courses.</p>
+	                        
+						</p>
+	 				</li>
+	 			</article>
 			
-				<li>
-					<p class="post-date">Aug 10, 2013</p>
-					<p class="title"><a href="/blog/2013/08/10/WaterlooVsTorontoEngineering.html">Toronto Vs. Waterloo for Computer Eng.</a>
-						
-							<a class="tag_list_link" href="/tag/-university-">-university-</a> 
-						
-					</p>
-	 			</li>
+				<article class="post Academia">
+					<li>
+						<p class="post-date">Aug 10, 2013</p><p class="title"><a href="/blog/2013/08/10/WaterlooVsTorontoEngineering.html">Education: Toronto Vs. Waterloo</a>
+							
+								<a class="tag_list_link" href="/tag/academia">academia</a> 
+							
+							
+	                            <p class="post-introduction">Choosing a University Can Be a Daunting and Stressful Task, Here Are My Observations.</p>
+	                        
+						</p>
+	 				</li>
+	 			</article>
 			
-				<li>
-					<p class="post-date">Jun 13, 2013</p>
-					<p class="title"><a href="/blog/2013/06/13/DoINeedToKnowProgrammingBefore.html">Computer Eng - Programming Skills Needed?</a>
-						
-							<a class="tag_list_link" href="/tag/-university-">-university-</a> 
-						
-					</p>
-	 			</li>
+				<article class="post Academia">
+					<li>
+						<p class="post-date">Jun 13, 2013</p><p class="title"><a href="/blog/2013/06/13/DoINeedToKnowProgrammingBefore.html">Engineering: Coding Skills?</a>
+							
+								<a class="tag_list_link" href="/tag/academia">academia</a> 
+							
+							
+	                            <p class="post-introduction">Advice for Incoming Computer Engineering Students.</p>
+	                        
+						</p>
+	 				</li>
+	 			</article>
 			
 		</ul>
 	</section>
