@@ -499,12 +499,7 @@ section[role="main"] {
     display: block;
     margin-bottom: 0px;
 }
-.blog .post-list li:before {
-    content: " ";
-    border-top: 1px solid #999;
-    display: block;
-    margin-bottom: 0px;
-}
+
 
 header[role="banner"] {
     border-bottom: 0.4rem solid #eee;
@@ -775,7 +770,7 @@ ul li.archive_list{
     }
 }
 
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 660px) {
     .hire {
     float: right;
     position: absolute;
@@ -794,5 +789,10 @@ ul li.archive_list{
     .blog .title{
         margin-left: 5px !important;
         padding: 0px;
+    }
+
+    #side{
+        margin-left: 70px;
+        max-width: 310px;
     }
 }
