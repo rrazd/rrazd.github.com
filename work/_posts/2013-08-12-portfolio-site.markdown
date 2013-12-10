@@ -7,7 +7,7 @@ category: work
 
 ######Looking back at the past
 
-This site is a place to display my software portfolio. 
+This site is a place to display my software portfolio, it was coded by me from scratch (all the css, html, javascript, etc.).  
 There have been plenty of "portfolio site" versions that have come to pass. A lot of tinkering and inspirational
 sites have led me to creating the current version. A version that I was particularly happy with is seen below.
 
