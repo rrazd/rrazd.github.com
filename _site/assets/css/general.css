@@ -619,8 +619,8 @@ footer[role="contentinfo"] {
     right: 0;
 }
 .disclaim {
-    font-size: 12px;
-    font-size: .75rem;
+    font-size: 10px;
+    font-size: .65rem;
     line-height: 1.4;
     margin-bottom: 0;
 }
