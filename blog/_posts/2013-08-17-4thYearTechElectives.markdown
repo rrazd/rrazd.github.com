@@ -11,7 +11,7 @@ tags:
 - academia
 ---
 
-I thought to write a post on electives I took in 4th Year. Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture) and ECE 455 (Embedded Software).
+I thought to write a post on electives I took in 4th Year. Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture), CS 349 (User Interfaces) and ECE 455 (Embedded Software).
 
 ######ECE 452: Software Design and Architecture 
 ECE 452 is cross-listed as CS 446. The objective of the course is to introduce students to the software design process and its models. I took the course during a spring term, Professor Igor Ivkovic taught the course. *I found this course extremely interesting and helpful.* The main focus of the course is a software project where we get to apply all that we have learnt in the course (software design process, software architecture, design strategies, design assessment, design quality assurance and verification). Our professor offered us a great deal of flexibility in terms of what kind of technology we wanted to use and what kind of application we wanted to build. The only restrictions were essentially that one should be able to apply GoF design patterns and describe the architecture/use cases of the project for design documents. 
@@ -48,4 +48,7 @@ Furthermore, the theoretical part of the course was not too hard to grasp. The l
 
 *Grading: best of 2 quizzes, final exam and 5 labs*
 
+######CS 349: User Interfaces
+I took this course during my last work term. This was my favorite course from all the courses I have taken during my undergrad. Although the theoretical part could get a little drab, the projects were awesome! The course allowed students to utilize their creativity as well as their programming skills. Each assignment had an "Above and Beyond" component, where the students were given free reign to add cool add-ons to their end product. Moreover, I thought that the professor who taught the course (Byron Becker) was very insightful, helpful and approachable. The assignments were well structured and did not have any last minute modifications (a common complaint I had heard about with regards to previous professors of this course). Although, I must admit the assignments did take a considerable amount of time to do well since designing user interfaces is a rather finicky thing. But they are so fun to do, that you do not really feel disgruntled about putting in all those hours. Lastly, I found the midterm and final exam to be fair as long as you diligently go through all the slides/attend most of the lectures (attending lectures is not really necessary however it does help recalling the concepts when writing the exam). All in all, I would highly recommend anyone in CS or ECE who is interested in UX design, Front End Development, designing optimal Desktop/Mobile Application interfaces to take this course.  
 
+*Grading: midterm, final exam, 4 take home assignments*
