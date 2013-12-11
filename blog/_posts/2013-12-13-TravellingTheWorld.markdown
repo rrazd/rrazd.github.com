@@ -105,10 +105,19 @@ tags:
 	--> Scotland
 			i) Edinburgh
 
+	--> Spain
+			i) Madrid
+			ii) Marbella (province of Málaga)
+			iii) Salou 
+			iv) Barcelona
+
 	--> Switzerland
 			i) Zürich
 			ii) Geneva
 			iii) Lausanne
+
+	--> Turks and Caicos Islands
+			i) Providenciales		
 
 	--> United Arab Emirates
 			i) Dubai
