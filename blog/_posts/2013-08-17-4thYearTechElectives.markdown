@@ -11,7 +11,7 @@ tags:
 - academia
 ---
 
-I thought to write a post on electives I took in 4th Year. Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture), CS 349 (User Interfaces) and ECE 455 (Embedded Software).
+Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture), CS 349 (User Interfaces) and ECE 455 (Embedded Software).
 
 ######ECE 452: Software Design and Architecture 
 ECE 452 is cross-listed as CS 446. The objective of the course is to introduce students to the software design process and its models. I took the course during a spring term, Professor Igor Ivkovic taught the course. *I found this course extremely interesting and helpful.* The main focus of the course is a software project where we get to apply all that we have learnt in the course (software design process, software architecture, design strategies, design assessment, design quality assurance and verification). Our professor offered us a great deal of flexibility in terms of what kind of technology we wanted to use and what kind of application we wanted to build. The only restrictions were essentially that one should be able to apply GoF design patterns and describe the architecture/use cases of the project for design documents. 
