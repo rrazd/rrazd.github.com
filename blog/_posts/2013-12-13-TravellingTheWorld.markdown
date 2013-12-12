@@ -10,123 +10,127 @@ tags:
 - thoughts
 ---
 
-	PLACES I HAVE TRAVELLED TO (ALPHABETICAL ORDER):
+```java
+"LISTED BELOW ARE PLACES I HAVE TRAVELLED TO IN ALPHABETICAL ORDER"
+```
 
-	--> Austria
-			i) Vienna
-			ii) Salzburg
+```java
 
-	--> Belgium
-			i) Brussels 
+AUSTRIA
+> Vienna 
+> Salzburg 
 
-	--> Canada
-			i) Ontario
-					- Toronto
-					- Ottawa
-					- Hamilton
-					- Kingston
-					- Waterloo
-					- Mississauga
-					- Markham
-					- City of Niagra Falls
-					- City of Kitchener
-					- City of Cambridge
-					- Collingwood
-			ii) Quebec
-					- Montreal	
-					- Mt. Tremblant
+BELGIUM
+> Brussels 
 
-	--> Cyprus
-			i) Nicosia
+*** CANADA ***
+> Ontario 
+		- Toronto
+		- Ottawa
+		- Hamilton
+		- Kingston
+		- Waterloo
+		- Mississauga
+		- Markham
+		- City of Niagra Falls
+		- City of Kitchener
+		- City of Cambridge
+		- Collingwood
+> Quebec 
+		- Montreal	
+		- Mt Tremblant
 
-	--> Czech Republic
-			i) Prague
+CYPRUS
+> Nicosia 
 
-	--> Dominican Republic		
-			i) Punta Cana
+CZECH REPUBLIC
+> Prague 
 
-	--> Egypt
-			i) Cairo
-			ii) Hurghada
+DOMINICAN REPUBLIC		
+> Punta Cana 
 
-	--> England
-			i) Birmingham
-			ii) Bath
-			iii) Cambridge
-			iv) London
-			v) Oxford
-			vi) Norfolk
-			vii) The Lake District
+EGYPT
+> Cairo 
+> Hurghada 
 
-	--> France
-			i) Paris	
-			ii) Nice (barely remember)
-			iii) Versailles
-			iv) Marseilles
+ENGLAND
+> Birmingham 
+> Bath 
+> Cambridge 
+> London 
+> Oxford 
+> Norfolk 
+> The Lake District 
 
-	--> Germany
-			i) Berlin
-			ii) Frankfurt
-			iii) Munich
+FRANCE
+> Paris	
+> Nice 
+> Versailles 
+> Marseilles 
 
-	--> Greece
-			i) Athens
-			ii) Rhodes
+GERMANY
+> Berlin 
+> Frankfurt 
+> Munich 
 
-	--> India
-			i) Delhi
-			ii) Allahabad
-			iii) Goa
-			iv) Srinagar
+GREECE
+> Athens  
+> Rhodes 
 
-	--> Italy
-			i) Rome
-			ii) Naples
-			iii) Venice
-			iv) Pisa
-			v) Region of Sardinia
+INDIA
+> Delhi 
+> Allahabad 
+> Goa 
+> Srinagar 
 
-	--> Mexico
-			i) Cancun
+ITALY
+> Rome 
+> Naples 
+> Venice 
+> Pisa 
+> Region of Sardinia 
 
-	--> Monaco
-			i) Monte Carlo
+MEXICO
+> Cancun 
 
-	--> Russia
-			i) Moscow
-			ii) Saint Petersburg
-			iii) Sochi		
+MONACO
+> Monte Carlo 
 
-	--> Republic of South Africa
-			i) Johannesburg	
-			ii) Cape Town
-			iii) Kruger National Park
+RUSSIA
+> Moscow 
+> Saint Petersburg 
+> Sochi		
+
+REPUBLIC OF SOUTH AFRICA
+> Johannesburg 	
+> Cape Town 
+> Kruger National Park 
 	
-	--> Scotland
-			i) Edinburgh
+SCOTLAND
+> Edinburgh 
 
-	--> Spain
-			i) Madrid
-			ii) Marbella (province of Málaga)
-			iii) Salou 
-			iv) Barcelona
+SPAIN
+> Madrid 
+> Marbella (province of Malaga) 
+> Salou  
+> Barcelona 
 
-	--> Switzerland
-			i) Zürich
-			ii) Geneva
-			iii) Lausanne
+SWITZERLAND
+> Zurich 
+> Geneva 
+> Lausanne 
 
-	--> Turks and Caicos Islands
-			i) Providenciales		
+TURKS AND CAICOS ISLANDS
+> Providenciales 		
 
-	--> United Arab Emirates
-			i) Dubai
+UNITED ARAB EMIRATES
+> Dubai 
 
-	--> United States
-			i) California
-			ii) New York
-			iii) Florida				
+UNITED STATES
+> California 
+> New York 
+> Florida 				
 
-
+```
 
 
