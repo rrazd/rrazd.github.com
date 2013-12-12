@@ -16,11 +16,11 @@ tags:
 
 ```java
 
-AUSTRIA
+*** AUSTRIA ***
 > Vienna 
 > Salzburg 
 
-BELGIUM
+*** BELGIUM ***
 > Brussels 
 
 *** CANADA ***
@@ -40,20 +40,20 @@ BELGIUM
 		- Montreal	
 		- Mt Tremblant
 
-CYPRUS
+*** CYPRUS ***
 > Nicosia 
 
-CZECH REPUBLIC
+*** CZECH REPUBLIC ***
 > Prague 
 
-DOMINICAN REPUBLIC		
+*** DOMINICAN REPUBLIC ***		
 > Punta Cana 
 
-EGYPT
+*** EGYPT ***
 > Cairo 
 > Hurghada 
 
-ENGLAND
+*** ENGLAND ***
 > Birmingham 
 > Bath 
 > Cambridge 
@@ -62,71 +62,71 @@ ENGLAND
 > Norfolk 
 > The Lake District 
 
-FRANCE
+*** FRANCE ***
 > Paris	
 > Nice 
 > Versailles 
 > Marseilles 
 
-GERMANY
+*** GERMANY ***
 > Berlin 
 > Frankfurt 
 > Munich 
 
-GREECE
+*** GREECE ***
 > Athens  
 > Rhodes 
 
-INDIA
+*** INDIA ***
 > Delhi 
 > Allahabad 
 > Goa 
 > Srinagar 
 
-ITALY
+*** ITALY ***
 > Rome 
 > Naples 
 > Venice 
 > Pisa 
 > Region of Sardinia 
 
-MEXICO
+*** MEXICO ***
 > Cancun 
 
-MONACO
+*** MONACO ***
 > Monte Carlo 
 
-RUSSIA
+*** RUSSIA ***
 > Moscow 
 > Saint Petersburg 
 > Sochi		
 
-REPUBLIC OF SOUTH AFRICA
+*** REPUBLIC OF SOUTH AFRICA ***
 > Johannesburg 	
 > Cape Town 
 > Kruger National Park 
 	
-SCOTLAND
+*** SCOTLAND ***
 > Edinburgh 
 
-SPAIN
+*** SPAIN ***
 > Madrid 
 > Marbella (province of Malaga) 
 > Salou  
 > Barcelona 
 
-SWITZERLAND
+*** SWITZERLAND ***
 > Zurich 
 > Geneva 
 > Lausanne 
 
-TURKS AND CAICOS ISLANDS
+*** TURKS AND CAICOS ISLANDS ***
 > Providenciales 		
 
-UNITED ARAB EMIRATES
+*** UNITED ARAB EMIRATES ***
 > Dubai 
 
-UNITED STATES
+*** UNITED STATES *** 
 > California 
 > New York 
 > Florida 				
