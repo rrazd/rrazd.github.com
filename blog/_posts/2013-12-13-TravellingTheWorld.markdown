@@ -20,8 +20,10 @@ tags:
 > Vienna 
 > Salzburg 
 
+
 *** BELGIUM ***
 > Brussels 
+
 
 *** CANADA ***
 > Ontario 
@@ -40,18 +42,23 @@ tags:
 		- Montreal	
 		- Mt Tremblant
 
+
 *** CYPRUS ***
 > Nicosia 
+
 
 *** CZECH REPUBLIC ***
 > Prague 
 
+
 *** DOMINICAN REPUBLIC ***		
 > Punta Cana 
+
 
 *** EGYPT ***
 > Cairo 
 > Hurghada 
+
 
 *** ENGLAND ***
 > Birmingham 
@@ -62,26 +69,31 @@ tags:
 > Norfolk 
 > The Lake District 
 
+
 *** FRANCE ***
 > Paris	
 > Nice 
 > Versailles 
 > Marseilles 
 
+
 *** GERMANY ***
 > Berlin 
 > Frankfurt 
 > Munich 
 
+
 *** GREECE ***
 > Athens  
 > Rhodes 
+
 
 *** INDIA ***
 > Delhi 
 > Allahabad 
 > Goa 
 > Srinagar 
+
 
 *** ITALY ***
 > Rome 
@@ -90,24 +102,30 @@ tags:
 > Pisa 
 > Region of Sardinia 
 
+
 *** MEXICO ***
 > Cancun 
 
+
 *** MONACO ***
 > Monte Carlo 
+
 
 *** RUSSIA ***
 > Moscow 
 > Saint Petersburg 
 > Sochi		
 
+
 *** REPUBLIC OF SOUTH AFRICA ***
 > Johannesburg 	
 > Cape Town 
 > Kruger National Park 
 	
+
 *** SCOTLAND ***
 > Edinburgh 
+
 
 *** SPAIN ***
 > Madrid 
@@ -115,16 +133,20 @@ tags:
 > Salou  
 > Barcelona 
 
+
 *** SWITZERLAND ***
 > Zurich 
 > Geneva 
 > Lausanne 
 
+
 *** TURKS AND CAICOS ISLANDS ***
 > Providenciales 		
 
+
 *** UNITED ARAB EMIRATES ***
 > Dubai 
+
 
 *** UNITED STATES *** 
 > California 
