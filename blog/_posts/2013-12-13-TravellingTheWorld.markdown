@@ -1,9 +1,9 @@
 ---
 layout: linkage
 category: blog
-title: "Travelling the World"
+title: "TRAVEL LOG"
 author: Rashna Razdan
-introduction: Places I have Travelled To, 21 Destinations and Counting.	
+introduction: Places I have Travelled To, 23 Destinations and Counting.	
 comments: true
 forSort: Thoughts
 tags:
@@ -47,11 +47,11 @@ tags:
 > Nicosia 
 
 
-@CZECH REPUBLIC 
+@CZECH-REPUBLIC 
 > Prague 
 
 
-@DOMINICAN REPUBLIC 		
+@DOMINICAN-REPUBLIC 		
 > Punta Cana 
 
 
@@ -117,7 +117,7 @@ tags:
 > Sochi		
 
 
-@REPUBLIC OF SOUTH AFRICA 
+@REPUBLIC-OF-SOUTH-AFRICA 
 > Johannesburg 	
 > Cape Town 
 > Kruger National Park 
@@ -140,15 +140,15 @@ tags:
 > Lausanne 
 
 
-@TURKS AND CAICOS ISLANDS 
+@TURKS-AND-CAICOS-ISLANDS 
 > Providenciales 		
 
 
-@UNITED ARAB EMIRATES 
+@UNITED-ARAB-EMIRATES 
 > Dubai 
 
 
-@UNITED STATES  
+@UNITED-STATES  
 > California 
 > New York 
 > Florida 				
