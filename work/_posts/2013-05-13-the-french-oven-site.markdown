@@ -20,8 +20,16 @@ I still manage the bakery's website and do any content updates that the client r
  
 <figure>
 	<div class="web">
-	<img src="/images/work/theFrenchOven.jpg" alt="French Oven Screenshot">
+	<img src="/images/work/theFrenchOven.jpg" alt="French Oven Redesign Screenshot">
 	</div>
-	<figurecaption>Sample Page</figurecaption>
+	<figurecaption>Revamped Sample Page from Redesigned Website (by me!), soon to be published</figurecaption>
+</figure> 
+ 
+
+<figure>
+	<div class="web">
+	<img src="/images/work/theFrenchOvenOld.jpg" alt="French Oven Screenshot">
+	</div>
+	<figurecaption>Sample Page, currently online (my old design)</figurecaption>
 </figure> 
  
