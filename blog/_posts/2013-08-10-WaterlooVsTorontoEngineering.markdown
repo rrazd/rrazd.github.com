@@ -4,10 +4,12 @@ category: blog
 title: "Education: Toronto Vs. Waterloo"
 author: Rashna Razdan
 introduction: Choosing a University Can Be a Daunting and Stressful Task, Here Are My Observations.	
+keywords: education, engineering, waterloo, toronto, undergrad
+description: This post presents the dilemma a student who is accepted into many undergrad programs may face. A comparison between UofT and Waterloo engineering.
 comments: true
-forSort: Academia
+forSort: Learning
 tags:
-- academia
+- learning
 ---
 
 <p>Even though I am now finishing up my undergrad in Engineering, I still recall debating which university to choose to go to back in grade 12. I applied to Queens Engineering, Queens’s School of Business, University of Toronto (U of T) Engineering, Waterloo Math and Business (double degree) and Waterloo Computer Engineering. I got into all these programs however I was quite unsure which one was right for me. In the end, I decided that Computer Engineering sounded the most challenging and exciting, now I had to decide if I wanted to go to U of T or University of Waterloo.</p>

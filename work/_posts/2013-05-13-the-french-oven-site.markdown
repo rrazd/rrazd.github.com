@@ -3,6 +3,9 @@ layout: linkage
 title: The French Oven
 thumbnail: /images/work/frenchOven_thumb.png
 category: work
+keywords: Rashna, Razdan, computer, french, oven
+description: Hi, I am Rashna Razdan, a web and software developer. Check out this great website for the French Oven that I was involved in creating and maintaining. 
+
 ---
 
 

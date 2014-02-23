@@ -4,10 +4,12 @@ category: blog
 title: "Insights Into Version Control"
 author: Rashna Razdan
 introduction: A Quick List on the Essential things to Keep In Mind When Working With SVN.
-forSort: Academia
+keywords: svn, version, control
+description: This post offers a quick rundown on the essentials of SVN
+forSort: Learning
 comments: true
 tags:
-- academia
+- learning
 ---
 
 <p>This past term I have been working a lot with SVN. Some essential things to remember:</p>

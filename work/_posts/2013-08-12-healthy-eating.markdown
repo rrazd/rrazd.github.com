@@ -3,6 +3,9 @@ layout: linkage
 title: Healthy Eating App
 thumbnail: /images/work/healthyEating_thumb.png
 category: work
+keywords: Rashna, Razdan, computer, app, healthy, eating, GWT
+description: Hi, I am Rashna Razdan, a web and software developer. Eating healthy is extremely important to me so I created an app that lets you track your calorie and nutritional information
+
 ---
 
 ######Introduction

@@ -1,9 +1,11 @@
 ---
 layout: linkage
 category: blog
-title: "TRAVEL LOG"
+title: "Travel Log"
 author: Rashna Razdan
-introduction: Places I have Travelled To, 23 Destinations and Counting.	
+introduction: Places I have Travelled To, 23 Destinations and Counting.
+keywords: travel, destinations
+description: This post documents various locations in the world that Rashna has visited
 comments: true
 forSort: Thoughts
 tags:

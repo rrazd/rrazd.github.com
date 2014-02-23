@@ -3,6 +3,9 @@ layout: linkage
 title: 	Portfolio Website
 thumbnail: /images/work/portfolioSite_thumb.png
 category: work
+keywords: Rashna, Razdan, computer, porfolio, website, web
+description: Hi, I am Rashna Razdan, a web and software developer. I love creating websites and I had a great time creating this website from scratch
+
 ---
 
 ######Looking back at the past

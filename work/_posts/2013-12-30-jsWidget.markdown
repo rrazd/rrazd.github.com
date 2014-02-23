@@ -3,6 +3,8 @@ layout: linkage
 title: Javascipt widgets
 thumbnail: /images/work/jsWidgets_thumb.png
 category: work
+keywords: Rashna, Razdan, computer, engineering, waterloo, portal, javascript
+description: Hi, I am Rashna Razdan, a web and software developer. Check out some awesome Javascript apps and projects I have been involved in. 
 ---
 
 

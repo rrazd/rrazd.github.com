@@ -3,6 +3,9 @@ layout: linkage
 title: 	Paper Doll
 thumbnail: /images/work/paperDolls_thumb.png
 category: work
+keywords: Rashna, Razdan, computer, direct, manipulation
+description: Hi, I am Rashna Razdan, a web and software developer. Check out this Paper Dolls application which shows the benefits ofdirect manipulation
+
 ---
 
 ######Direct Manipulation

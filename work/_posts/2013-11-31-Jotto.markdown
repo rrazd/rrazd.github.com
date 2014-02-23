@@ -3,6 +3,8 @@ layout: linkage
 title: 	Jotto, A Word Game
 thumbnail: /images/work/jotto_thumb.png
 category: work
+keywords: Rashna, Razdan, word, game, jotto, Java
+description: Hi, I am Rashna Razdan, a web and software developer. Check out this RAD Jotto game that I built using Java swing
 ---
 
 ######Java Swing Application: Model View Controller

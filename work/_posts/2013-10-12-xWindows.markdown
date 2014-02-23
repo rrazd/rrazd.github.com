@@ -3,6 +3,9 @@ layout: linkage
 title: 	Arcade Game
 thumbnail: /images/work/xWindows_thumb.png
 category: work
+keywords: Rashna, Razdan, computer, C++, game, XLib
+description: Hi, I am Rashna Razdan, a web and software developer. Check out this fun game I built using XLib
+
 ---
 
 ######Creating a Simple Video Game

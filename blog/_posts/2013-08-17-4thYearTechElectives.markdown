@@ -4,11 +4,13 @@ category: blog
 title: "4th Year Technical Electives"
 author: Rashna Razdan
 introduction: Summary of My 4th Year Computer Engineering Courses.
+keywords: engineering, technical, elective, graduation, waterloo
+description: This post is offers insight into fourth year ECE technical electives offered at the University of Waterloo
 recommended: true
 comments: true
-forSort: Academia
+forSort: Learning
 tags:
-- academia
+- learning
 ---
 
 Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture), CS 349 (User Interfaces) and ECE 455 (Embedded Software).
