@@ -637,6 +637,7 @@ footer[role="contentinfo"] {
 
 }
 
+
 .work.archive li {
     float: left;
     margin-bottom: 20px;
@@ -774,7 +775,27 @@ ul li.archive_list{
     }
 }
 
+@media only screen and (max-width: 970px){
+     .work.archive li {
+     width: 35.33333%;
+     height: 13%;
+     margin: auto;
+     margin-bottom: 15px;
+     -webkit-transition-property: background;
+     -moz-transition-property: background;
+     -o-transition-property: background;
+     transition-property: background;
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     transition-duration: 0.5s;
+
+    }   
+}
+
+
 @media only screen and (max-width: 660px) {
+
     .hire {
     float: right;
     position: absolute;
