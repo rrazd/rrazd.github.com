@@ -777,7 +777,7 @@ ul li.archive_list{
 
 @media only screen and (max-width: 970px){
      .work.archive li {
-     width: 35.33333%;
+     width: 300px;
      height: 13%;
      margin: auto;
      margin-bottom: 15px;
