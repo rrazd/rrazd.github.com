@@ -642,11 +642,10 @@ html {
 
 
             .helloMain {
-                width: 75%;
                 margin-left: auto;
                 margin-right: auto;
                 font-family: 'Josefin Sans', sans-serif;
-                font-size: 3.75em
+                font-size: 3.45em
             }
 
             @media only screen and (min-width: 971px) {
