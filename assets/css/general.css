@@ -767,7 +767,7 @@ html {
             #side section:first-child{ margin-left: 0;}
             #side ul, #side li, #side a{ display: inline;}
             #side em{ color: #b0b0b0; float: left; font-style: normal;}
-            #side a{ border-bottom: none; color: #808080; float: left; font-weight: bold; margin-left: 10px;}
+            #side a{ border-bottom: none; color: #808080; float: left; font-weight: bold; margin-left: 6px;}
             #side a:hover{ color: #b0b0b0; cursor: pointer;cursor: hand; }
             #side .on,
             #side .on:hover{ color: #449fdb; cursor: pointer;cursor: hand; text-decoration: none;}

@@ -99,11 +99,12 @@ nav{
 
 
 .filtersBox{
-    padding: 2px 4px;
+    padding: 1px 2px;
     background-color: #BCD2EE;
     line-height: 15px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 div.logo img:hover{
@@ -766,7 +767,7 @@ html {
             #side section:first-child{ margin-left: 0;}
             #side ul, #side li, #side a{ display: inline;}
             #side em{ color: #b0b0b0; float: left; font-style: normal;}
-            #side a{ border-bottom: none; color: #808080; float: left; font-weight: bold; margin-left: 10px;}
+            #side a{ border-bottom: none; color: #808080; float: left; font-weight: bold; margin-left: 6px;}
             #side a:hover{ color: #b0b0b0; cursor: pointer;cursor: hand; }
             #side .on,
             #side .on:hover{ color: #449fdb; cursor: pointer;cursor: hand; text-decoration: none;}
