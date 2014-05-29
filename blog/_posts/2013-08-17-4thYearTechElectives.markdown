@@ -16,7 +16,7 @@ tags:
 Up until 3B students are for the most part assigned mandatory engineering courses. However, in the 4A and 4B terms, you can choose all the engineering courses you want to do. For my 4A term I chose to do ECE 452 (Software Design and Architecture), CS 349 (User Interfaces) and ECE 455 (Embedded Software).
 
 ######ECE 452: Software Design and Architecture 
-ECE 452 is cross-listed as CS 446. The objective of the course is to introduce students to the software design process and its models. I took the course during a spring term, Professor Igor Ivkovic taught the course. *I found this course extremely interesting and helpful.* The main focus of the course is a software project where we get to apply all that we have learnt in the course (software design process, software architecture, design strategies, design assessment, design quality assurance and verification). Our professor offered us a great deal of flexibility in terms of what kind of technology we wanted to use and what kind of application we wanted to build. The only restrictions were essentially that one should be able to apply GoF design patterns and describe the architecture/use cases of the project for design documents. 
+ECE 452 is cross-listed as CS 446. The objective of the course is to introduce students to the software design process and its models.I took the course during a spring term, Professor Igor Ivkovic taught the course. *I found this course extremely interesting and helpful.* The main focus of the course is a software project where we get to apply all that we have learnt in the course (software design process, software architecture, design strategies, design assessment, design quality assurance and verification). Our professor offered us a great deal of flexibility in terms of what kind of technology we wanted to use and what kind of application we wanted to build. The only restrictions were essentially that one should be able to apply GoF design patterns and describe the architecture/use cases of the project for design documents. 
 Projects that people have completed for this course include:
 <ul>
 <li> Software for a mobile device </li>
@@ -34,14 +34,14 @@ If you choose to work alone then you should be prepared to do more work and give
 I took this couse during a spring term, the professor was Sebastian Fischmeister. I had expected this to be a tough course. I was prepared to spend a long time struggling with the labs. However, it turned out that my expectations were misguided. I found the labs to not be too difficult and I did really well on them without having to put in a lot of time. The labs focused a lot on timing and getting the timing of certain events correct. In total there were 5 labs done using C programming; they were very well organized. The labs were done online; the student could compile and deploy the code onto STM32F405 microcontrollers located in a lab room somewhere in the university. A dashboard then showed the outcomes of the runs. This was really great as it allowed students to complete the labs from the convenience of their homes, no tool chain setup was needed and we did not have to worry about any wiring issues. A picture of the coding environment is shown below:
 <figure>
 	<div class="web">
-		<img src="/images/blog/ece455_1.png">
+		<img src="/images/blog/ece455_1.png" alt="ECE455">
 	</div>
 	<figurecaption>Starting Page</figurecaption>
 </figure> 
 
 <figure>
 	<div class="web">
-		<img src="/images/blog/ece455_3.png">
+		<img src="/images/blog/ece455_3.png" alt="ECE455">
 	</div>
 	<figurecaption>Main Lab Environment</figurecaption>
 </figure> 
@@ -55,3 +55,16 @@ I took this course during my last work term. This was my favorite course from al
 I must admit the assignments did take a considerable amount of time to do since designing user interfaces is a rather finicky task. But they were so fun to do, that you do not really feel disgruntled about putting in all those hours. Moreover, it is easy to get good grades on these projects, I managed to get 105% on one of the projects, and high grades on the other ones too. Lastly, I found the midterm and final exam to be fair as long as you diligently go through all the slides/attend most of the lectures (attending lectures is not really necessary however it does help recalling the concepts when writing the exam). All in all, I would highly recommend anyone in CS or ECE who is interested in UX design, Front End Development, designing optimal Desktop/Mobile Application interfaces to take this course.  
 
 *Grading: midterm, final exam, 4 take home assignments*
+
+
+######ECE 453: Software Testing & Quality Assurance
+I took this course during the winter term. This course was far easier for me than I had anticipated. I ended up getting a 95% in it. There was one term project, biweekly assignments, a midterm and a final. The midterm was harder than the final, however both were fair tests. I had expected and hoped this course would involve more programming projects however it leaned more towards understanding the theoretical approaches to testing. I enjoyed the lectures by Professor Lin Tan however the textbook for the course covered all the points mentioned in most lectures, thus it was not mandatory to attend all the lectures in order to do well in the course. Professor Tan gave out bonus points during the lectures in order to encourage attendance, I am not certain that this strategy helped boost attendance. 
+
+*Grading: midterm, final exam, take home assignments, term project, bonus points in lectures*
+
+
+######ECE 451: Software Requirements Specification and Analysis
+I took this course during the winter term. The professor for this course was Joanne Atlee. The professor was very approachable and easy to understand. The course was about informing students about the key steps to successful requirements gathering and producing accurate specifications for software/control projects. This course gave students an insight into all the work that goes into interacting with clients and understanding the product that they want, and in turn translating this knowledge into syntax that the engineers can work with. The downside with this course was that the marking was extremely subjective. Often times students had to submit remark requests since the TA's had missed something that deserved marks or misinterpreted a point.  
+
+*Grading: midterm, final exam, take home assignments, term project*
+
