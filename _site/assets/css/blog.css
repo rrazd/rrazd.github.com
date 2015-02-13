@@ -149,11 +149,9 @@
  	#timelineHTML .radio:checked ~ .content {
  		max-height: 280px;
  		background-color: #F0F8FF;
-  	}
- 	#timelineHTML .radio:checked ~ .content {
  		padding-top: 45px;
  		border-color: #eee9dc;
- 		min-width: 350px; 
+ 		max-width: 90%; 
  		left: 2px;
  	}
 
