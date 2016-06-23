@@ -1,9 +1,7 @@
 name: Portfolio Site by Rashna Razdan
 markdown: redcarpet
-pygments: true
 auto: true
 comments: true
-paginate: 20
 safe: false
 analytics :
   provider : google
