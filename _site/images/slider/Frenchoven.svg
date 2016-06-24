@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="86px" viewBox="0 0 88 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dribble" transform="translate(-412.000000, -108.000000)">
+            <g id="logo" transform="translate(414.000000, 109.000000)">
+                <g id="Group">
+                    <g id="Page-1">
+                        <g id="Group">
+                            <g id="logo">
+                                <path d="M84.2358868,41.7034069 C84.2358868,18.9099265 65.3790413,0.432159657 42.1179433,0.432159657 C18.8568455,0.432159657 4.54747351e-13,18.9099265 4.54747351e-13,41.7034069 C4.54747351e-13,64.4968873 18.8568455,82.974654 42.1179433,82.974654 C65.3790413,82.974654 84.2358868,64.4968873 84.2358868,41.7034069 Z" id="Oval-22" stroke="#FFFFFF" stroke-width="2.5"></path>
+                                <path d="M42.3384562,80.8138557 C64.2599097,80.8138557 82.0307589,63.4002535 82.0307589,41.9194867 C82.0307589,20.4387198 64.2599097,3.0251176 42.3384562,3.0251176 C20.4170028,3.0251176 2.64615351,20.4387198 2.64615351,41.9194867 C2.64615351,63.4002535 20.4170028,80.8138557 42.3384562,80.8138557 L42.3384562,80.8138557 Z" id="Oval-22" stroke="#FFFFFF" stroke-width="0.25"></path>
+                                <g id="The-" transform="translate(9.500000, 19.256800)" font-size="17.2270028" font-family="SignPainter-HouseScript, SignPainter" fill="#FFFFFF" font-weight="normal">
+                                    <text id="The">
+                                        <tspan x="23.9358912" y="12.0727925">The</tspan>
+                                    </text>
+                                    <text id="French-Oven">
+                                        <tspan x="0.283216357" y="27.9011771">French Oven</tspan>
+                                    </text>
+                                </g>
+                                <g id="Group-8" transform="translate(27.597403, 4.421694)" font-size="8.61350139" font-family="SignPainter-HouseScript, SignPainter" fill="#FFFFFF" font-weight="normal">
+                                    <g id="EST" transform="translate(7.446271, 6.168827) rotate(-7.000000) translate(-7.446271, -6.168827) translate(1.374843, 1.194421)">
+                                        <text>
+                                            <tspan x="0.595658891" y="6.85607965">EST</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="1968" transform="translate(21.652203, 6.251550) rotate(4.000000) translate(-21.652203, -6.251550) translate(14.476878, 1.277143)">
+                                        <text>
+                                            <tspan x="0.234653521" y="6.86162656">1968</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                                <g id="Quality-Cakes" transform="translate(23.071429, 64.306818)" font-size="8.61350139" font-family="SignPainter-HouseScript, SignPainter" fill="#FFFFFF" font-weight="normal">
+                                    <text>
+                                        <tspan x="0.140376043" y="6.10538234">Quality Cakes</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

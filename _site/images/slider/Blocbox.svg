@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="87px" height="85px" viewBox="0 0 87 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>logo3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="10.0792791" height="8.07526888"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.761436717   0 0 0 0 0.761692177   0 0 0 0 0.76156826  0 0 0 0.649230072 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="25.9181462" y="0" width="10.0792791" height="8.07526888"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.761436717   0 0 0 0 0.761692177   0 0 0 0 0.76156826  0 0 0 0.649230072 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="38.8772193" y="0" width="10.0792791" height="8.07526888"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.761436717   0 0 0 0 0.761692177   0 0 0 0 0.76156826  0 0 0 0.649230072 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="12.9590731" y="0" width="10.0792791" height="8.07526888"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.761436717   0 0 0 0 0.761692177   0 0 0 0 0.76156826  0 0 0 0.649230072 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dribble" transform="translate(-173.000000, -108.000000)">
+            <g id="logo3" transform="translate(174.000000, 109.000000)">
+                <text id="BlocBox" font-family="Oswald-Regular, Oswald" font-size="14" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="20" y="63">BlocBox</tspan>
+                </text>
+                <g id="blockTop" transform="translate(17.844017, 16.000000)">
+                    <g id="Rectangle-4">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Rectangle-4">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Rectangle-4">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Rectangle-4">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    </g>
+                </g>
+                <g id="whiteShading" transform="translate(25.763450, 16.734115)" fill="#FFFFFF" opacity="0.649370336">
+                    <path d="M0.889168394,0.592667762 L0.889168394,0.592667762 C0.912447846,0.817818784 1.00585339,1.72120581 1.09798065,2.6122296 L1.35921574,5.13880747 L0.443852629,5.13880747 L0.889168394,0.592667762 Z" id="Rectangle-6"></path>
+                    <path d="M40.0424835,0.734115353 L40.0424835,0.734115353 C40.065763,0.959266376 40.1591685,1.86265341 40.2512958,2.7536772 L40.5125309,5.28025506 L39.5971678,5.28025506 L40.0424835,0.734115353 Z" id="Rectangle-6-Copy-3"></path>
+                    <path d="M14.1243374,0.734115353 L14.1243374,0.734115353 C14.1476168,0.959266376 14.2410224,1.86265341 14.3331496,2.7536772 L14.5943847,5.28025506 L13.6790216,5.28025506 L14.1243374,0.734115353 Z" id="Rectangle-6-Copy"></path>
+                    <path d="M27.3595063,0.734115353 L27.3595063,0.734115353 C27.3827858,0.959266376 27.4761913,1.86265341 27.5683186,2.7536772 L27.8295537,5.28025506 L26.9141905,5.28025506 L27.3595063,0.734115353 Z" id="Rectangle-6-Copy-2"></path>
+                </g>
+                <path d="M10,22 L22.5417911,22 L42.0377085,22 L67.4910159,22 L74.0754169,22 L74.0754169,45.4916913 L56.0077611,45.4916913 L29.776072,45.4916913 L10,45.4916913 L10,22 Z" id="Rectangle-3" fill="#FFFFFF"></path>
+                <ellipse id="Oval-3" stroke="#FFFFFF" cx="42.5" cy="41.5" rx="42.5" ry="41.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
