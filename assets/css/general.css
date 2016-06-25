@@ -150,7 +150,10 @@ header.alt-color nav li a {
 /* SVG */
 .logo svg {
   width: 175px;
-  height: 50px;
+  height: 56px;
+}
+.logo a {
+  line-height: 1.4;
 }
 
 /* Hero */
@@ -295,6 +298,9 @@ footer .right {
 }
 .productShowcaseHealthyEating {
     background: url(../../images/projects/healthyEatingShowcase.jpg) center/cover no-repeat;
+}
+.productShowcasePortfolio {
+    background: url(../../images/projects/portfolioShowcase.jpg) center/cover no-repeat;
 }
 
 .productShowcase:after {
