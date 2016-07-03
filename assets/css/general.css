@@ -38,10 +38,23 @@ h1 {
   font-weight: 800;
   font-size: 2em;
   line-height: 1.5em;
-  color: #ffffff;
+  color: #fff;
   text-shadow: 1px 1px 1px #787777;
   text-align: center;
   margin: 0;
+}
+h2 {
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.5em;
+  font-family: 'Gotham-Medium';
+  color: #fff;
+  margin: 0;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.bold {
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 a, a:active, a:link, a:visited {
   text-decoration: none;
@@ -49,7 +62,6 @@ a, a:active, a:link, a:visited {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
   line-height: 2em;
-  font-family: Gotham-Book, Verdana, Arial, sans-serif;
   color: #4D9DE0;
 }
 a:hover {
@@ -61,10 +73,12 @@ a:hover {
 }
 footer {
   left: 0;
+  bottom: 0;
   width: 100%;
   background-color: #2c2c2c;
   color: #fff;
   height: 60px;
+  position: relative;
 }
 header {
   position: fixed;
@@ -110,6 +124,7 @@ a.button {
 /* Header */
 header nav.navLinks a {
   color: #fff;
+  font-family: "Gotham-Book";
 }
 header nav.navLinks a:hover {
   color: #00dbb5;
@@ -149,7 +164,7 @@ header.alt-color nav li a {
 
 /* SVG */
 .logo svg {
-  width: 175px;
+  width: 180px;
   height: 56px;
 }
 .logo a {
@@ -164,6 +179,11 @@ header.alt-color nav li a {
     overflow: hidden;
     background-color: #4D9DE0;
 }
+.hero .seq i {
+  font-size: 1.5em;
+  vertical-align: middle;
+  padding-left: 5px;
+}
 .seperatorLine {
   content: " ";
   display: block;
@@ -171,7 +191,7 @@ header.alt-color nav li a {
   background-color: #00DBB5;
 }
 .intro {
-  padding: 110px 0 0 0;
+  padding: 15vh 0 0 0;
 }
 .intro .hello {
   color: #ffffff;
@@ -179,7 +199,7 @@ header.alt-color nav li a {
 .intro .latest:before, .intro .latest:after {
   content: " ";
   background-color: #EEEEEE;
-  width: 130px;
+  width: 20vw;
   height: 3px;
   display: inline-block;
   margin-bottom: 5px;
@@ -194,11 +214,13 @@ header.alt-color nav li a {
 
 /* Footer */
 footer .left {
-  padding: 25px 0 20px 50px;
+  top: 25px;
+  position: relative;
   font-size: 0.75em;
+  padding-left: 30px;
 }
 footer .right {
-  padding: 20px 50px 10px 0;
+  padding: 20px 30px 5px 0;
   font-size: 1.7em;
 }
 .footerNav ul {
@@ -207,10 +229,10 @@ footer .right {
 }
 .footerNav li {
     border-left: 1px solid #fff;
-    float: left;
+    display: inline;
     line-height: 14px;
     margin-left: 15px;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .footerNav li:first-child {
     border-left: none;
@@ -238,14 +260,18 @@ footer .right {
 }
 .work .tileblock {
   background-color: #f1f1f1;
+  position: relative;
 }
 .work .tileblock a {
   display: inline-block;
   line-height: 0;
-  background-color: #000;
+  background-color: #fff;
+  overflow: hidden;
 }
-.work .tileblock img:hover {
-  opacity: 0.6;
+.work .tileblock a:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale3d(1.2,1.2,1);
+  transform: scale3d(1.2,1.2,1);
 }
 .work .thumbnailTitle {
   padding-left: 10px;
@@ -255,6 +281,47 @@ footer .right {
   margin: 10px 0 10px 0;
 }
 
+.work .overlay-info {
+  transition-duration: 770ms; 
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  width: 100.1%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  height: 100%;
+}
+.overlay-info > span {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-style: normal;
+  display: table;
+}
+.overlay-info > span > span {
+  text-align: center;
+  font-size: 0.75em;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #000;
+  display: table-cell;
+  vertical-align: middle;
+}
+.displayWork {
+  background-color: #F8F8F8;
+}
+.work .tileblock a:hover .overlay-info {
+  opacity: 1;
+}
+.work .tileblock .overlay-info .project-description {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.5em;
+  opacity: 0.7;
+}
 .work .textBlock {
   height: 30px;
   margin-top: -6px;
@@ -269,9 +336,9 @@ footer .right {
 }
 .sectionTitle:after {
   content: " ";
-  border: 2px solid;
+  border: 2px solid #4D9DE0;
   display: block;
-  width: 5%;
+  width: 7%;
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -316,7 +383,7 @@ footer .right {
   bottom: 0;
 }
 .productShowcase .container {
-  top: 300px;
+  top: 60%;
   position: relative;
 }
 .productShowcase .title {
@@ -326,6 +393,125 @@ footer .right {
   top: 250px;
   font-family: 'Gotham-Book';
   font-weight: 700;
+}
+
+#about {
+  background-color: #4D9DE0;
+  padding: 40px 0 25px;
+  color: #fff;
+  line-height: 1.5em;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.10);
+  border-bottom: 1px solid #3e88c4;
+  border-top: 1px solid #3e88c4;
+}
+.aboutMe div {
+  border: 0;
+}
+.aboutMe .row {
+  margin-bottom: 0;
+}
+.aboutMe .bold {
+  font-size: 1.750em;
+  font-family: "Gotham-Medium";
+}
+.skillList {
+  list-style: none;
+  padding-left: 0px;
+}
+.skillList li {
+  margin-bottom: 15px;
+}
+.skill1 {
+  background: #9A74CE;
+  height: 28px;
+  padding-top: 10px;
+  width: 100%;
+}
+.skill1 span {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.skill2 {
+  background: #FF9478;
+  height: 28px;
+  padding-top: 10px;
+  width: 80%;
+}
+.skill2 span {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.skill3 {
+  background: #FCD670;
+  height: 28px;
+  padding-top: 10px;
+  width: 65%;
+}
+.skill3 span {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.skill4 {
+  background: #DAA25A;
+  height: 28px;
+  padding-top: 10px;
+  width: 80%;
+}
+.skill4 span {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.skill5 {
+  background: #7AC292;
+  height: 28px;
+  padding-top: 10px;
+  width: 65%;
+}
+.skill5 span {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.skill6 {
+  background: #F49B6C;
+  height: 28px;
+  padding-top: 10px;
+  width: 75%;
+}
+.skill6 span {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.row .resume {
+  font-size: 1.75em;
+}
+.resume i {
+  font-size: 2em;
+  padding-right: 10px;
+  vertical-align: sub;
+}
+.contact {
+  background-color: #2C2C2C;
+  padding: 30px 0 20px;
+  text-align: center;
+}
+.contact .container {
+  border-bottom: 0.1px solid #3d3c3c;
+  width: 70%;
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+.contact .subtitle {
+  font-size: 1em;
+  font-family: 'Gotham-Book';
+  color: #BFD5F2;
+  margin-bottom: 20px;
+  line-height: 2.75em;
 }
 .subnav {
   background-color: #00DBB5;
@@ -399,6 +585,121 @@ footer .right {
   }
 }
 
+/* Responsive menu */
+@media screen and (max-width : 760px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  .intro {
+    padding-top: 70px;
+  }
+  .logo .text {
+    display: none;
+  }
+  .intro .latest {
+    font-size: 1em;
+  }
+  /* Slider */
+  .seq .seq-title .slider-logo {
+    height: 45vh;
+  }
+}
+
+/* Width media queries */
+@media screen and (max-width : 800px) {
+  .productShowcase .title {
+    font-size: 1.7em;
+  }
+  p {
+    font-size: 0.78em;
+  }
+  .caseInfo ul li {
+    font-size: 0.78em;
+  }
+}
+
+@media screen and (max-width : 666px) {
+  .logo svg {
+    display: none;
+  }
+  nav {
+    float: none;
+  }
+  nav ul {
+    text-align: center;
+    padding-left: 0;
+  }
+  nav li {
+    float: none;
+    margin-left: 25px;
+  }
+  .logo .text {
+    display: none;
+  }
+  .productShowcase .title {
+    font-size: 1.5em;
+  }
+  footer .right {
+    font-size: 1.2em;
+    padding: 20px 40px 0 0;
+  }
+  footer .left {
+    padding-left: 20px;
+  }
+  footer ul {
+    padding: 0;
+  }
+  .footerNav li:first-child {
+    padding: 0;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width : 570px) {
+  header {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  .caseInfo ul li {
+    font-size: 0.78em;
+  }
+  .intro .latest {
+    font-size: 1em;
+  }
+  .intro .latest:before, .intro .latest:after {
+    width: 13vw;
+  }
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  nav li {
+    margin-left: 20px;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width : 438px) {
+  footer {
+    height: 100px;
+    text-align: center;
+  }
+  footer .left {
+    padding: 20px 0 0;
+    top: 0;
+    float: none !important;
+  }
+  footer .right {
+    padding: 15px 0 10px;
+    float: none !important;
+  }
+}
+/* Height media queries */
+@media screen and (max-height : 680px) {
+  .productShowcase {
+    height: 96vh;
+  }
+}
 /*!
  * Materialize v0.97.6 (http://materializecss.com)
  * Copyright 2014-2015 Materialize
@@ -469,13 +770,13 @@ input[type=range] + .thumb {
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%;
+    width: 95%;
   }
 }
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    width: 80%;
   }
 }
 
@@ -733,7 +1034,14 @@ input[type=range] + .thumb {
 .row .col.push-s12 {
   left: 100%;
 }
-
+@media only screen and (max-width: 600px) {
+  .row > .col.s12 {
+    padding-top: 1.5rem;
+  }
+  .row > .col.s12:first-child {
+      padding-top: 0;
+  }
+}
 @media only screen and (min-width: 601px) {
   .row .col.m1 {
     width: 8.3333333333%;
