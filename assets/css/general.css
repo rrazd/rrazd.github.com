@@ -241,6 +241,11 @@ nav li a {
   vertical-align: middle;
   padding-left: 5px;
 }
+.divider {
+  background: url("../../images/projects/seperator.svg") center center no-repeat;
+  height: 30px;
+  margin: 0 auto;
+}
 .seperatorLine {
   content: " ";
   display: block;
@@ -355,6 +360,9 @@ footer .right {
 .displayWork {
   background-color: #F8F8F8;
 }
+.displayWork .divider {
+  margin-bottom: 20px;
+}
 .work .tileblock a:hover .overlay-info {
   opacity: 1;
 }
@@ -375,12 +383,7 @@ footer .right {
   color: #425874;
   line-height: 1.2;
   text-shadow: none;
-  padding-bottom: 20px;
-}
-.sectionTitle i {
-  font-size: 0.5em;
-  color: #4d9de0;
-  vertical-align: middle;
+  padding-bottom: 10px;
 }
 .productShowcase {
   height: 80vh;
@@ -463,8 +466,8 @@ footer .right {
 }
 .skill1 {
   background: #9A74CE;
-  height: 28px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 9px;
   width: 100%;
 }
 .skill1 span {
@@ -474,8 +477,8 @@ footer .right {
 }
 .skill2 {
   background: #FF9478;
-  height: 28px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 9px;
   width: 80%;
 }
 .skill2 span {
@@ -485,8 +488,8 @@ footer .right {
 }
 .skill3 {
   background: #FCD670;
-  height: 28px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 9px;
   width: 65%;
 }
 .skill3 span {
@@ -496,8 +499,8 @@ footer .right {
 }
 .skill4 {
   background: #DAA25A;
-  height: 28px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 9px;
   width: 80%;
 }
 .skill4 span {
@@ -508,7 +511,8 @@ footer .right {
 .skill5 {
   background: #7AC292;
   height: 28px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 9px;
   width: 65%;
 }
 .skill5 span {
@@ -518,8 +522,8 @@ footer .right {
 }
 .skill6 {
   background: #F49B6C;
-  height: 28px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 9px;
   width: 75%;
 }
 .skill6 span {
@@ -594,9 +598,6 @@ footer .right {
 .caseInfo ul li {
   line-height: 1.5;
   font-size: 0.875em;
-}
-.caseInfo .sectionTitle {
-  text-decoration: underline;
 }
 /* Media Queries */
 @media only screen and (max-width: 829px) {
