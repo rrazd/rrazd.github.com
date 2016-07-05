@@ -1,6 +1,6 @@
 function Nav () {
 	function controlNavigationShadow() {
-	    if (document.body.scrollTop > 0) {
+	    if (window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0 > 0) {
 	        document.querySelector("header").className = "alt-color";
 	    } else {
 	        document.querySelector("header").className = "";
