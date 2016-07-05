@@ -98,7 +98,6 @@ a, a:active, a:link, a:visited {
   cursor: pointer;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  line-height: 2em;
   color: #4D9DE0;
 }
 a:hover {
@@ -148,7 +147,7 @@ header.alt-color nav li a {
 }
 .button {
   border-radius: 4px;
-  padding: 8px 20px;
+  padding: 10px 20px;
   text-transform: uppercase;
   font-family: 'Gotham-Bold';
   font-size: 0.7rem;
@@ -238,7 +237,7 @@ nav li a {
 }
 .hero .seq i {
   font-size: 1.5em;
-  vertical-align: middle;
+  vertical-align: bottom;
   padding-left: 5px;
 }
 .divider {
@@ -534,7 +533,7 @@ footer .right {
 .resume {
   padding-bottom: 10px;
 }
-.resume i {
+.buttonIcon i {
   font-size: 1.5rem;
   padding-right: 10px;
   vertical-align: sub;
