@@ -151,7 +151,7 @@ header.alt-color nav li a {
   padding: 8px 20px;
   text-transform: uppercase;
   font-family: 'Gotham-Bold';
-  font-size: 0.35em;
+  font-size: 0.7rem;
   text-decoration: none;
   display: inline-block;
   color: #F3F3F3;
@@ -326,7 +326,7 @@ footer .right {
 
 .work .overlay-info {
   transition-duration: 770ms; 
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.7);
   opacity: 0;
   width: 100.1%;
   position: absolute;
@@ -375,14 +375,12 @@ footer .right {
   color: #425874;
   line-height: 1.2;
   text-shadow: none;
+  padding-bottom: 20px;
 }
-.sectionTitle:after {
-  content: " ";
-  border: 2px solid #4D9DE0;
-  display: block;
-  width: 7%;
-  margin: 0 auto;
-  margin-bottom: 30px;
+.sectionTitle i {
+  font-size: 0.5em;
+  color: #4d9de0;
+  vertical-align: middle;
 }
 .productShowcase {
   height: 80vh;
@@ -529,11 +527,11 @@ footer .right {
   font-size: 15px;
   padding-left: 15px;
 }
-.row .resume {
-  font-size: 1.75em;
+.resume {
+  padding-bottom: 10px;
 }
 .resume i {
-  font-size: 2em;
+  font-size: 1.5rem;
   padding-right: 10px;
   vertical-align: sub;
 }
@@ -596,6 +594,9 @@ footer .right {
 .caseInfo ul li {
   line-height: 1.5;
   font-size: 0.875em;
+}
+.caseInfo .sectionTitle {
+  text-decoration: underline;
 }
 /* Media Queries */
 @media only screen and (max-width: 829px) {
@@ -702,7 +703,7 @@ footer .right {
     padding-left: 0;
   }
   h1 {
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
   .caseInfo ul li {
     font-size: 0.78em;
