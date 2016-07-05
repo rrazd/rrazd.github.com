@@ -42,13 +42,43 @@ p {
 }
 h1 {
   font-family: 'Gotham-Medium', sans-serif;
-  font-weight: 800;
   font-size: 2em;
   line-height: 1.5em;
   color: #fff;
-  text-shadow: 1px 1px 1px #787777;
   text-align: center;
   margin: 0;
+}
+h1#landingName {
+  font-size: 2.8em;
+  font-weight: 700;
+  letter-spacing: -2.2px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #787777;
+  line-height: 1.1;
+}
+h1#landingTitle {
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #fff;
+  font-family: 'Gotham-Medium';
+  font-size: 1.3em;
+  color: #fff;
+  text-shadow: 1px 1px 1px #787777;
+}
+h1#landingTitle:before, h1#landingTitle:after { 
+  content: " ";
+  background-color: #EEEEEE;
+  width: 20vw;
+  height: 3px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+h1#landingTitle:before {
+  margin-right: 10px;
+}
+h1#landingTitle:after {
+  margin-left: 10px; 
 }
 h2 {
   font-size: 1.5em;
@@ -104,9 +134,11 @@ header.alt-color {
 }
 header.alt-color svg #R, header.alt-color svg #Combined-Shape {
   fill: #1F87EE;
-}
-header.alt-color svg #Rashna-Razdan {
-  fill: #425874;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 
 .button {
@@ -141,6 +173,14 @@ header nav.navLinks a:hover {
 }
 .logo img {
   height: 34px;
+}
+.logo .text {
+  fill: #4D9DE0;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
 }
 nav {
   float: right;
@@ -201,22 +241,8 @@ header.alt-color nav li a {
   padding: 15vh 0 0 0;
 }
 .intro .hello {
-  color: #ffffff;
-}
-.intro .latest:before, .intro .latest:after {
-  content: " ";
-  background-color: #EEEEEE;
-  width: 20vw;
-  height: 3px;
-  display: inline-block;
-  margin-bottom: 5px;
-}
-.intro .latest {
-  font-family: 'Gotham-Medium';
-  font-size: 1.3em;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
-  text-shadow: 1px 1px 1px #787777;
 }
 
 /* Footer */
@@ -622,6 +648,9 @@ footer .right {
   .caseInfo ul li {
     font-size: 0.78em;
   }
+  h1#landingName {
+    font-size: 2.4em;
+  }
 }
 
 @media screen and (max-width : 666px) {
@@ -638,9 +667,6 @@ footer .right {
   nav li {
     float: none;
     margin-left: 25px;
-  }
-  .logo .text {
-    display: none;
   }
   .productShowcase .title {
     font-size: 1.5em;
@@ -659,6 +685,9 @@ footer .right {
     padding: 0;
     margin-left: 0;
   }
+  h1#landingTitle:before, h1#landingTitle:after {
+    width: 10vw;
+  }
 }
 @media screen and (max-width : 570px) {
   header {
@@ -674,15 +703,23 @@ footer .right {
   .intro .latest {
     font-size: 1em;
   }
-  .intro .latest:before, .intro .latest:after {
-    width: 13vw;
-  }
   nav ul li:first-child {
     margin-left: 0;
   }
   nav li {
     margin-left: 20px;
     font-size: 0.9em;
+  }
+}
+@media screen and (max-width : 496px) {
+  h1#landingTitle:before, h1#landingTitle:after {
+    width: 5vw;
+  }
+  h1#landingName {
+    font-size: 2.2em;
+  }
+  h1#landingTitle {
+    font-size: 1.2em;
   }
 }
 @media screen and (max-width : 438px) {
@@ -699,11 +736,33 @@ footer .right {
     padding: 15px 0 10px;
     float: none !important;
   }
+  h1#landingTitle {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width : 450px) {
+  h1#landingName {
+    font-size: 2em;
+  }
+  h1#landingTitle {
+    font-size: 0.75em;
+  }
+  h1#landingTitle:before, h1#landingTitle:after {
+    margin-bottom: 3px;
+  }
 }
 /* Height media queries */
 @media screen and (max-height : 680px) {
   .productShowcase {
     height: 96vh;
+  }
+}
+@media screen and (max-height : 330px) {
+  h1#landingName {
+    font-size: 2.2em;
+  }
+  h1#landingTitle {
+    font-size: 1em;
   }
 }
 /*!
