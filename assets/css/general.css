@@ -1,4 +1,15 @@
 /* Rashna's CSS */
+.em {
+  width: 400px;
+  border-left: 1px solid #efefef;
+  padding-left: 30px;
+  position: relative;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.em p {
+  padding: 0;
+}
 
 /* Fonts */
 
@@ -245,6 +256,11 @@ nav li a {
   height: 30px;
   margin: 0 auto;
 }
+.dividerWhite {
+  background: url("../../images/projects/seperatorWhite.svg") center center no-repeat;
+  height: 30px;
+  margin: 0 auto;
+}
 .seperatorLine {
   content: " ";
   display: block;
@@ -455,6 +471,9 @@ footer .right {
 .aboutMe .bold {
   font-size: 1.750em;
   font-family: "Gotham-Medium";
+}
+.aboutMe .dividerWhite {
+  margin: 25px 0 5px 0;
 }
 .skillList {
   list-style: none;
