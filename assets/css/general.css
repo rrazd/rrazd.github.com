@@ -21,7 +21,7 @@ html {
   min-height: 100%;
 }
 body {
-  margin: 0 0 50px; /* bottom = footer height */
+  margin: 0;
   font-family: 'Gotham-Book', Verdana, Arial, sans-serif;
   font-size: 1em;
   /* control text size inflation on mobile */
@@ -62,22 +62,22 @@ h1#landingTitle {
   letter-spacing: 0px;
   color: #fff;
   font-family: 'Gotham-Medium';
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #fff;
   text-shadow: 1px 1px 1px #787777;
 }
-h1#landingTitle:before, h1#landingTitle:after { 
+h1#landingName:before, h1#landingName:after { 
   content: " ";
   background-color: #EEEEEE;
   width: 20vw;
   height: 3px;
   display: inline-block;
-  margin-bottom: 5px;
+  vertical-align: middle;
 }
-h1#landingTitle:before {
+h1#landingName:before {
   margin-right: 10px;
 }
-h1#landingTitle:after {
+h1#landingName:after {
   margin-left: 10px; 
 }
 h2 {
@@ -693,7 +693,7 @@ footer .right {
     padding: 0;
     margin-left: 0;
   }
-  h1#landingTitle:before, h1#landingTitle:after {
+  h1#landingName:before, h1#landingName:after {
     width: 10vw;
   }
 }
@@ -720,19 +720,16 @@ footer .right {
   }
 }
 @media screen and (max-width : 496px) {
-  h1#landingTitle:before, h1#landingTitle:after {
-    width: 5vw;
+  h1#landingName:before, h1#landingName:after {
+    width: 8vw;
   }
   h1#landingName {
     font-size: 2.2em;
   }
-  h1#landingTitle {
-    font-size: 1.2em;
-  }
 }
 @media screen and (max-width : 438px) {
   footer {
-    height: 100px;
+    height: 80px;
     text-align: center;
   }
   footer .left {
@@ -754,9 +751,6 @@ footer .right {
   }
   h1#landingTitle {
     font-size: 0.75em;
-  }
-  h1#landingTitle:before, h1#landingTitle:after {
-    margin-bottom: 3px;
   }
 }
 /* Height media queries */
