@@ -140,7 +140,12 @@ header.alt-color svg #R, header.alt-color svg #Combined-Shape {
   -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
-
+header.alt-color .textShowcase {
+  fill: #4D9DE0;
+}
+header.alt-color nav li a {
+  color: #949EAC;
+}
 .button {
   border-radius: 4px;
   padding: 8px 20px;
@@ -182,6 +187,14 @@ header nav.navLinks a:hover {
   -o-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
+.logo .textShowcase {
+  fill: #fff;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
 nav {
   float: right;
 }
@@ -204,9 +217,6 @@ nav li a {
   text-decoration: none;
   color: #F3F3F3;
   line-height: 1;
-}
-header.alt-color nav li a {
-  color: #949EAC;
 }
 
 /* SVG */
