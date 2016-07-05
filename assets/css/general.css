@@ -622,9 +622,6 @@ footer .right {
   h1 {
     font-size: 1.8em;
   }
-  .intro {
-    padding-top: 70px;
-  }
   .logo .text {
     display: none;
   }
@@ -755,6 +752,11 @@ footer .right {
 @media screen and (max-height : 680px) {
   .productShowcase {
     height: 96vh;
+  }
+}
+@media screen and (max-height : 480px) {
+  .intro {
+    padding: 18vh 0 0 0;
   }
 }
 @media screen and (max-height : 330px) {

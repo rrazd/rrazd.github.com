@@ -358,7 +358,7 @@ html,
     display: none;
   }
   .seq .seq-title .slider-logo {
-    height: 45vh;
+    height: 50vh;
   }
 }
 @media only screen and (max-height: 340px) {
