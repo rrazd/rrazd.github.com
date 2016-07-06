@@ -631,6 +631,15 @@ footer .right {
   line-height: 1.5;
   font-size: 0.875em;
 }
+.caseInfo .button {
+  border-color: #4D9DE0;
+  color: #4D9DE0;
+  line-height: 2em;
+}
+.caseInfo .button:hover {
+  background: #4D9DE0;
+  color: #fff;
+}
 /* Media Queries */
 @media only screen and (max-width: 829px) {
   h1 {
