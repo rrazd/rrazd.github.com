@@ -264,6 +264,32 @@ nav li a {
   height: 17px;
   background-color: #00DBB5;
 }
+.seperatorLine.case {
+  padding: 10px 0;
+}
+.seperatorLine span {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #4d9de0;
+}
+.seperatorLine a {
+  color: #fff;
+  margin: 10px;
+  padding-bottom: 5px;
+  font-size: 0.85em;
+  border: solid 1px #00DBB5;
+  -webkit-transition : border 0.4s ease-out;
+  -moz-transition : border 0.4s ease-out;
+  -o-transition : border 0.4s ease-out;
+  transition : border 0.4s ease-out;
+}
+.seperatorLine a:hover {
+  border-bottom: solid 1px;
+}
+.seperatorLine i {
+  font-size: 0.7em;
+}
 .intro {
   padding: 14vh 0 0 0;
 }
@@ -801,6 +827,12 @@ footer .right {
     font-size: 2em;
   }
   h1#landingTitle {
+    font-size: 0.76em;
+  }
+}
+@media screen and (max-width : 360px) {
+  .seperatorLine a {
+    margin: 5px;
     font-size: 0.75em;
   }
 }
