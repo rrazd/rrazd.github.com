@@ -265,7 +265,7 @@ nav li a {
   background-color: #00DBB5;
 }
 .intro {
-  padding: 15vh 0 0 0;
+  padding: 14vh 0 0 0;
 }
 .intro .hello {
   color: #fff;
@@ -586,8 +586,10 @@ footer .right {
   font-size: 1em;
   font-family: 'Gotham-Book';
   color: #BFD5F2;
-  margin-bottom: 20px;
-  line-height: 2.75em;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  line-height: 1.3em;
+
 }
 .subnav {
   background-color: #00DBB5;
