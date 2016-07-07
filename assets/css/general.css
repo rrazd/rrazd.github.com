@@ -553,6 +553,19 @@ footer .right {
 .resume {
   padding-bottom: 10px;
 }
+.resume a {
+  min-width: 127px;
+}
+.resume a:first-child {
+  margin: 0 10px 15px 0;
+  background-color: #eee;
+  border-color: #eee;
+  color: #1A67EB;
+}
+.resume a:first-child:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
 .buttonIcon i {
   font-size: 1.5rem;
   padding-right: 10px;
