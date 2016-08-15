@@ -511,7 +511,7 @@ footer .right {
   margin-bottom: 15px;
 }
 .skill1 {
-  background: #9A74CE;
+  background: #7AC292;
   height: 30px;
   padding-top: 9px;
   width: 100%;
@@ -522,10 +522,10 @@ footer .right {
   padding-left: 15px;
 }
 .skill2 {
-  background: #FF9478;
+  background: #7AC292;
   height: 30px;
   padding-top: 9px;
-  width: 80%;
+  width: 100%;
 }
 .skill2 span {
   color: #fff;
@@ -533,10 +533,10 @@ footer .right {
   padding-left: 15px;
 }
 .skill3 {
-  background: #FCD670;
+  background: #7AC292;
   height: 30px;
   padding-top: 9px;
-  width: 65%;
+  width: 100%;
 }
 .skill3 span {
   color: #fff;
@@ -544,10 +544,10 @@ footer .right {
   padding-left: 15px;
 }
 .skill4 {
-  background: #DAA25A;
+  background: #7AC292;
   height: 30px;
   padding-top: 9px;
-  width: 80%;
+  width: 100%;
 }
 .skill4 span {
   color: #fff;
@@ -559,7 +559,7 @@ footer .right {
   height: 28px;
   height: 30px;
   padding-top: 9px;
-  width: 65%;
+  width: 100%;
 }
 .skill5 span {
   color: #fff;
@@ -567,10 +567,10 @@ footer .right {
   padding-left: 15px;
 }
 .skill6 {
-  background: #F49B6C;
+  background: #7AC292;
   height: 30px;
   padding-top: 9px;
-  width: 75%;
+  width: 100%;
 }
 .skill6 span {
   color: #fff;
