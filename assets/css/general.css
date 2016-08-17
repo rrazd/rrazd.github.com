@@ -428,6 +428,9 @@ footer .right {
   text-shadow: none;
   padding-bottom: 10px;
 }
+.sectionTitle:not(:first-of-type) {
+  padding-top: 70px;
+}
 .productShowcase {
   height: 80vh;
   width: 100%;
