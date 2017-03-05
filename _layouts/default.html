@@ -1,55 +1,282 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{% if page.title %} {{ page.title }} | {% endif %} Rashna Razdan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="{{page.description}}" name="description" />
   <meta content="{{page.keywords}}" name="keywords" />
   <meta name="author" content="Rashna Razdan">
-  <meta name="HandheldFriendly" content="true" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
-  <link rel="icon" type="image/png" href="/images/favicon.png" />
-  <link rel="stylesheet" href="assets/css/general.css">
-  <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="mono/css/sequence-theme.mono.css" />
-  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-  <script src="https://use.fontawesome.com/d58d1c6e40.js"></script>
-  
-  <!-- Google Analytics -->      
-  <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-43164045-1']);
-  _gaq.push(['_trackPageview']);
+  <link rel="stylesheet" href="assets/css/jquery.fullPage.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="apple-touch-icon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="apple-touch-icon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ffff">
 
-  </script>  
+  <style type="text/css">
+    .loader {
+      display: absolute;
+      height: 100vh;
+      width: 100vw;
+      background-color: blue;
+    }
+  </style>
+
+  <title>Rashna Razdan Portfolio</title>
+
 </head>
+<body>
+  <div class="loader"></div>
+  <header>
+    <div class="clearfix">
+      <a href="#welcome" class="logo">
+        <svg width="31px" height="40px" viewBox="0 0 37 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>logo</title>
+          <desc>Created with Sketch.</desc>
+          <defs></defs>
+          <g id="svg_logo" stroke="none" stroke-width="1" fill-rule="evenodd">
+            <g id="Desktop-Copy" transform="translate(-47.000000, -35.000000)">
+                <g id="logo" transform="translate(47.000000, 35.000000)">
+                    <polygon class="shape" id="Rectangle-1" fill="#ffffff" points="-1.77635684e-15 22 8.18181818 22 25.4545455 44.95 16.8181818 44.95"></polygon>
+                    <path class="shape" id="Rectangle-2" fill="#ffffff" d="M4.56587318,6.94466107 L0.433575492,0.468250709 C1.88173916,0.411291692 9.06288825,0.136128655 12.6420455,0.136128655 C26.3778445,0.136128655 30,4.82224446 30,14.0983064 C30,22.5812293 25.991507,26.1678472 17.7822876,26.7191687 L13.722549,21.2389536 C14.1039397,21.2777565 14.484372,21.2978044 14.8609423,21.2978044 C19.679345,21.2978044 23.4044527,20.1596888 23.4044527,14.1591218 C23.4044527,8.15855486 20.2072203,6.9063034 13.3163265,6.9063034 C12.8417759,6.9063034 12.3912099,6.92241135 11.9635756,6.95366817 L11.9666048,6.94350014 L4.56587318,6.94466107 Z" id="Combined-Shape"></path>
+                    <rect class="shape" id="Rectangle-3" fill="#ffffff" x="31" y="38" width="6" height="7"></rect>
+                </g>
+            </g>
+          </g>
+        </svg>
+      </a>
+      <nav class="top-menu">
+        <ul>
+          <li data-menuanchor="caseStudy1"><a href="#caseStudy1">Projects</a></li>
+          <li data-menuanchor="about"><a href="#about">About</a></li>
+          <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Hamburger, yum! -->
+      <a href="#" class="toggle-menu">
+          <span></span>
+      </a>
+      <!-- Mobile menu -->
+      <div id="mobile-menu">
+        <div class="inner-wrap">
+          <nav>
+            <ul class="nav_menu">
+              <li data-menuanchor="welcome" class="menu-item">
+                <a href="#welcome">Home</a>
+              </li>
+              <li data-menuanchor="caseStudy1" class="menu-item">
+                <a href="#caseStudy1">Projects</a>
+              </li>
+              <li data-menuanchor="about" class="menu-item">
+                <a href="#about">About</a>
+              </li>
+              <li data-menuanchor="contact" class="menu-item">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
 
-<body onorientationchange=window.location.reload();>
-    <!--[if lt IE 7]>
-      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
-      </p>
-    <![endif]-->
-          {% include header.html %}
-          {{ content }}
-          {% include footer.html %}
-    <!-- scripts are recommended to be places before closing body tag -->
-    <script src="assets/js/jquery-1.10.1.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/nav.js"></script>
-    <script src="mono/scripts/imagesloaded.pkgd.min.js"></script>
-    <script src="mono/scripts/sequence.js"></script>
-    <script src="mono/scripts/sequence-theme.mono.js"></script>
+  <ul id="page-menu">
+    <li data-menuanchor="welcome">
+      <a href="#welcome">01</a>
+      <div class="v-line"></div>
+    </li>
+    <li data-menuanchor="caseStudy1">
+      <a href="#caseStudy1">02</a>
+      <div class="v-line"></div>
+    </li>
+    <li data-menuanchor="caseStudy2">
+      <a href="#caseStudy2">03</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="caseStudy3">
+      <a href="#caseStudy3">04</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="all_projects">
+      <a href="#all_projects">05</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="about">
+      <a href="#about">06</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+    <li data-menuanchor="contact">
+      <a href="#contact">07</a>
+      <div class="v-line">
+        <div class="inner-block"></div>
+      </div>
+    </li>
+  </ul>
+
+  <div id="fullpage">
+    <div class="section section-welcome">
+      <div class="section-content">
+        <h3 class="hero-name">rashna razdan</h3>
+        <h1 class="hero-tagline">Product Designer</h1>
+        <a href="#contact" class="btn btn-main">GET IN TOUCH</a>
+      </div>
+      <div class="go-down">
+        <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="section section-caseStudy1">
+      <div class="case-text left">
+        <div class="case-title">Aruba</div>
+        <div class="description">A Hewlett Packard Company</div>
+        <div class="description case-descriptor-space">UX/UI design of responsive web application using HPE’s Grommet Framework.</div>
+        <div class="description"><a href="http://google.com">View case study <img class="arrow" src="" data-src="assets/images/right_arrow.svg"></a></div>
+      </div>
+      <div><img src="" data-src="assets/images/caseStudy1.png" class="case-img"></div>
+    </div>
+    <div class="section section-caseStudy2">
+      <div class="ipad">
+        <img src="" data-src="assets/images/caseStudy2.png" class="case-img left ipad-body">
+        <img src="" data-src="assets/images/caseStudy2-shadow.png" class="shadow">
+      </div>
+      <div class="case-text">
+        <div class="case-title">eResources</div>
+        <div class="description case-descriptor-space">UX/UI design of responsive web site for IT on Demand, an IT management service.</div>
+        <div class="description"><a class="green" href="http://google.com">View case study <img class="arrow" src="" data-src="assets/images/right_arrow_green.svg"></a></div>
+      </div>
+    </div>
+    <div class="section section-caseStudy3">
+      <div class="case-text left">
+        <div class="case-title">Iteris</div>
+        <div class="description case-descriptor-space">
+          In-depth competitive research, information architecture and UX design of responsive website.
+        </div>
+        <div class="description">
+          <a href="http://google.com">View case study <img class="arrow" src="" data-src="assets/images/right_arrow.svg"></a>
+        </div>
+      </div>
+
+      <div class="iteris-devices">
+        <div class="screen">
+          <video class="iteris-video" poster="/assets/images/webenertia-iteris-video-poster.png" data-autoplay data-keepplaying loop>
+            <source src="/assets/videos/caseStudy3_imac_video.mp4" type="video/mp4">
+            <source src="/assets/videos/caseStudy3_imac_video.webm" type="video/webm">
+          </video>
+        </div>
+        <img class="imac" src="/assets/images/caseStudy3_imac.png">
+        <img class="tablet" src="assets/images/caseStudy3_tablet.png">
+      </div>
+
+    </div>
+    <div class="section section-all_projects">
+      <div class="section-title-italic">
+        <span>Other </span>
+        <span class="section-title-italic-blue">Projects</span>
+      </div>
+      <div class="container-projects">
+        <div class="project-1">
+          <div>
+            <img class="project-img" src="" data-src="assets/images/project1.png">
+          </div>
+          <div>
+            <a class="all-projects-title" href="http://google.com">
+              NexJ Health <img src="" class="project-arrow" data-src="assets/images/right_arrow.svg">
+            </a>
+            <div class="all-projects-description">
+              Responsive Cloud Based Platform
+              <br>
+              UX / Development
+            </div>
+          </div>
+        </div>
+        <span class="project-divider"></span>
+        <div class="project-2">
+            <img class="project-img" src="" data-src="assets/images/project2.png">
+          <div class="project-img-description">
+            <a class="all-projects-title" href="http://google.com">
+              Web Development <img src="" class="project-arrow" data-src="assets/images/right_arrow.svg">
+            </a>
+            <div class="all-projects-description">
+              Responsive SEO Optimized Website
+              <br>
+              UX / UI Design / Development
+            </div>
+          </div>
+        </div>
+        <span class="project-divider"></span>
+        <div class="project-3">
+          <div class="goAnimate-device">
+            <img class="project-img" src="" data-src="assets/images/project3.png">
+            <div class="screen">
+              <video class="goAnimate-video" poster="/assets/images/goAnimate-video-poster.png" data-autoplay data-keepplaying loop>
+                <source src="/assets/videos/goAnimate-video.mp4" type="video/mp4">
+                <source src="/assets/videos/goAnimate-video.webm" type="video/webm">
+              </video>
+            </div>
+          </div>
+          <div class="project-img-description">
+            <a class="all-projects-title" href="http://google.com">
+              GoAnimate <img src="" class="project-arrow" data-src="assets/images/right_arrow.svg">
+            </a>
+            <div class="all-projects-description">
+              Responsive Corporate Website
+              <br>
+              Discovery / Strategy / UX
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-about">
+      <div class="about-me">
+        <h1 class="aloha">Aloha.</h1>
+        <div class="about-me-blurb">
+          <p>
+          Hi, I am Rashna. I currently work as a <span class="emphasize">UX Designer</span> at <span class="emphasize">WebEnertia</span>, a design agency in the heart of Silicon Valley. My background is half design – half development. While working in the industry I have been part of <span class="emphasize">leading</span> both design and software development lifecycles while employing <span class="emphasize">agile principles</span>.
+          </p>
+          <p class="my-experience">
+          As a UX designer at Webenertia I have had the unique opportunity to work with many <span class="emphasize">amazing organizations</span>, from global corporations like Hewlett Packard Enterprise, to very small businesses.
+          </p>
+          <p class="my-approach">
+          My approach to projects involve these main phases: Discovery, Strategy, Design, Prototype, Test, Handover & Support.
+          </p>
+        </div>
+        <a href="http://google.com" class="btn btn-about-me-linkedin">SEE LINKEDIN</a>
+        <a href="assets/files/resume.pdf" class="btn btn-about-me-resume">SEE RESUME</a>
+      </div>
+      <div class="timeline"><img src="" data-src="assets/images/timeline.svg"></div>
+
+    </div>
+    <div class="section section-contact">
+      <div class="my-picture-container">
+          <img class="my-picture" src="" data-src="assets/images/me.png">
+          <img class="hire-me" src="" data-src="/assets/images/hire_me.svg">
+      </div>
+      <div class="contact-tagline">
+        So... Looking for a UX Designer?
+      </div>
+      <a class="btn contact-btn-green">
+        GET IN TOUCH
+      </a>
+      <a class="btn contact-btn-blue">
+        SEE MY WORK HISTORY
+      </a>
+    </div>
+  </div>
+  <script src="assets/js/jquery-3.1.1.min.js"></script>
+  <script src="assets/js/jquery.fullPage.js"></script>
+  <script src="assets/js/main.js"></script>
+
   </body>
 </html>
