@@ -427,6 +427,14 @@ a.btn {
 
 /* Welcome Section */
 
+.section-welcome {
+  opacity: 0;
+  transition: all 1s linear;
+}
+.section-welcome.active {
+  opacity: 1;
+}
+
 .section-welcome .section-content {
   text-align: center;
   margin: auto;
@@ -443,15 +451,15 @@ a.btn {
 }
 .section-welcome .hero-name, .section-welcome .btn {
   opacity: 0;
-  transition: opacity 1s linear 0.65s;
+  transition: opacity 0.6s ease 0.5s;
 }
 .section-welcome .hero-tagline {
   opacity: 0;
-  transition: opacity 0.5s linear 0.65s;
+  transition: opacity 0.6s ease 0.5s;
 }
 .section-welcome .go-down {
   opacity: 0;
-  transition: opacity 1s linear 1.5s;
+  transition: opacity 1s ease 1s;
 }
 .section-welcome.appear .hero-name,
 .section-welcome.appear .btn,
