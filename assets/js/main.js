@@ -1,11 +1,27 @@
 $(document).ready(function() {
 	/* fullpage */
 	$('#fullpage').fullpage({
-		anchors: ["welcome", "caseStudy1", "caseStudy2", "caseStudy3", "all_projects", "about", "contact"],
+		anchors: ["welcome", "caseStudy1", "caseStudy2", "caseStudy3", "about", "contact"],
 		menu: '#page-menu, #top-menu',
 		css3: true,
 		scrollingSpeed: 700,
-		responsiveHeight: 560
+		responsiveHeight: 560,
+		afterRender: function() {
+			setTimeout( function () {
+				$(".section-welcome").addClass("appear");
+			});
+		},
+		onLeave: function(index, nextIndex) {
+			if (nextIndex === 1) {
+				setTimeout(function () {
+					$(".section-welcome").addClass("appear");
+				});
+			} else {
+				setTimeout( function () {
+					$(".section-welcome").removeClass("appear");
+				});
+			}
+        }
 	});
 	/* end of fullpage */
 
@@ -14,9 +30,8 @@ $(document).ready(function() {
 	$body = $('body'),
 	$fn = $('#mobile-menu'),
 	$fnToggle = $('.toggle-menu'),
-	$window = $(window);
-
-	var fnOpen = false;
+	$window = $(window),
+	fnOpen = false;
 
 	var fnToggleFunc = function() {
 		fnOpen = !fnOpen;

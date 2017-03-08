@@ -19,14 +19,13 @@
 
   <style type="text/css">
     .loader {
-      display: absolute;
       height: 100vh;
       width: 100vw;
-      background-color: blue;
+      background-color: #0000ff;
     }
   </style>
 
-  <title>Rashna Razdan Portfolio</title>
+  <title>Rashna Razdan | UX Design</title>
 
 </head>
 <body>
@@ -105,20 +104,14 @@
         <div class="inner-block"></div>
       </div>
     </li>
-    <li data-menuanchor="all_projects">
-      <a href="#all_projects">05</a>
-      <div class="v-line">
-        <div class="inner-block"></div>
-      </div>
-    </li>
     <li data-menuanchor="about">
-      <a href="#about">06</a>
+      <a href="#about">05</a>
       <div class="v-line">
         <div class="inner-block"></div>
       </div>
     </li>
     <li data-menuanchor="contact">
-      <a href="#contact">07</a>
+      <a href="#contact">06</a>
       <div class="v-line">
         <div class="inner-block"></div>
       </div>
@@ -129,7 +122,7 @@
     <div class="section section-welcome">
       <div class="section-content">
         <h3 class="hero-name">rashna razdan</h3>
-        <h1 class="hero-tagline">Product Designer</h1>
+        <h1 class="hero-tagline">UX Designer</h1>
         <a href="#contact" class="btn btn-main">GET IN TOUCH</a>
       </div>
       <div class="go-down">
@@ -138,12 +131,19 @@
     </div>
     <div class="section section-caseStudy1">
       <div class="case-text left">
-        <div class="case-title">Aruba</div>
-        <div class="description">A Hewlett Packard Company</div>
-        <div class="description case-descriptor-space">UX/UI design of responsive web application using HPE’s Grommet Framework.</div>
+        <div class="case-title">NexJ Health</div>
+        <div class="description case-descriptor-space">UX design and development of responsive cloud based platform.</div>
         <div class="description"><a href="http://google.com">View case study <img class="arrow" src="" data-src="assets/images/right_arrow.svg"></a></div>
       </div>
-      <div><img src="" data-src="assets/images/caseStudy1.png" class="case-img"></div>
+      <div class="nexj">
+        <div class="screen">
+          <video class="nexj-video" poster="/assets/images/nexj-video-poster.png" data-autoplay data-keepplaying>
+            <source src="/assets/videos/nexj_macbook_video.mp4" type="video/mp4">
+            <source src="/assets/videos/nexj_macbook_video.webm" type="video/webm">
+          </video>
+        </div>
+        <img class="macbook" src="/assets/images/caseStudy1.png">
+      </div>
     </div>
     <div class="section section-caseStudy2">
       <div class="ipad">
@@ -166,76 +166,15 @@
           <a href="http://google.com">View case study <img class="arrow" src="" data-src="assets/images/right_arrow.svg"></a>
         </div>
       </div>
-
       <div class="iteris-devices">
         <div class="screen">
-          <video class="iteris-video" poster="/assets/images/webenertia-iteris-video-poster.png" data-autoplay data-keepplaying loop>
-            <source src="/assets/videos/caseStudy3_imac_video.mp4" type="video/mp4">
-            <source src="/assets/videos/caseStudy3_imac_video.webm" type="video/webm">
+          <video class="iteris-video" poster="/assets/images/iteris-video-poster.png" data-autoplay data-keepplaying loop>
+            <source data-src="/assets/videos/caseStudy3_imac_video.mp4" type="video/mp4">
+            <source data-src="/assets/videos/caseStudy3_imac_video.webm" type="video/webm">
           </video>
         </div>
-        <img class="imac" src="/assets/images/caseStudy3_imac.png">
-        <img class="tablet" src="assets/images/caseStudy3_tablet.png">
-      </div>
-
-    </div>
-    <div class="section section-all_projects">
-      <div class="section-title-italic">
-        <span>Other </span>
-        <span class="section-title-italic-blue">Projects</span>
-      </div>
-      <div class="container-projects">
-        <div class="project-1">
-          <div>
-            <img class="project-img" src="" data-src="assets/images/project1.png">
-          </div>
-          <div>
-            <a class="all-projects-title" href="http://google.com">
-              NexJ Health <img src="" class="project-arrow" data-src="assets/images/right_arrow.svg">
-            </a>
-            <div class="all-projects-description">
-              Responsive Cloud Based Platform
-              <br>
-              UX / Development
-            </div>
-          </div>
-        </div>
-        <span class="project-divider"></span>
-        <div class="project-2">
-            <img class="project-img" src="" data-src="assets/images/project2.png">
-          <div class="project-img-description">
-            <a class="all-projects-title" href="http://google.com">
-              Web Development <img src="" class="project-arrow" data-src="assets/images/right_arrow.svg">
-            </a>
-            <div class="all-projects-description">
-              Responsive SEO Optimized Website
-              <br>
-              UX / UI Design / Development
-            </div>
-          </div>
-        </div>
-        <span class="project-divider"></span>
-        <div class="project-3">
-          <div class="goAnimate-device">
-            <img class="project-img" src="" data-src="assets/images/project3.png">
-            <div class="screen">
-              <video class="goAnimate-video" poster="/assets/images/goAnimate-video-poster.png" data-autoplay data-keepplaying loop>
-                <source src="/assets/videos/goAnimate-video.mp4" type="video/mp4">
-                <source src="/assets/videos/goAnimate-video.webm" type="video/webm">
-              </video>
-            </div>
-          </div>
-          <div class="project-img-description">
-            <a class="all-projects-title" href="http://google.com">
-              GoAnimate <img src="" class="project-arrow" data-src="assets/images/right_arrow.svg">
-            </a>
-            <div class="all-projects-description">
-              Responsive Corporate Website
-              <br>
-              Discovery / Strategy / UX
-            </div>
-          </div>
-        </div>
+        <img class="imac" data-src="/assets/images/caseStudy3_imac.png">
+        <img class="tablet" data-src="assets/images/caseStudy3_tablet.png">
       </div>
     </div>
     <div class="section section-about">
@@ -246,7 +185,7 @@
           Hi, I am Rashna. I currently work as a <span class="emphasize">UX Designer</span> at <span class="emphasize">WebEnertia</span>, a design agency in the heart of Silicon Valley. My background is half design – half development. While working in the industry I have been part of <span class="emphasize">leading</span> both design and software development lifecycles while employing <span class="emphasize">agile principles</span>.
           </p>
           <p class="my-experience">
-          As a UX designer at Webenertia I have had the unique opportunity to work with many <span class="emphasize">amazing organizations</span>, from global corporations like Hewlett Packard Enterprise, to very small businesses.
+          As a UX designer at Webenertia I have had the unique opportunity to work with many <span class="emphasize">amazing organizations</span>, from global corporations like Hewlett Packard Enterprise and CISCO, to emerging startups.
           </p>
           <p class="my-approach">
           My approach to projects involve these main phases: Discovery, Strategy, Design, Prototype, Test, Handover & Support.
@@ -256,12 +195,11 @@
         <a href="assets/files/resume.pdf" class="btn btn-about-me-resume">SEE RESUME</a>
       </div>
       <div class="timeline"><img src="" data-src="assets/images/timeline.svg"></div>
-
     </div>
     <div class="section section-contact">
       <div class="my-picture-container">
           <img class="my-picture" src="" data-src="assets/images/me.png">
-          <img class="hire-me" src="" data-src="/assets/images/hire_me.svg">
+          <a href=""><img class="hire-me" src="" data-src="/assets/images/hire_me.svg"></a>
       </div>
       <div class="contact-tagline">
         So... Looking for a UX Designer?
@@ -272,11 +210,39 @@
       <a class="btn contact-btn-blue">
         SEE MY WORK HISTORY
       </a>
+      <!-- <footer>
+        <div class="right footerNav">
+          <ul>
+            <li>
+              <a target="_blank" href="mailto:rashnarazdan@gmail.com?Subject=Portfolio Website">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://www.linkedin.com/in/rashnarazdan">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://dribbble.com/rrazdan">
+                <i class="fa fa-dribbble" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/rrazd">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+              </a>
+            </li>
+           </ul>
+          </div>
+          <div class="left">
+            <span class="disclaim">&copy; Copyright 2017 Rashna Razdan. All rights reserved.</span>
+          </div>
+      </footer> -->
     </div>
   </div>
   <script src="assets/js/jquery-3.1.1.min.js"></script>
   <script src="assets/js/jquery.fullPage.js"></script>
   <script src="assets/js/main.js"></script>
-
   </body>
 </html>

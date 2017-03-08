@@ -367,10 +367,10 @@ header .top-menu ul li a:after {
 
 /* End of Side Section Menu */
 
-.section:nth-child(1), .section:nth-child(6) {
+.section-welcome, .section-about {
   background-color: #0000ff;
 }
-.section:nth-child(3) {
+.section-caseStudy2 {
   background-color: #040404;
 }
 
@@ -440,6 +440,24 @@ a.btn {
   font-size: 72px;
   color: #ffffff;
   margin-bottom: 35px;
+}
+.section-welcome .hero-name, .section-welcome .btn {
+  opacity: 0;
+  transition: opacity 1s linear 0.65s;
+}
+.section-welcome .hero-tagline {
+  opacity: 0;
+  transition: opacity 0.5s linear 0.65s;
+}
+.section-welcome .go-down {
+  opacity: 0;
+  transition: opacity 1s linear 1.5s;
+}
+.section-welcome.appear .hero-name,
+.section-welcome.appear .btn,
+.section-welcome.appear .go-down,
+.section-welcome.appear .hero-tagline {
+  opacity: 1;
 }
 .section-welcome .hero-tagline {
   font-family: "Proxima_nova_bold", serif;
@@ -526,6 +544,32 @@ a.btn {
 .section-caseStudy1 .case-title, .section-caseStudy3 .case-title {
   color: #0000ff;
 }
+.section-caseStudy1 .nexj {
+  width: 766px;
+  height: 458.5px;
+  position: relative;
+}
+.section-caseStudy1 .nexj-video {
+  width: 118%;
+  position: relative;
+  right: 18.3%;
+}
+.section-caseStudy1 .screen {
+  width: 74.16%;
+  height: 80.2%;
+  overflow: hidden;
+  position: absolute;
+  top: 7%;
+  right: 12.5%;
+}
+.section-caseStudy1 .macbook {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
 .section-caseStudy2 .left {
   margin-right: 85px;
 }
@@ -535,9 +579,7 @@ a.btn {
 .section-caseStudy2 .description {
   color: #ffffff;
 }
-.section-caseStudy1 .case-img {
-  width: 766px;
-}
+
 .section-caseStudy2 .case-img {
   margin-left: -150px;
   width: 684px;
@@ -583,7 +625,6 @@ a.btn {
   height: 96.7%;
   top: 0;
   right: 0;
-  background-size: cover;
   z-index: 1;
 }
 .section-caseStudy3 .iteris-devices video {
@@ -608,95 +649,6 @@ video::-webkit-media-controls-start-playback-button {
 
 /* End of Case Studies */
 
-/* All Projects Section */
-
-.section-all_projects > :first-child {
-  -webkit-align-content: flex-start;
-  align-content: flex-start;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-}
-.section-title-italic {
-  font-family: "Playfair_display_bold_italic", serif;
-  font-size: 60px;
-  color: #040404;
-  letter-spacing: -0.23px;
-  margin: 0px auto;
-  padding-bottom: 60px;
-  width: 100%;
-  text-align: center;
-}
-.project-divider {
-  display: hidden;
-}
-.section-title-italic-blue {
-  color: #0000ff;
-}
-.container-projects {
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-justify-content: center;
-  justify-content: center;
-  width: 1345px;
-}
-
-.project-img {
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: contain;
-}
-.project-1 .project-img, .project-2 .project-img {
-  width: 203px;
-  margin-bottom: 25px;
-}
-.project-3 .project-img {
-  width: 100%;
-}
-.project-1, .project-2, .project-3 {
-  text-align: center;
-  padding: 0 75px;
-}
-.goAnimate-device {
-  position: relative;
-  width: 203px;
-  max-width: 219.172px;
-  margin-bottom: 20px;
-}
-.goAnimate-device .screen {
-  width: 88.5%;
-  height: 71.3%;
-  overflow: hidden;
-  position: absolute;
-  top: 10.4%;
-  right: 6.35%;
-  overflow: hidden;
-}
-.goAnimate-device video {
-  max-width: 179.08px;
-  position: absolute;
-  right: -0.1%;
-  width: 100%;
-}
-.all-projects-title {
-  display: inline-block;
-  font-family: "Proxima_nova_bold", serif;
-  font-size: 18px;
-  color: #0000ff;
-  letter-spacing: -0.05px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-.all-projects-description {
-  letter-spacing: -0.05px;
-  text-align: center;
-  line-height: 1.6875;
-}
-.project-arrow {
-  bottom: 1px;
-  position: relative;
-}
-
-/* End of All Projects Section */
 
 /* About Me Section */
 
@@ -740,6 +692,7 @@ video::-webkit-media-controls-start-playback-button {
   position: absolute;
   left: 105%;
   top: -5%;
+  animation: bounce 2s infinite;
 }
 .section-contact .my-picture-container {
   width: 128px;
@@ -785,6 +738,19 @@ video::-webkit-media-controls-start-playback-button {
 
 /* End of Contact Section */
 
+/* Footer Section */
+
+/*footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+footer li {
+  float: left;
+}
+*/
+/* End of Footer Section */
 
 /* Animation */
 
@@ -804,10 +770,23 @@ video::-webkit-media-controls-start-playback-button {
   0% {
     transform: matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
     opacity: 1;
-    animation-timing-function: linear}
+    animation-timing-function: linear
+  }
   100% {
     transform: matrix3d(0.95,0,0,0,0,0.95,0,0,0,0,1,0,0,4,0,1);
     opacity: 0.6;
+  }
+}
+
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-16px);
+  }
+  60% {
+    transform: translateY(-8px);
   }
 }
 
@@ -827,6 +806,12 @@ video::-webkit-media-controls-start-playback-button {
 
 /* End of Clearfix */
 
+/* wow.js */
+/*.wow {
+   visibility: hidden;
+}
+*//* End of wow.js */
+
 /* Semibold */
 .emphasize {
   font-family:'Proxima_nova_sbold', serif;
@@ -840,8 +825,9 @@ video::-webkit-media-controls-start-playback-button {
 /* Width Based Media Queries */
 
 @media only screen and (max-width: 1350px) {
-  .section-caseStudy1 .case-img {
+  .section-caseStudy1 .nexj {
       width: 525px;
+      height: 314.18px;
   }
   .section-caseStudy2 .shadow {
     left: -130px;
@@ -853,19 +839,6 @@ video::-webkit-media-controls-start-playback-button {
   .section-caseStudy3 .iteris-devices {
     width: 537px;
     height: 370px;
-  }
-  .project-1 .project-img, .project-2 .project-img {
-    width: 183px;
-  }
-  .goAnimate-device {
-     width: 183px;
-  }
-  .goAnimate-device .screen {
-    width: 88%;
-    right: 6.55%;
-  }
-  .section-title-italic {
-    font-size: 55px;
   }
   .timeline {
     padding-left: 55px;
@@ -881,9 +854,6 @@ video::-webkit-media-controls-start-playback-button {
   }
 }
 @media only screen and (max-width: 1210px) {
-  .project-1, .project-2, .project-3 {
-    padding: 0 45px;
-  }
   .section-welcome .hero-tagline {
     font-size: 90px;
     margin-bottom: 40px;
@@ -932,9 +902,6 @@ video::-webkit-media-controls-start-playback-button {
   .project-img {
     width: 135px;
   }
-  .project-1, .project-2, .project-3 {
-    padding: 0 15px;
-  }
   #page-menu {
     display: none;
   }
@@ -946,10 +913,6 @@ video::-webkit-media-controls-start-playback-button {
   }
   .section.section-caseStudy2 .case-img {
     margin-left: 0px;
-  }
-  .section-title-italic {
-    font-size: 50px;
-    padding-bottom: 40px;
   }
 }
 @media only screen and (min-width: 956px) {
@@ -996,16 +959,6 @@ video::-webkit-media-controls-start-playback-button {
   .container-projects {
     flex-direction: column;
   }
-  .container-projects .project-img, .goAnimate-device {
-    display: none;
-  }
-  .project-divider {
-    margin: 25px auto;
-    display: block;
-    height: 1px;
-    background: #e5e5e5;
-    width: 200px;
-  }
   .section-welcome .hero-tagline {
     font-size: 58px;
   }
@@ -1029,8 +982,9 @@ video::-webkit-media-controls-start-playback-button {
   }
 }
 @media only screen and (max-width: 605px) {
-  .section-caseStudy1 .case-img {
+  .section-caseStudy1 .nexj {
     width: 420px;
+    height: 251.35px;
   }
   .section-caseStudy2 .case-img {
     width: 440px;
@@ -1041,6 +995,7 @@ video::-webkit-media-controls-start-playback-button {
   }
   .logo svg {
     transform: scale(0.75);
+    -webkit-transform: scale(0.75);
   }
   a.toggle-menu {
     top: 12px;
@@ -1055,9 +1010,6 @@ video::-webkit-media-controls-start-playback-button {
   }
   .toggle-menu.on span:after {
     transform: rotate(-45deg) translate(5px, -6px);
-  }
-  .section-title-italic {
-    font-size: 45px;
   }
   .aloha {
     font-size: 55px;
@@ -1078,8 +1030,9 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 @media only screen and (max-width: 480px) {
-  .section-caseStudy1 .case-img {
+  .section-caseStudy1 .nexj {
     width: 300px;
+    height: 179.53px;
   }
   .section-caseStudy2 .case-img {
     width: 300px;
@@ -1087,9 +1040,6 @@ video::-webkit-media-controls-start-playback-button {
   .section-caseStudy3 .iteris-devices {
     width: 290px;
     height: 200px;
-  }
-  .section-title-italic {
-    font-size: 40px;
   }
   .about-me {
     margin-top: 30px;
@@ -1118,7 +1068,8 @@ video::-webkit-media-controls-start-playback-button {
   }
   .section-contact .hire-me {
     transform: scale(0.75);
-    left: 95%;
+    left: 110%;
+    top: -20%;
   }
 }
 
@@ -1145,19 +1096,6 @@ video::-webkit-media-controls-start-playback-button {
   header .toggle-menu {
     display: inline-block;
   }
-  .container-projects {
-    flex-direction: column;
-  }
-  .container-projects .project-img, .goAnimate-device {
-    display: none;
-  }
-  .project-divider {
-    margin: 25px auto;
-    display: block;
-    height: 1px;
-    background: #e5e5e5;
-    width: 200px;
-  }
 }
 @media only screen and (max-height: 560px) {
   .section, .section > :first-child {
@@ -1173,12 +1111,6 @@ video::-webkit-media-controls-start-playback-button {
   /* No fullpage.js */
   #page-menu {
     display: none;
-  }
-  /* Solves awkward abundance of white background */
-  .section-all_projects {
-    background-color: #f0f0f0;
-    background-image: url('../images/all-projects-bg.jpg');
-    background-size: cover;
   }
 }
 /* End of Height Based Media Queries */
