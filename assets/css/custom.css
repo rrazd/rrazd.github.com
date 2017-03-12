@@ -430,6 +430,7 @@ a.btn {
 .section-welcome {
   opacity: 0;
   transition: all 1s linear;
+  position: relative;
 }
 .section-welcome.active {
   opacity: 1;
@@ -438,6 +439,7 @@ a.btn {
 .section-welcome .section-content {
   text-align: center;
   margin: auto;
+  position: relative;
 }
 .section-welcome .section-content .btn.btn-main {
   width: 238px;
@@ -460,6 +462,7 @@ a.btn {
 .section-welcome .go-down {
   opacity: 0;
   transition: opacity 1s ease 1s;
+  position: relative;
 }
 .section-welcome.appear .hero-name,
 .section-welcome.appear .btn,

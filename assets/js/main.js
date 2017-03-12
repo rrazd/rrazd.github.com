@@ -25,6 +25,8 @@ $(document).ready(function() {
 	});
 	/* end of fullpage */
 
+	initThree();
+
 	/* mobile menu */
 	var $menu = $('#mobile-menu'),
 	$body = $('body'),
