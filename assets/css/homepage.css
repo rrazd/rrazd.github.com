@@ -53,7 +53,7 @@ a.green {
 }
 /* Top Header Bar */
 
-header {
+.homepage-header {
   position: absolute;
   margin: 0 auto;
   top: 0;
@@ -267,7 +267,7 @@ header .top-menu ul li a:after {
   font-family: 'Proxima_nova_bold', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #000;
+  color: #000000;
   transition: all ease 0.50s;
 }
 #mobile-menu li.current-menu-item > a, #mobile-menu li.current-page-item > a {
@@ -374,6 +374,8 @@ header .top-menu ul li a:after {
   background-color: #040404;
 }
 
+/* Button Style */
+
 a.btn {
   display: inline-block;
   margin-bottom: 0;
@@ -405,14 +407,16 @@ a.btn {
   background-color: #00ff78;
   opacity: 1;
 }
-.section a.btn.btn-about-me-resume:hover {
+.section a.btn.btn-about-me-resume:hover, .about-me-blurb a:hover {
   border-color: #00ff78;
   color: #00ff78;
   opacity: 1;
 }
 .section-about a.btn {
-  width: 188px;
   padding: 20px 0 20px;
+  width: 188px;
+}
+.section-about a.btn {
   margin-right: 25px;
 }
 .section a.btn.btn-about-me-linkedin {
@@ -420,10 +424,37 @@ a.btn {
   color: #0000ff;
 
 }
-.section a.btn.btn-about-me-resume {
-  border: 2px solid #ffffff;
+.section a.btn.btn-about-me-resume, .about-me-blurb a {
   color: #ffffff;
 }
+.section a.btn.btn-about-me-resume {
+  border: 2px solid #ffffff;
+}
+.section-contact a.btn {
+  padding: 30px;
+  width: 220px;
+}
+.section-contact a.btn.contact-btn-green {
+  background-color: #00ff78;
+  color: #040404;
+  margin: 20px;
+}
+.section-contact a.btn.contact-btn-blue {
+  background-color: #0000ff;
+  color: #ffffff;
+  margin: 0 20px;
+}
+.section-contact a.btn.contact-btn-green:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+.section-contact a.btn.contact-btn-blue:hover {
+  color: #040404;
+  opacity: 1;
+}
+
+/* End of Button Style */
+
 
 /* Welcome Section */
 
@@ -480,7 +511,7 @@ a.btn {
 }
 .section-welcome .go-down {
   position: absolute;
-  background-color: #fff;
+  background-color: #ffffff;
   width: 70px;
   height: 33px;
   text-align: center;
@@ -491,14 +522,12 @@ a.btn {
   cursor: pointer;
   border-radius: 40px 40px 0 0;
 }
-.section-welcome .go-down i {
-  color: #0000ff;
-  font-size: 33.8px;
+.section-welcome .go-down img {
   margin-top: -7px;
-  padding: 0 20px 5px 20px;
   transition: all ease-in-out 0.10s;
+  padding: 0 20px 5px 20px;
 }
-.section-welcome .go-down i:hover {
+.section-welcome .go-down img:hover {
   position: relative;
   margin-top: 0px;
 }
@@ -515,8 +544,6 @@ a.btn {
   -webkit-align-items: center;
   align-content: center;
   -webkit-align-content: center;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 }
@@ -677,7 +704,7 @@ video::-webkit-media-controls-start-playback-button {
   font-size: 16px;
   color: #ffffff;
   line-height: 1.6875;
-  margin: 20px 0;
+  margin: 20px 0 25px 0;
 }
 .about-me-blurb p:not(:last-child) {
   padding-bottom: 15px;
@@ -695,9 +722,21 @@ video::-webkit-media-controls-start-playback-button {
 
 /* Contact Section */
 
+.section.section-contact > :first-child {
+  flex-direction: column;
+}
 .section-contact {
   background-image: url('../images/contact-bg.jpg');
   background-size: cover;
+}
+.section-contact .contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  margin-top: 20px;
+  padding: 0 25px;
 }
 .section-contact .hire-me {
   position: absolute;
@@ -726,32 +765,29 @@ video::-webkit-media-controls-start-playback-button {
   text-align: center;
   margin-bottom: 20px;
 }
-.section-contact a.btn.contact-btn-green {
-  background-color: #00ff78;
-  color: #040404;
-  padding: 32px 60px;
-  margin: 20px;
-}
-.section-contact a.btn.contact-btn-blue {
-  background-color: #0000ff;
-  color: #ffffff;
-  padding: 32px 22px;
-  margin: 0 20px;
-}
-.section-contact a.btn.contact-btn-green:hover {
-  color: #ffffff;
-  opacity: 1;
-}
-.section-contact a.btn.contact-btn-blue:hover {
-  color: #040404;
-  opacity: 1;
-}
 
 /* End of Contact Section */
 
 /* Footer Section */
 
-/*footer ul {
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 0 32px 5px 20px;
+  position: relative;
+}
+footer * {
+  display: inline-block;
+}
+footer .copyright {
+  right: 0;
+  position: absolute;
+  padding-right: inherit;
+  line-height: 55px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -759,8 +795,9 @@ video::-webkit-media-controls-start-playback-button {
 }
 footer li {
   float: left;
+  margin: 10px;
 }
-*/
+
 /* End of Footer Section */
 
 /* Animation */
@@ -814,14 +851,6 @@ footer li {
   display: table;
   clear: both;
 }
-
-/* End of Clearfix */
-
-/* wow.js */
-/*.wow {
-   visibility: hidden;
-}
-*//* End of wow.js */
 
 /* Semibold */
 .emphasize {
@@ -878,7 +907,7 @@ footer li {
   .all-projects-title {
     font-size: 16px;
   }
-  .description, .about-me-blurb, .all-projects-description {
+  .description, .about-me-blurb, .all-projects-description, footer {
     font-size: 14px;
   }
   .case-descriptor-space {
@@ -932,11 +961,11 @@ footer li {
   }
 }
 @media only screen and (max-width: 955px) {
+  .section:not(:first-child) > :first-child {
+    flex-direction: column;
+  }
   .section.section-caseStudy1 > :first-child, .section-caseStudy3 > :first-child {
     flex-direction: column-reverse;
-  }
-  .section.section-caseStudy2 > :first-child {
-    flex-direction: column;
   }
   .section.section-caseStudy2 > :first-child case-img {
     margin: 0;
@@ -965,6 +994,16 @@ footer li {
   .section-caseStudy2 .shadow {
     left: 0;
   }
+  footer .footerNav, footer .copyright {
+    display: block;
+    text-align: center;
+  }
+  footer .copyright {
+    position: relative;
+    line-height: 30px;
+    padding-right: 0;
+    transform: initial;
+  }
 }
 @media only screen and (max-width: 720px) {
   .container-projects {
@@ -982,9 +1021,6 @@ footer li {
   }
   .about-me {
     width: 455px;
-  }
-  .about-me-blurb {
-    margin-bottom: 30px;
   }
   .section-contact .contact-tagline {
     font-size: 35px;
@@ -1027,16 +1063,21 @@ footer li {
   }
   .about-me-blurb {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .about-me {
     width: 285px;
   }
-  .about-me .my-approach {
+  .about-me .my-experience {
     display: none;
   }
   .section-about a.btn {
     width: 135px;
     margin-right: 5px;
+  }
+  .section-contact a.btn {
+    padding: 25px 15px;
+    width: 200px;
   }
 }
 
@@ -1075,7 +1116,7 @@ footer li {
   .section-contact .my-picture-container {
     margin-top: 30px;
     width: 98px;
-    margin-bottom: 33px;
+    margin-bottom: 20px;
   }
   .section-contact .hire-me {
     transform: scale(0.75);

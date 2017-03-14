@@ -1,0 +1,96 @@
+/* Header */
+
+.case-header {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+  z-index: 97;
+  padding: 14px 32px;
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.25s ease-in-out;
+}
+.case-header.shade {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: #ddddde 3px 0px 8px;
+}
+.case-header.shade svg * {
+  transition: fill 0.5s ease-in-out;
+  transition: stroke 0.5s ease-in-out;
+}
+.case-header.shade svg #logo .shape {
+  fill: #040404;
+}
+.case-header.shade svg #mail_icon #mail-oval {
+  stroke: #040404;
+}
+.case-header.shade svg #mail_icon #mail-envelope {
+  fill: #0000ff;
+}
+.case-header .contact {
+  float: right;
+}
+.case-header a {
+  display: inline-block;
+}
+
+/* End of header */
+
+/* Flex Container */
+.flex-container {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  align-items: center;
+  -webkit-align-items: center;
+  align-content: center;
+  -webkit-align-content: center;
+  justify-content: center;
+}
+/* End of Flex Container */
+
+
+/* Main Header Banner */
+.banner {
+  background: url(../images/nexj/nexj-banner.jpg) center;
+  background-size: cover;
+  height: 595px;
+}
+img.nexj-banner-display {
+  width: 786px;
+}
+img.nexj-logo {
+  width: 178.6px;
+}
+.nexj-description {
+  color: #ffffff;
+  font-family: 'Proxima_nova_sbold';
+  font-size: 30px;
+  padding-top: 25px;
+  line-height: 41px;
+}
+.banner .left-container {
+  width: 345px;
+  margin-right: 74.5px;
+}
+/* End of Main Header Banner */
+
+/* Project Summary */
+.project-summary {
+  height: 226px;
+  background-color: #f4f4f4;
+  font-size: 16px;
+}
+.project-summary .story {
+  width: 497px;
+  color: #040404;
+}
+.project-summary .story .title {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.project-summary .role {
+  width: 366.5px;
+}
+/* End of Project Summary */
