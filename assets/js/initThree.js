@@ -10,7 +10,7 @@ function initThree() {
     height,
     sepX = 100,
     sepY = 100,
-    cameraZMinInitial = 850,
+    cameraZMinInitial = 750,
     cameraZMin = cameraZMinInitial,
     cameraZRangeMinInitial = 550,
     cameraZRangeMin = cameraZMinInitial,
@@ -94,7 +94,7 @@ function initThree() {
     camera.position.y += .05 * (-(cameraXYMax * sepY / height) - camera.position.y);
 
     var cameraZ = cameraZRangeMin + (hyp(sepX, sepY) / sepHypot) * cameraZRange;
-    camera.position.z = Math.min(cameraZ, cameraZMin);
+    camera.position.z = Math.max(cameraZ, cameraZMin);
 
     camera.lookAt(scene.position);
     renderer.render(scene, camera);
@@ -116,6 +116,10 @@ function initThree() {
     centerY = height / 2;
 
     var scalingFactor = Math.min(height, width) / 800;
+
+    if (Math.min(height, width) > 1200) {
+      scalingFactor *= 0.5;
+    }
 
     cameraZMin = cameraZMinInitial / scalingFactor;
     cameraZRangeMin = cameraZRangeMinInitial / scalingFactor;
