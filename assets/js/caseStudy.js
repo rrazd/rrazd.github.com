@@ -10,4 +10,8 @@ $(window).scroll(function() {
 $(document).ready(function() {
 	// once the javascript is loaded and styles added, hide the loader
 	$('.loader').addClass("hidden");
+
+  $('img.lazy').lazyload({
+      threshold : 200
+  });
 });
