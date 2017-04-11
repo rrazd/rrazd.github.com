@@ -1,5 +1,4 @@
 /* Header */
-
 .case-header {
   position: fixed;
   left: 0;
@@ -15,12 +14,21 @@
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: #ddddde 3px 0px 8px;
 }
+.case-header .back-arrow {
+  font-family: 'Playfair_display_bold';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .case-header.shade svg * {
   transition: fill 0.5s ease-in-out;
   transition: stroke 0.5s ease-in-out;
 }
-.case-header.shade svg #logo .shape {
+.case-header.shade svg #back .shape {
   fill: #040404;
+}
+.case-header.shade svg #back #arrow-line {
+  stroke: #040404;
 }
 .case-header.shade svg #mail_icon #mail-oval {
   stroke: #040404;
@@ -40,57 +48,226 @@
 /* Flex Container */
 .flex-container {
   display: flex;
-  display: -webkit-flex;
   flex-direction: row;
   align-items: center;
-  -webkit-align-items: center;
   align-content: center;
-  -webkit-align-content: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 /* End of Flex Container */
 
+/* Containers */
+.container-width {
+ width: 1160px;
+ margin: 0 auto;
+ height: 100%;
+}
+/* End of Containers */
 
 /* Main Header Banner */
 .banner {
-  background: url(../images/nexj/nexj-banner.jpg) center;
   background-size: cover;
-  height: 595px;
-}
-img.nexj-banner-display {
-  width: 786px;
-}
-img.nexj-logo {
-  width: 178.6px;
-}
-.nexj-description {
-  color: #ffffff;
-  font-family: 'Proxima_nova_sbold';
-  font-size: 30px;
-  padding-top: 25px;
-  line-height: 41px;
+  background-position: center;
+  height: 585px;
 }
 .banner .left-container {
-  width: 345px;
-  margin-right: 74.5px;
+  width: 292.5px;
 }
 /* End of Main Header Banner */
 
 /* Project Summary */
 .project-summary {
-  height: 226px;
-  background-color: #f4f4f4;
+  padding: 40px 0;
+  background-color: #EDF0F4;
   font-size: 16px;
 }
 .project-summary .story {
-  width: 497px;
+  width: 535px;
   color: #040404;
 }
-.project-summary .story .title {
-  font-size: 24px;
-  padding-bottom: 10px;
+.project-summary .role-section {
+  width: 457.5px;
+  position: relative;
+}
+.project-summary .role-section .header {
+  padding-bottom: 19.5px;
+  font-family: 'Proxima_nova_sbold';
+  font-size: 16px;
+  letter-spacing: -0.26px;
+}
+.project-summary .role-section ul {
+  list-style-type: none;
+  font-family: 'Proxima_nova_sbold';
+  font-size: 11px;
+  color: #7D7D7D;
+  letter-spacing: -0.17px;
+}
+.project-summary .role-section ul li {
+  padding-bottom: 14.5px;
 }
 .project-summary .role {
-  width: 366.5px;
+  transform: rotate(-90deg);
+  font-size: 22px;
+  color: #0000FF;
+  letter-spacing: -0.35px;
+  display: inline-block;
+  transform-origin: left top;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+}
+.project-summary .technologies {
+  width: 93px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+  margin-left: 65.5px;
+}
+.project-summary .solutions {
+  width: 170px;
+  display: inline-block;
 }
 /* End of Project Summary */
+
+/* Research Summary */
+.research-section {
+  padding: 80px 0;
+}
+.research-section-img {
+  padding: 30px 0;
+}
+.research-section-left {
+  width: 535px;
+}
+.research-section-right {
+  width: 454px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.section-number-top {
+  font-family: "Proxima_nova_sbold";
+  color: #4A4A4A;
+  border-bottom: #F12E5D solid 2px;
+  display: inline-block;
+  margin-bottom: 8px;
+  padding-bottom: 3px;
+}
+.section-title {
+  font-family: "Proxima_nova_sbold";
+  font-size: 35px;
+  color: #4A4A4A;
+  margin-bottom: 15px;
+}
+.research-section-icons {
+  margin-bottom: 30px;
+}
+.research-section-icons:first-child {
+  margin-bottom: 60px;
+}
+.research-icon {
+  width: 167.5px;
+  display: inline-block;
+  line-height:1.6875;
+  text-align: center;
+}
+.research-icon img {
+  padding-bottom: 10px;
+}
+.research-icon:first-of-type {
+  margin-right: 119px;
+}
+.research-section .label-line {
+  border-top: #0000FF solid 1px;
+}
+.label-line {
+  width: 81px;
+  padding-bottom: 15px;
+}
+.label-title {
+  padding-bottom: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.label-description {
+  font-family: "Arial";
+  font-style: italic;
+  font-size: 12px;
+}
+/* End of Research Summary */
+
+/* IA and Wireframe Container */
+.two-three-container {
+  color: #ffffff;
+  background: linear-gradient(180deg, #1C112B, #1A1B1D);
+  padding: 80px 0;
+}
+.two-three-container .label-line {
+  border-top: #00FF78 solid 1px;
+}
+.two-three-container .description, .two-three-container .section-number-top,
+.two-three-container .section-title {
+  color: #ffffff;
+}
+/* IA and Wireframe Container */
+
+/* IA */
+.ia-left {
+  display: inline-block;
+  width: 471px;
+  align-self: flex-end;
+}
+.ia-right {
+  display: inline-block;
+  width: 553px;
+}
+/* End of IA */
+
+/* ID Section */
+.id-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.id-section-text {
+  width: 535px;
+}
+/* End of ID Section */
+
+.clustered-text {
+  width: 441px;
+}
+.section-sub-title {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Visual/Prototyping/Results Container */
+.four-five-results-container {
+  padding: 80px 0;
+}
+/* End of Visual/Prototyping/Results Container */
+
+/* Visuals */
+.bullet-point-description {
+  width: 357px;
+}
+.visual-bullet-point {
+  padding-top: 30px;
+}
+/* End of Visuals */
+
+/* Prototyping */
+.prototype-section {
+  margin-top: 80px;
+}
+/* End of Prototyping */
+
+/* Results */
+.result-section {
+  margin-top: 80px;
+}
+/* End of Results */
+

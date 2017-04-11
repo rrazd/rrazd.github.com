@@ -22,6 +22,10 @@
       height: 100vh;
       width: 100vw;
       background-color: #fff;
+      opacity: 1;
+      transition: all 0.5s ease;
+      position: fixed;
+      z-index: 10;
     }
   </style>
 
@@ -75,34 +79,34 @@
         <a href="#contact" class="btn btn-main">GET IN TOUCH</a>
       </div>
       <div class="go-down">
-        <img src="assets/images/down-arrow.svg">
+        <img data-src="assets/images/down-arrow.svg">
       </div>
     </div>
     <div class="section section-caseStudy1">
       <div class="case-text left">
         <div class="case-title">NexJ Health</div>
         <div class="description case-descriptor-space">UX design and development of responsive cloud based platform.</div>
-        <div class="description"><a href="nexjCaseStudy">View case study <img class="arrow" src="" data-src="assets/images/right_arrow.svg"></a></div>
+        <div class="description"><a href="nexjCaseStudy">View case study <img class="arrow" data-src="assets/images/right_arrow.svg"></a></div>
       </div>
       <div class="nexj">
         <div class="screen">
-          <video class="nexj-video" poster="/assets/images/nexj-video-poster.png" data-autoplay data-keepplaying>
-            <source src="/assets/videos/nexj_macbook_video.mp4" type="video/mp4">
-            <source src="/assets/videos/nexj_macbook_video.webm" type="video/webm">
+          <video class="nexj-video" poster="assets/images/nexj-video-poster.png" data-autoplay data-keepplaying>
+            <source data-src="assets/videos/nexj_macbook_video.mp4" type="video/mp4">
+            <source data-src="assets/videos/nexj_macbook_video.webm" type="video/webm">
           </video>
         </div>
-        <img class="macbook" src="/assets/images/caseStudy1.png">
+        <img class="macbook" data-src="assets/images/caseStudy1.png">
       </div>
     </div>
     <div class="section section-caseStudy2">
       <div class="ipad">
-        <img src="" data-src="assets/images/caseStudy2.png" class="case-img left ipad-body">
-        <img src="" data-src="assets/images/caseStudy2-shadow.png" class="shadow">
+        <img data-src="assets/images/caseStudy2.png" class="case-img left ipad-body">
+        <img data-src="assets/images/caseStudy2-shadow.png" class="shadow">
       </div>
       <div class="case-text">
         <div class="case-title">eResources</div>
         <div class="description case-descriptor-space">UX/UI design of responsive web site for IT on Demand, an IT management service.</div>
-        <div class="description"><a class="green" href="http://google.com">View case study <img class="arrow" src="" data-src="assets/images/right_arrow_green.svg"></a></div>
+        <div class="description"><a class="green" href="http://google.com">View case study <img class="arrow" data-src="assets/images/right_arrow_green.svg"></a></div>
       </div>
     </div>
     <div class="section section-caseStudy3">
@@ -112,44 +116,45 @@
           In-depth competitive research, information architecture and UX design of responsive website.
         </div>
         <div class="description">
-          <a href="http://google.com">View case study <img class="arrow" src="" data-src="assets/images/right_arrow.svg"></a>
+          <a href="http://google.com">View case study <img class="arrow" data-src="assets/images/right_arrow.svg"></a>
         </div>
       </div>
       <div class="iteris-devices">
         <div class="screen">
-          <video class="iteris-video" poster="/assets/images/iteris-video-poster.png" data-autoplay data-keepplaying loop>
-            <source data-src="/assets/videos/caseStudy3_imac_video.mp4" type="video/mp4">
-            <source data-src="/assets/videos/caseStudy3_imac_video.webm" type="video/webm">
+          <video class="iteris-video" poster="assets/images/iteris-video-poster.png" data-autoplay data-keepplaying loop>
+            <source data-src="assets/videos/caseStudy3_imac_video.mp4" type="video/mp4">
+            <source data-src="assets/videos/caseStudy3_imac_video.webm" type="video/webm">
           </video>
         </div>
-        <img class="imac" data-src="/assets/images/caseStudy3_imac.png">
+        <img class="imac" data-src="assets/images/caseStudy3_imac.png">
         <img class="tablet" data-src="assets/images/caseStudy3_tablet.png">
       </div>
     </div>
     <div class="section section-about">
+      <div class="stars"></div>
       <div class="about-me">
         <h1 class="aloha">Aloha.</h1>
         <div class="about-me-blurb">
           <p>
-          Hi, I am Rashna. I currently work as a <span class="emphasize">UX Designer</span> at <span class="emphasize"><a href="">WebEnertia</a></span> located in the heart of Silicon Valley. My background is half design – half development. I have been part of <span class="emphasize">leading</span> successful design and development lifecycles while employing <span class="emphasize">agile principles</span>.
+          Hi, I am Rashna. I currently work as a <span class="emphasize">UX Designer</span> in the heart of Silicon Valley. My background is <span class="emphasize">half design – half development</span>. Apart from creating user-friendly design, I enjoy playing tennis, reading and traveling. I have a palate for good eats and I love to cook!
           </p>
           <p class="my-approach">
-          I unify user & business goals + technical implications to create successful products. My approach involves 4 stages: Discovery, Strategy, Design and Support.
+          <span class="emphasize">My expertise:</span> information architecture, interaction design and prototyping.
           </p>
           <p class="my-experience">
-          Throughout the Design stage I <span class="emphasize">test and iterate</span> my solution with users and stakeholders. The result is an intuitive solution custom tailored to the user’s needs.
+          <span class="emphasize">My approach:</span> I combine user and business goals with technical implications to create successful products.
           </p>
         </div>
         <a href="http://www.linkedin.com/in/rashnarazdan" class="btn btn-about-me-linkedin">SEE LINKEDIN</a>
         <a href="assets/files/resume.pdf" class="btn btn-about-me-resume">SEE RESUME</a>
       </div>
-      <div class="timeline"><img src="" data-src="assets/images/timeline.svg"></div>
+      <div class="timeline"><img data-src="assets/images/timeline.svg"></div>
     </div>
     <div class="section section-contact">
       <div class="contact-wrapper">
         <div class="my-picture-container">
-            <img class="my-picture" src="" data-src="assets/images/me.png">
-            <img class="hire-me" src="" data-src="/assets/images/bubble.svg">
+            <img class="my-picture" data-src="assets/images/me.png">
+            <img class="hire-me" data-src="assets/images/bubble.svg">
         </div>
         <div class="contact-tagline">
           Looking for a UX Designer?

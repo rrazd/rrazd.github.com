@@ -25,7 +25,9 @@ $(document).ready(function() {
 	});
 	/* end of fullpage */
 
+	/* Three.js */
 	initThree();
+	/* End of Three.js */
 
 	/* mobile menu */
 	var $menu = $('#mobile-menu'),
@@ -65,8 +67,12 @@ $(document).ready(function() {
 	/* move down to next section */
 	 $(document).on("click", ".go-down", function() {
         $.fn.fullpage.moveSectionDown()
-    })
+    });
+});
 
-	// once the javascript is loaded and styles added, hide the loader
-	$('.loader').addClass("hidden");
+window.addEventListener('load', function () {
+	$('.loader').addClass("transparent");
+	setTimeout(function () {
+		$('.loader').addClass('hidden');
+	}, 500);
 });

@@ -22,7 +22,7 @@ function initThree() {
   function init() {
     container = document.getElementById('three-js-container');
     scene = new THREE.Scene();
-    camera = new THREE.PerspectiveCamera(75, width/height, 0.1, 2000);
+    camera = new THREE.PerspectiveCamera(75, 1, 0.1, 2000);
     renderer = new THREE.CanvasRenderer();
     renderer.setPixelRatio(window.devicePixelRatio);
 
@@ -59,7 +59,7 @@ function initThree() {
 
     geometry.addAttribute('position', new THREE.BufferAttribute(positions, 3));
     for (var i = 0, l = maxPoints * 3; i < l;) {
-        var vertex = createVextex(),
+        var vertex = createVertex(),
           sprite = new THREE.Sprite(canvasMaterial);
 
         positions[i++] = sprite.position.x = vertex.x;
@@ -71,7 +71,7 @@ function initThree() {
     }
   }
 
-  function createVextex() {
+  function createVertex() {
     var r = 450 + Math.random() * 10,
       theta = Math.random() * Math.PI,
       phi = Math.random() * 2 * Math.PI;

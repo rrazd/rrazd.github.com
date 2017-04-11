@@ -370,6 +370,12 @@ header .top-menu ul li a:after {
 .section-welcome, .section-about {
   background-color: #0000ff;
 }
+.section-about > :first-child {
+  background-image: url(../images/stars.png), linear-gradient(133deg, #0000FF 0%, #2929B9 100%);
+  top: 0;
+  width: 100%;
+  background-size: contain;
+}
 .section-caseStudy2 {
   background-color: #040404;
 }
@@ -462,6 +468,7 @@ a.btn {
   opacity: 0;
   transition: all 1s linear;
   position: relative;
+  height: 100vh;
 }
 .section-welcome.active {
   opacity: 1;
@@ -858,6 +865,9 @@ footer li {
 }
 
 /* Hidden */
+.transparent {
+  opacity: 0 !important;
+}
 .hidden {
   display: none;
 }
