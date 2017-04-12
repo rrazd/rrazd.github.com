@@ -43,17 +43,20 @@ img.nexj-logo {
 }
 .nexj-ia-right {
 	align-self: flex-start;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 /* End of IA */
 
 /* Visuals */
 .nexj-visuals {
-  width: 598px;
+  width: 576px;
 }
 .nexj-image-description-visual {
   align-self: flex-start;
   padding-top: 70px;
+}
+nexj-bullets {
+  justify-content: flex-start;
 }
 /* End of Visuals */
 

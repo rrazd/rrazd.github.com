@@ -199,7 +199,8 @@
 .two-three-container {
   color: #ffffff;
   background: linear-gradient(180deg, #1C112B, #1A1B1D);
-  padding: 80px 0;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 .two-three-container .label-line {
   border-top: #00FF78 solid 1px;
@@ -253,8 +254,10 @@
 /* Visuals */
 .bullet-point-description {
   width: 357px;
+  padding-left: 20px;
 }
 .visual-bullet-point {
+  justify-content: flex-start;
   padding-top: 30px;
 }
 /* End of Visuals */
@@ -271,3 +274,12 @@
 }
 /* End of Results */
 
+/* Next Steps */
+.next-steps {
+  padding: 30px 0;
+  text-align: center;
+}
+.next-steps .section-title {
+  padding-bottom: 10px;
+}
+/* End of Next Steps*/

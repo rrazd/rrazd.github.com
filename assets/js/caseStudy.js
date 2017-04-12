@@ -28,7 +28,9 @@
 
   $(document).ready(function() {
     $('img.lazy').lazyload({
-        threshold : 200
+        threshold : 200,
+        effect: "fadeIn",
+        placeholder: ""
     });
   });
 
@@ -36,7 +38,7 @@
     $('.loader').addClass("transparent");
     setTimeout(function () {
       $('.loader').addClass('hidden');
-    }, 5000);
+    }, 500);
     drawTagLines();
   });
 })();
