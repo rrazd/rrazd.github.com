@@ -38,6 +38,7 @@ html, body {
   font-family: 'Proxima_nova_reg', sans-serif;
   font-size: 16px;
   text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
 }
 a {
   text-decoration: none;
@@ -789,7 +790,7 @@ video::-webkit-media-controls-start-playback-button {
 footer {
   width: 100%;
   bottom: 0;
-  padding: 0 32px 5px 20px;
+  padding: 5px 32px 0 20px;
   position: relative;
 }
 footer * {
@@ -1012,6 +1013,10 @@ footer li {
   }
   .section-caseStudy2 .shadow {
     left: 0;
+  }
+  footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   footer .footerNav, footer .copyright {
     display: block;

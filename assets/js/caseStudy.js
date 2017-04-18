@@ -6,8 +6,17 @@
         width = boudingRect.width,
         height = boudingRect.height;
 
+      if (canvas.width === width * 2 && canvas.height === height * 2) {
+        return;
+      }
+
+      canvas.width = width * 2;
+      canvas.height = height * 2;
+
+      var fontSize = 60 * height / 46.5;
+      // context.scale(.5 * width / 310, 0.5 * height / 46.5);
       context.globalCompositeOperation = 'xor';
-      context.font="60px Proxima_nova_bold";
+      context.font = fontSize + "px Proxima_nova_bold";
       context.fillStyle = "white";
       context.fillRect(0, 0, width * 2, height * 2);
       context.fillStyle = "black";
@@ -32,6 +41,10 @@
         effect: "fadeIn",
         placeholder: ""
     });
+  });
+
+  window.addEventListener('resize', function () {
+    drawTagLines();
   });
 
   window.addEventListener('load', function () {
