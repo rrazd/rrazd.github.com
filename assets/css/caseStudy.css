@@ -71,13 +71,12 @@
 }
 .banner .left-container {
   width: 26.72%;
-  height: 30.08%;
 }
 .banner .right-container {
   width: 66.9%;
 }
 .banner-description {
-  height: 57.14%;
+  font-size: 60px;
 }
 /* End of Main Header Banner */
 
@@ -319,6 +318,9 @@
   .banner {
     height: 516.41px;
   }
+  .banner-description {
+    font-size: 53px;
+  }
 }
 @media only screen and (max-width: 1120px) {
   .container-width {
@@ -326,6 +328,9 @@
   }
   .banner {
     height: 403.45px;
+  }
+  .banner-description {
+    font-size: 41px;
   }
   .research-section-right, .project-summary .role-section {
     width: 42%;
@@ -344,6 +349,9 @@
  .nexj-banner {
     height: auto;
  }
+ .banner-description {
+    font-size: 32px;
+  }
  .nexj-banner-display {
     padding-top: 70px;
     max-width: 530px;
