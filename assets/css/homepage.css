@@ -45,6 +45,7 @@ a {
   color: #0000ff;
   transition: all ease 0.50s;
   opacity: 1;
+  cursor: pointer;
 }
 a:hover {
   opacity: 0.5;
@@ -501,11 +502,11 @@ a.btn-blue-outline {
 }
 .section-welcome .hero-name, .section-welcome .btn {
   opacity: 0;
-  transition: opacity 0.6s ease 0.5s;
+  transition: all 0.6s ease 0.5s;
 }
 .section-welcome .hero-tagline {
   opacity: 0;
-  transition: opacity 0.6s ease 0.5s;
+  transition: all 0.6s ease 0.5s;
 }
 .section-welcome .go-down {
   opacity: 0;
@@ -579,9 +580,58 @@ a.btn-blue-outline {
   color: #040404;
   letter-spacing: -0.16px;
   line-height: 1.6875;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 .case-text {
   width: 300px;
+}
+.animated-link {
+  position: relative;
+  display: inline-block;
+}
+.animated-link:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  transform: translate3d(0,0,0);
+  transition: all .4s;
+  transition-timing-function: cubic-bezier(.7,0,.3,1);
+  border-radius: 2px;
+}
+.animated-link.blue-link:after {
+  background-color: #e7eaf3;
+}
+.animated-link.green-link:after {
+  background-color: #525354;
+}
+.animated-link.blue-link:hover {
+  color: #3D3DF8;
+  opacity: 1;
+}
+.animated-link.green-link:hover {
+  color: #7CFFBA;
+  opacity: 1;
+}
+.animated-link.blue-link:hover:after {
+  height: 100%;
+  background: #f8f9fc;
+  border-radius: 4px;
+}
+.animated-link.green-link:hover:after {
+  height: 100%;
+  background: #5b5c5d;
+  border-radius: 4px;
+}
+.animated-link span {
+  position: relative;
+  z-index: 2;
+  padding: 0 2px;
 }
 .case-img {
   background-repeat: no-repeat;
@@ -598,6 +648,17 @@ a.btn-blue-outline {
 
 .section-caseStudy1 .case-title, .section-caseStudy3 .case-title {
   color: #0000ff;
+}
+.nexj-human {
+  width: 14.23%;
+  top: 26.39%;
+  left: 1.7%;
+  transform-origin: bottom;
+  transition: all .6s ease-out;
+  position: absolute;
+}
+.nexj:hover .nexj-human {
+  left: -0.7%;
 }
 .section-caseStudy1 .nexj {
   width: 766px;

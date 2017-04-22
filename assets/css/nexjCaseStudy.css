@@ -14,9 +14,6 @@
   background-color: rgba(151,163,186,0.65);
   height: 100%;
 }
-img.nexj-banner-display {
-  width: 100%;
-}
 img.nexj-logo {
   width: 57.61%;
   padding-bottom: 10px;
@@ -78,4 +75,26 @@ nexj-bullets {
   padding-top: 50px;
 }
 /* End of Results */
-
+@media only screen and (max-width: 1120px) {
+  .nexj-image-description-visual {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .nexj-image-description-visual {
+    padding-top: 0;
+  }
+  .nexj-visuals {
+    width: 65%;
+    min-width: 280px;
+    max-width: 410px;
+  }
+  .nexj-prototype, .nexj-result {
+    width: 65%;
+    min-width: 270px;
+    max-width: 370px;
+  }
+  .nexj-image-description-result {
+    padding-top: 40px;
+  }
+}
