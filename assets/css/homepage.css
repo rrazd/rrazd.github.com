@@ -772,7 +772,7 @@ video::-webkit-media-controls-start-playback-button {
 /* All Projects Section */
 
 .check-out-more {
-  color: #040404;
+  padding-bottom: 20px;
 }
 .blue-text {
   color: #0000ff;
@@ -783,14 +783,18 @@ video::-webkit-media-controls-start-playback-button {
   align-items: center;
   align-content: center;
   justify-content: space-between;
+  width: 680px;
 }
 .all-projects-subtitle {
-  width: 60%;
   text-align: center;
-  padding: 15px 0 25px;
+  padding-bottom: 30px;
 }
 .client-subtitle {
-  padding: 30px 0;
+  padding: 30px 0 25px 0;
+  text-align: center;
+}
+.client-container {
+  width: 100%;
 }
 .client-list-container {
   display: flex;
@@ -799,8 +803,8 @@ video::-webkit-media-controls-start-playback-button {
   height: 50px;
 }
 .logo-container {
-  width: 150px;
-  margin: 0px 50px;
+  width: 22.06%;
+  margin: 0px 7.35%;
   text-align: center;
 }
 .logo-container img {
@@ -1046,7 +1050,7 @@ footer li {
   .timeline {
     display: none;
   }
-  .about-me {
+  .about-me, .all-projects-container {
     width: 585px;
   }
   a.btn {
@@ -1166,6 +1170,9 @@ footer li {
     width: 420px;
     height: 251.35px;
   }
+  .nexj-human {
+    display: none;
+  }
   .section-caseStudy2 .case-img {
     width: 440px;
   }
@@ -1198,7 +1205,7 @@ footer li {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .about-me {
+  .about-me, .all-projects-container {
     width: 285px;
   }
   .about-me .my-experience {
@@ -1207,8 +1214,9 @@ footer li {
   .section-about a.btn {
     width: 135px;
     margin-right: 5px;
+    padding: 20px;
   }
-  .section-contact a.btn {
+  .section-contact a.btn, .section-all-projects a.btn {
     padding: 25px 15px;
     width: 200px;
   }
@@ -1226,9 +1234,16 @@ footer li {
     width: 290px;
     height: 200px;
   }
+  .all-projects-container {
+    margin-top: 50px;
+    width: 255px;
+  }
   .about-me {
     margin-top: 30px;
     width: 255px;
+  }
+  .client-list-container {
+    margin: 0;
   }
   .section-about a.btn {
     width: 120px;

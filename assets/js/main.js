@@ -23,7 +23,9 @@
 			'iteris',
 			'mcafee',
 			'riverbed',
-			'weka'
+			'weka',
+			'cawit',
+			'we'
 		],
 			current = [],
 			logoCount = 3;
