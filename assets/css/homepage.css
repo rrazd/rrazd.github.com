@@ -82,7 +82,7 @@ header .logo {
 .logo.on svg .shape,
 .fp-viewing-caseStudy1 .shape,
 .fp-viewing-caseStudy3 .shape,
-.fp-viewing-all_projects .shape,
+.fp-viewing-all-projects .shape,
 .fp-viewing-contact .shape
  {
   fill: #040404;
@@ -125,7 +125,7 @@ header .top-menu ul li a:hover {
 .fp-viewing-caseStudy3 header .top-menu ul li a {
   color: #040404;
 }
-.fp-viewing-all_projects header .top-menu ul li a {
+.fp-viewing-all-projects header .top-menu ul li a {
   color: #040404;
 }
 .fp-viewing-contact header .top-menu ul li a {
@@ -145,7 +145,7 @@ header .top-menu ul li a:after {
 .fp-viewing-caseStudy1 header .top-menu ul li:nth-child(1) a:after,
 .fp-viewing-caseStudy2 header .top-menu ul li:nth-child(1) a:after,
 .fp-viewing-caseStudy3 header .top-menu ul li:nth-child(1) a:after,
-.fp-viewing-all_projects header .top-menu ul li:nth-child(1) a:after {
+.fp-viewing-all-projects header .top-menu ul li:nth-child(1) a:after {
   width: 100%;
 }
 .fp-viewing-caseStudy2 header .top-menu ul li:nth-child(1) a:after {
@@ -203,9 +203,9 @@ header .top-menu ul li a:after {
 .fp-viewing-caseStudy3 .toggle-menu > span,
 .fp-viewing-caseStudy3 .toggle-menu > span:before,
 .fp-viewing-caseStudy3 .toggle-menu > span:after,
-.fp-viewing-all_projects .toggle-menu > span,
-.fp-viewing-all_projects .toggle-menu > span:before,
-.fp-viewing-all_projects .toggle-menu > span:after,
+.fp-viewing-all-projects .toggle-menu > span,
+.fp-viewing-all-projects .toggle-menu > span:before,
+.fp-viewing-all-projects .toggle-menu > span:after,
 .fp-viewing-contact .toggle-menu > span,
 .fp-viewing-contact .toggle-menu > span:before,
 .fp-viewing-contact .toggle-menu > span:after {
@@ -325,7 +325,7 @@ header .top-menu ul li a:after {
 }
 .fp-viewing-caseStudy1 #page-menu li.active a,
 .fp-viewing-caseStudy3 #page-menu li.active a,
-.fp-viewing-all_projects #page-menu li.active a,
+.fp-viewing-all-projects #page-menu li.active a,
 .fp-viewing-contact #page-menu li.active a {
   color: #0000ff;
 }
@@ -356,13 +356,13 @@ header .top-menu ul li a:after {
 
 .fp-viewing-caseStudy1 #page-menu li a,
 .fp-viewing-caseStudy3 #page-menu li a,
-.fp-viewing-all_projects #page-menu li a,
+.fp-viewing-all-projects #page-menu li a,
 .fp-viewing-contact #page-menu li a {
   color: #040404;
 }
 .fp-viewing-caseStudy1 #page-menu li.active .v-line,
 .fp-viewing-caseStudy3 #page-menu li.active .v-line,
-.fp-viewing-all_projects #page-menu li.active .v-line,
+.fp-viewing-all-projects #page-menu li.active .v-line,
 .fp-viewing-contact #page-menu li.active .v-line {
   border-color: #040404;
 }
@@ -371,6 +371,10 @@ header .top-menu ul li a:after {
 
 .section-welcome, .section-about {
   background-color: #0000ff;
+}
+.section-all-projects {
+  background-image: url(../images/all-projects-bg.png), linear-gradient(133deg, #0000FF 0%, #2929B9 100%);
+  background-size: cover;
 }
 .section-about > :first-child {
   background-image: url(../images/stars.png), linear-gradient(133deg, #0000FF 0%, #2929B9 100%);
@@ -436,25 +440,25 @@ a.btn {
 .section a.btn.btn-about-me-resume {
   border: 2px solid #ffffff;
 }
-.section-contact a.btn {
+.section a.btn {
   padding: 30px;
   width: 220px;
 }
-.section-contact a.btn.contact-btn-green {
+.section a.btn.btn-green {
   background-color: #00ff78;
   color: #040404;
   margin: 20px;
 }
-.section-contact a.btn.contact-btn-blue {
+.section a.btn.btn-blue {
   background-color: #0000ff;
   color: #ffffff;
   margin: 0 20px;
 }
-.section-contact a.btn.contact-btn-green:hover {
+.section a.btn.btn-green:hover {
   color: #ffffff;
   opacity: 1;
 }
-.section-contact a.btn.contact-btn-blue:hover {
+.section a.btn.btn-blue:hover {
   color: #040404;
   opacity: 1;
 }
@@ -652,13 +656,13 @@ a.btn-blue-outline {
 .nexj-human {
   width: 14.23%;
   top: 26.39%;
-  left: 1.7%;
+  left: 1.9%;
   transform-origin: bottom;
-  transition: all .6s ease-out;
+  transition: all 1s ease-out 0.5s;
   position: absolute;
 }
-.nexj:hover .nexj-human {
-  left: -0.7%;
+.section.active .nexj-human {
+  left: -0.9%;
 }
 .section-caseStudy1 .nexj {
   width: 766px;
@@ -666,17 +670,17 @@ a.btn-blue-outline {
   position: relative;
 }
 .section-caseStudy1 .nexj-video {
-  width: 118%;
+  width: 119%;
   position: relative;
-  right: 18.3%;
+  right: 17.6%;
 }
 .section-caseStudy1 .screen {
-  width: 74.16%;
-  height: 80.2%;
+  width: 75.5%;
+  height: 100%;
   overflow: hidden;
   position: absolute;
-  top: 7%;
-  right: 12.5%;
+  top: 3.8%;
+  right: 12.7%;
 }
 .section-caseStudy1 .macbook {
   position: absolute;
@@ -765,17 +769,61 @@ video::-webkit-media-controls-start-playback-button {
 
 /* End of Case Studies */
 
+/* All Projects Section */
+
+.check-out-more {
+  color: #040404;
+}
+.blue-text {
+  color: #0000ff;
+}
+.all-projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.all-projects-subtitle {
+  width: 60%;
+  text-align: center;
+  padding: 15px 0 25px;
+}
+.client-subtitle {
+  padding: 30px 0;
+}
+.client-list-container {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+  height: 50px;
+}
+.logo-container {
+  width: 150px;
+  margin: 0px 50px;
+  text-align: center;
+}
+.logo-container img {
+  max-width: 100%;
+  max-height: 50px;
+  transition: all ease-in-out 1s;
+  transform: translateY(0px);
+}
+/* End of All Projects Section */
+
 
 /* About Me Section */
 
 .about-me {
   width: 500px;
 }
-.aloha {
-  color: #ffffff;
+.large-title {
   font-family: "Proxima_nova_bold", serif;
   font-size: 100px;
   letter-spacing: -0.32px;
+}
+.aloha {
+  color: #ffffff;
 }
 .about-me-blurb {
   font-family: "Proxima_nova_reg", serif;
@@ -967,7 +1015,7 @@ footer li {
   .timeline img {
     width: 480px;
   }
-  .aloha {
+  .large-title {
     font-size: 75px;
   }
   section-about a.btn {
@@ -1143,7 +1191,7 @@ footer li {
   .toggle-menu.on span:after {
     transform: rotate(-45deg) translate(5px, -6px);
   }
-  .aloha {
+  .large-title {
     font-size: 55px;
   }
   .about-me-blurb {
@@ -1185,7 +1233,7 @@ footer li {
   .section-about a.btn {
     width: 120px;
   }
-  .aloha {
+  .large-title {
     font-size: 45px;
   }
   .about-me-blurb {
