@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="{{page.description}}" name="description" />
-  <meta content="{{page.keywords}}" name="keywords" />
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
   <meta name="author" content="Rashna Razdan">
 
   <link rel="stylesheet" href="assets/css/jquery.fullPage.css">
@@ -29,7 +29,7 @@
     }
   </style>
 
-  <title>Rashna Razdan | UX Design</title>
+  <title>{{ page.title }}</title>
 
 </head>
 <body>
@@ -78,7 +78,7 @@
 
   <div id="fullpage">
     <div class="section section-welcome">
-      <!-- <div id="three-js-container"></div>
+      <div id="three-js-container"></div>
       <div class="section-content">
         <h3 class="hero-name">rashna razdan</h3>
         <h1 class="hero-tagline">UX Designer</h1>
@@ -86,7 +86,7 @@
       </div>
       <div class="go-down">
         <img data-src="assets/images/down-arrow.svg">
-      </div> -->
+      </div>
     </div>
     <div class="section section-caseStudy1">
       <div class="case-text left">
@@ -103,7 +103,7 @@
       <div class="nexj">
         <img data-src="assets/images/caseStudy1_human.png" class="nexj-human">
         <div class="screen">
-          <video class="nexj-video" poster="assets/images/nexj-video-poster.png" data-autoplay data-keepplaying>
+          <video class="nexj-video" poster="assets/images/nexj-video-poster.png" data-autoplay>
             <source data-src="assets/videos/nexj_macbook_video.mp4" type="video/mp4">
             <source data-src="assets/videos/nexj_macbook_video.webm" type="video/webm">
           </video>
@@ -120,7 +120,7 @@
         <div class="case-title">eResources</div>
         <div class="description case-descriptor-space">UX/UI design of responsive web site for IT on Demand, an IT management service.</div>
         <div class="description">
-          <a href="nexjCaseStudy" class="green green-link animated-link">
+          <a href="eresourcesCaseStudy" class="green green-link animated-link">
             <span>
               View case study <img class="arrow" data-src="assets/images/right_arrow_green.svg">
             </span>
@@ -144,7 +144,7 @@
       </div>
       <div class="iteris-devices">
         <div class="screen">
-          <video class="iteris-video" poster="assets/images/iteris-video-poster.png" data-autoplay data-keepplaying loop>
+          <video class="iteris-video" poster="assets/images/iteris-video-poster.png" data-autoplay loop>
             <source data-src="assets/videos/caseStudy3_imac_video.mp4" type="video/mp4">
             <source data-src="assets/videos/caseStudy3_imac_video.webm" type="video/webm">
           </video>

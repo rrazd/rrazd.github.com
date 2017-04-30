@@ -1,0 +1,126 @@
+/* Main Header Banner */
+
+.eresources-banner {
+  background-image: url(../images/eresources/eresources-banner.jpg);
+}
+.eresources-banner-layer {
+  background-color: rgba(68, 68, 68, 0.76);
+}
+img.eresources-logo {
+  width: 100%;
+  padding-bottom: 15px;
+  height: 100%;
+}
+/* End of Main Header Banner */
+
+/* Research Summary */
+
+.eresources-research-section-img-left {
+  width: 96.27%;
+}
+.eresources-research-section-img-right {
+  width: 100%;
+  padding: 0 0 3px 0;
+}
+.eresources-research-right-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: initial;
+}
+/* End of Research Summary */
+
+/* IA */
+
+/* End of IA */
+
+/* Visuals */
+.nexj-image-description-visual {
+  align-self: flex-start;
+  padding-top: 70px;
+}
+.nexj-bullets {
+  justify-content: flex-start;
+}
+.eresources-palette-img, .eresources-comp-img {
+  width: 100%;
+  padding: 30px 0;
+}
+.eresources-visual {
+  position: relative;
+}
+/* End of Visuals */
+
+/* Prototyping */
+.nexj-prototype {
+  width: 43.97%;
+}
+.nexj-image-description-prototype {
+  align-self: flex-start;
+  padding-top: 30px;
+}
+/* End of Prototyping */
+
+/* Results */
+.nexj-result {
+  width: 47.76%;
+}
+.nexj-image-description-result {
+  align-self: flex-start;
+  padding-top: 50px;
+}
+/* End of Results */
+@media only screen and (min-width: 1121px) {
+  .eresources-research-section-right {
+    width: 48%;
+  }
+  .eresources-research-section-left {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 846px) {
+  .banner .right-container {
+    width: 61%;
+  }
+  .eresources-research-section-right {
+    width: 54%;
+  }
+  .eresources-research-section-left {
+    width: 41%;
+  }
+/*  .eresources-ia-right {
+    padding-bottom: 50px;
+  }
+  .eresources-ia-right {
+    width: 37.67%;
+  }
+  .eresources-ia-left {
+    width: 50.6%;
+  }*/
+}
+@media only screen and (max-width: 1120px) {
+  .nexj-image-description-visual {
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .eresources-research-section-img-right {
+    padding-bottom: 30px;
+  }
+  .nexj-image-description-visual {
+    padding-top: 0;
+  }
+  .nexj-visuals {
+    width: 65%;
+    min-width: 280px;
+    max-width: 410px;
+  }
+  .nexj-prototype, .nexj-result {
+    width: 65%;
+    min-width: 270px;
+    max-width: 370px;
+  }
+  .nexj-image-description-result {
+    padding-top: 40px;
+  }
+}

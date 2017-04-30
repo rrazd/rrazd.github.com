@@ -1201,6 +1201,16 @@ footer li {
   .large-title {
     font-size: 55px;
   }
+  .client-list-container {
+    margin: 0;
+  }
+  .client-subtitle {
+    padding-bottom: 5px;
+  }
+  .logo-container {
+    width: 100%;
+    margin: 0px 5.5%;
+  }
   .about-me-blurb {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1235,15 +1245,12 @@ footer li {
     height: 200px;
   }
   .all-projects-container {
-    margin-top: 50px;
+    margin-top: 40px;
     width: 255px;
   }
   .about-me {
     margin-top: 30px;
     width: 255px;
-  }
-  .client-list-container {
-    margin: 0;
   }
   .section-about a.btn {
     width: 120px;

@@ -10,6 +10,9 @@
   background-color: rgba(255, 255, 255, 0);
   transition: all 0.25s ease-in-out;
 }
+.nav-up {
+  top: -73px;
+}
 .case-header.shade {
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: #ddddde 3px 0px 8px;
@@ -68,6 +71,10 @@
   background-size: cover;
   background-position: center;
   height: 585px;
+}
+.banner-layer {
+  background-color: rgba(151,163,186,0.65);
+  height: 100%;
 }
 .banner .left-container {
   width: 26.72%;
@@ -137,6 +144,7 @@ img.banner-display {
   display: flex;
   flex-direction: column;
   align-self: flex-end;
+  position: relative;
 }
 .section-number-top {
   font-family: "Proxima_nova_sbold";
@@ -171,7 +179,7 @@ img.banner-display {
 .research-icon:first-of-type {
   margin-right: 24.05%;
 }
-.research-section .label-line {
+.blue-label-line {
   border-top: #0000FF solid 1px;
 }
 .label-line {
@@ -215,6 +223,19 @@ img.banner-display {
 .ia-right {
   display: inline-block;
   width: 47.67%;
+  align-self: flex-start;
+}
+.wireframe-img {
+  width: 96.72%;
+  padding-top: 50px;
+}
+.ia-section-img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.wireframe-label {
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 /* End of IA */
 
@@ -247,6 +268,9 @@ img.banner-display {
 /* End of Visual/Prototyping/Results Container */
 
 /* Visuals */
+.side-visual {
+  width: 49.67%;
+}
 .bullet-point-description {
   width: 357px;
   padding-left: 20px;
