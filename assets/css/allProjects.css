@@ -1,0 +1,55 @@
+.all-projects {
+  display: flex;
+  height: 100%;
+}
+
+.all-projects-right {
+  width: 50%;
+  height: 100%;
+}
+
+.all-projects-left {
+  flex: auto;
+  height: 100%;
+}
+
+.project-contents {
+  height: 100%;
+  position: relative;
+}
+
+.project-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.project-content.active {
+  display: block;
+}
+
+.project-links {
+  list-style: none;
+}
+
+.project-link {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1300px) {
+  .all-projects-right {
+    display: none;
+  }
+
+  .project-content {
+    position: relative;
+    height: initial;
+    display: block;
+  }
+}
