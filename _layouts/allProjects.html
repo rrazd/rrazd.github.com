@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="assets/css/homepage.css">
   <link rel="stylesheet" href="assets/css/allProjects.css">
+  <link rel="stylesheet" href="assets/css/caseStudy.css">
 
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
@@ -29,18 +30,24 @@
   </style>
 
   <title>Rashna Razdan | UX Design</title>
-
 </head>
-<body>
-  <div class="loader"></div>
 
+<body class="all-projects-body">
+  <div class="loader"></div>
+  {% include allProjectsHeader.html %}
   <div class="all-projects">
     <div class="all-projects-left">
+      <div class="projects-page-title-container">
+        <div class="all-work">/All Work</div>
+        <div>USER</div>
+        <div>CENTERED</div>
+        <div>DESIGN</div>
+      </div>
       <ul class="project-contents">
-        <li class="project-content eresources active">
+        <li class="project-content active">
           eResources description
         </li>
-        <li class="project-content iteris">
+        <li class="project-content">
           Iteris description
         </li>
       </ul>

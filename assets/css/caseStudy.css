@@ -17,21 +17,56 @@
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: #ddddde 3px 0px 8px;
 }
-.case-header .back-arrow {
-  font-family: 'Playfair_display_bold';
+.case-header.shade .breadcrumb a:after {
+  background-color: #000000;
+}
+.case-header.shade .breadcrumb {
+  color: #000000;
+}
+.case-header.shade .breadcrumb a {
+  color: #000000;
+}
+.case-header .breadcrumb a:hover {
+  color: #ACACAC;
+  opacity: 1;
+}
+.case-header .breadcrumb a:hover:after {
+  background-color: #ACACAC;
+}
+.case-header.shade #breadcrumb-arrow path {
+  fill: #000000;
+}
+#breadcrumb-arrow path {
+  transition: fill 0.25s ease-in-out;
+}
+.case-header .breadcrumb {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  color: #ffffff;
 }
-.case-header.shade svg * {
-  transition: fill 0.5s ease-in-out;
-  transition: stroke 0.5s ease-in-out;
+.case-header .breadcrumb .current {
+  transition: all 0.25s ease-in-out;
 }
-.case-header.shade svg #back .shape {
-  fill: #040404;
+.case-header .breadcrumb a {
+  color: #ffffff;
+  font-family: "Proxima_nova_sbold";
+  position: relative;
+  text-transform: uppercase;
+  font-size: 13px;
 }
-.case-header.shade svg #back #arrow-line {
-  stroke: #040404;
+.case-header .breadcrumb a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 15px;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transition: all 0.25s ease-in-out;
+}
+.case-header .breadcrumb-seperator {
+  padding: 0 5px;
 }
 .case-header.shade svg #mail_icon #mail-oval {
   stroke: #040404;
@@ -182,6 +217,9 @@ img.banner-display {
 .blue-label-line {
   border-top: #0000FF solid 1px;
 }
+.label {
+  line-height: initial;
+}
 .label-line {
   width: 81px;
   padding-bottom: 15px;
@@ -204,8 +242,9 @@ img.banner-display {
   background: linear-gradient(180deg, #1C112B, #1A1B1D);
   padding-top: 100px;
   padding-bottom: 80px;
+  position: relative;
 }
-.two-three-container .label-line {
+.green-label-line {
   border-top: #00FF78 solid 1px;
 }
 .two-three-container .description, .two-three-container .section-number-top,
@@ -263,12 +302,20 @@ img.banner-display {
 
 /* Visual/Prototyping/Results Container */
 .four-five-results-container {
-  padding: 80px 0;
+  padding: 70px 0 40px 0;
+  position: relative;
 }
 /* End of Visual/Prototyping/Results Container */
 
 /* Visuals */
 .side-visual {
+  align-self: flex-end;
+}
+.visual-img-description {
+  align-self: flex-start;
+  padding-top: 40px;
+}
+.visual-img-container {
   width: 49.67%;
 }
 .bullet-point-description {
@@ -289,11 +336,25 @@ img.banner-display {
 .prototype-section {
   margin-top: 80px;
 }
+.prototype-img {
+  width: 43.97%;
+}
+.img-description-prototype {
+  align-self: flex-start;
+  padding-top: 30px;
+}
 /* End of Prototyping */
 
 /* Results */
 .result-section {
   margin-top: 80px;
+}
+.result-img {
+  width: 47.76%;
+}
+.image-description-result {
+  align-self: flex-start;
+  padding-top: 20px;
 }
 /* End of Results */
 
@@ -366,6 +427,9 @@ img.banner-display {
   .ia-left {
     align-self: center;
   }
+  .nexj-image-description-visual {
+    padding-top: 0;
+  }
 }
 
 /* single column */
@@ -433,11 +497,14 @@ img.banner-display {
     padding-top: 40px;
     align-self: flex-start;
   }
-
   .prototype-section {
     margin-top: 0;
   }
-
+  .prototype-img, .result-img {
+    width: 65%;
+    min-width: 270px;
+    max-width: 370px;
+  }
   .next-link-arrow {
     display: none;
   }
@@ -451,16 +518,23 @@ img.banner-display {
   .next-link-text, .previous-link-text {
     font-size: 18px;
   }
-  .four-five-results-container img {
+  .visual-img-container {
+    width: 100%;
+    min-width: 280px;
+    max-width: 410px;
+  }
+  .side-visual {
     align-self: flex-start;
   }
   .result-section {
     margin-top: 0;
   }
   .clustered-text {
-    padding-bottom: 40px;
+    padding: 40px 0;
   }
-
+  .visual-img-description.clustered-text {
+    padding-top: 0;
+  }
   .banner .right-container,
   .project-summary .story,
   .research-section-right,
@@ -494,7 +568,7 @@ img.banner-display {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .four-five-results-container img {
+  .side-visual {
     align-self: center;
   }
 }

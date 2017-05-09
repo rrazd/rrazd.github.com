@@ -21,54 +21,11 @@ img.nexj-logo {
 /* End of IA */
 
 /* Visuals */
-.nexj-image-description-visual {
-  align-self: flex-start;
-  padding-top: 70px;
-}
-.nexj-bullets {
-  justify-content: flex-start;
-}
 /* End of Visuals */
 
 /* Prototyping */
-.nexj-prototype {
-  width: 43.97%;
-}
-.nexj-image-description-prototype {
-  align-self: flex-start;
-  padding-top: 30px;
-}
 /* End of Prototyping */
 
 /* Results */
-.nexj-result {
-  width: 47.76%;
-}
-.nexj-image-description-result {
-  align-self: flex-start;
-  padding-top: 50px;
-}
 /* End of Results */
-@media only screen and (max-width: 1120px) {
-  .nexj-image-description-visual {
-    padding-top: 0;
-  }
-}
-@media only screen and (max-width: 845px) {
-  .nexj-image-description-visual {
-    padding-top: 0;
-  }
-  .nexj-visuals {
-    width: 65%;
-    min-width: 280px;
-    max-width: 410px;
-  }
-  .nexj-prototype, .nexj-result {
-    width: 65%;
-    min-width: 270px;
-    max-width: 370px;
-  }
-  .nexj-image-description-result {
-    padding-top: 40px;
-  }
-}
+

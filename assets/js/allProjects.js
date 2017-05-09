@@ -12,6 +12,9 @@
       $link.click(function () {
         showProject(project);
       });
+      $link.mouseenter(function () {
+        showProject(project);
+      });
 
     });
   }

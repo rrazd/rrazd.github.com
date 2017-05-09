@@ -1,3 +1,24 @@
+.all-projects-body {
+  background-color: #0000ff;
+}
+/* Header */
+.all-projects-header {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  width: 100%;
+  height: 73px;
+  padding: 14px 32px;
+  z-index: 97;
+}
+.all-projects-header .back-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* End of header */
+
+/* All projects structure */
 .all-projects {
   display: flex;
   height: 100%;
@@ -41,8 +62,26 @@
   color: white;
   cursor: pointer;
 }
+/* End of all projects structure */
 
-@media only screen and (max-width: 1300px) {
+/* Left side content */
+.projects-page-title-container {
+  padding: 100px 0 80px 25px;
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "Proxima_nova_bold", serif;
+  color: #00ff78;
+  letter-spacing: -0.8px;
+  line-height: 1.05;
+  margin-bottom: 50px;
+}
+.projects-page-title-container .all-work {
+  font-family: "Playfair_display_bold_italic";
+  font-size: 30px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+@media only screen and (max-width: 1200px) {
   .all-projects-right {
     display: none;
   }
@@ -53,3 +92,7 @@
     display: block;
   }
 }
+
+
+
+

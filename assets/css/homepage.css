@@ -82,7 +82,7 @@ header .logo {
 .logo.on svg .shape,
 .fp-viewing-caseStudy1 .shape,
 .fp-viewing-caseStudy3 .shape,
-.fp-viewing-all-projects .shape,
+.fp-viewing-allProjects .shape,
 .fp-viewing-contact .shape
  {
   fill: #040404;
@@ -125,7 +125,7 @@ header .top-menu ul li a:hover {
 .fp-viewing-caseStudy3 header .top-menu ul li a {
   color: #040404;
 }
-.fp-viewing-all-projects header .top-menu ul li a {
+.fp-viewing-allProjects header .top-menu ul li a {
   color: #040404;
 }
 .fp-viewing-contact header .top-menu ul li a {
@@ -145,17 +145,17 @@ header .top-menu ul li a:after {
 .fp-viewing-caseStudy1 header .top-menu ul li:nth-child(1) a:after,
 .fp-viewing-caseStudy2 header .top-menu ul li:nth-child(1) a:after,
 .fp-viewing-caseStudy3 header .top-menu ul li:nth-child(1) a:after,
-.fp-viewing-all-projects header .top-menu ul li:nth-child(1) a:after {
+.fp-viewing-allProjects header .top-menu ul li:nth-child(2) a:after {
   width: 100%;
 }
 .fp-viewing-caseStudy2 header .top-menu ul li:nth-child(1) a:after {
   background-color: #ffffff;
 }
-.fp-viewing-about header .top-menu ul li:nth-child(2) a:after {
+.fp-viewing-about header .top-menu ul li:nth-child(3) a:after {
   width: 100%;
   background-color: #ffffff;
 }
-.fp-viewing-contact header .top-menu ul li:nth-child(3) a:after {
+.fp-viewing-contact header .top-menu ul li:nth-child(4) a:after {
   width: 100%;
 }
 
@@ -203,9 +203,9 @@ header .top-menu ul li a:after {
 .fp-viewing-caseStudy3 .toggle-menu > span,
 .fp-viewing-caseStudy3 .toggle-menu > span:before,
 .fp-viewing-caseStudy3 .toggle-menu > span:after,
-.fp-viewing-all-projects .toggle-menu > span,
-.fp-viewing-all-projects .toggle-menu > span:before,
-.fp-viewing-all-projects .toggle-menu > span:after,
+.fp-viewing-allProjects .toggle-menu > span,
+.fp-viewing-allProjects .toggle-menu > span:before,
+.fp-viewing-allProjects .toggle-menu > span:after,
 .fp-viewing-contact .toggle-menu > span,
 .fp-viewing-contact .toggle-menu > span:before,
 .fp-viewing-contact .toggle-menu > span:after {
@@ -288,6 +288,9 @@ header .top-menu ul li a:after {
 #mobile-menu.active .nav_menu li:nth-of-type(4) {
     transition-delay: .8s;
 }
+#mobile-menu.active .nav_menu li:nth-of-type(5) {
+    transition-delay: .9s;
+}
 
 /* End of Mobile Menu */
 
@@ -325,7 +328,7 @@ header .top-menu ul li a:after {
 }
 .fp-viewing-caseStudy1 #page-menu li.active a,
 .fp-viewing-caseStudy3 #page-menu li.active a,
-.fp-viewing-all-projects #page-menu li.active a,
+.fp-viewing-allProjects #page-menu li.active a,
 .fp-viewing-contact #page-menu li.active a {
   color: #0000ff;
 }
@@ -356,13 +359,13 @@ header .top-menu ul li a:after {
 
 .fp-viewing-caseStudy1 #page-menu li a,
 .fp-viewing-caseStudy3 #page-menu li a,
-.fp-viewing-all-projects #page-menu li a,
+.fp-viewing-allProjects #page-menu li a,
 .fp-viewing-contact #page-menu li a {
   color: #040404;
 }
 .fp-viewing-caseStudy1 #page-menu li.active .v-line,
 .fp-viewing-caseStudy3 #page-menu li.active .v-line,
-.fp-viewing-all-projects #page-menu li.active .v-line,
+.fp-viewing-allProjects #page-menu li.active .v-line,
 .fp-viewing-contact #page-menu li.active .v-line {
   border-color: #040404;
 }
@@ -372,7 +375,7 @@ header .top-menu ul li a:after {
 .section-welcome, .section-about {
   background-color: #0000ff;
 }
-.section-all-projects {
+.section-allProjects {
   background-image: url(../images/all-projects-bg.png), linear-gradient(133deg, #0000FF 0%, #2929B9 100%);
   background-size: cover;
 }
@@ -1065,9 +1068,9 @@ footer li {
 }
 @media only screen and (max-width: 1180px) {
   .left {
-    margin-right: 0px;
+    margin-right: 0;
   }
-  .section-caseStudy2 .left {
+  .section-caseStudy1 .left {
     margin-right: 35px;
   }
 }
@@ -1117,6 +1120,9 @@ footer li {
   }
   .case-title {
     padding-top: 30px;
+  }
+  .left {
+    margin-right: 0px;
   }
   .section.section-caseStudy2 .case-img {
     margin-right: 0px;

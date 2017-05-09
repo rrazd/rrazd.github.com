@@ -59,7 +59,7 @@
 	$(document).ready(function() {
 		/* fullpage */
 		$('#fullpage').fullpage({
-			anchors: ["welcome", "caseStudy1", "caseStudy2", "caseStudy3", "all-projects", "about", "contact"],
+			anchors: ["welcome", "caseStudy1", "caseStudy2", "caseStudy3", "allProjects", "about", "contact"],
 			menu: '#page-menu, #top-menu',
 			css3: true,
 			scrollingSpeed: 700,
