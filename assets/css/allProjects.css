@@ -1,15 +1,9 @@
-.all-projects-body {
-  background-color: #0000ff;
+.allProjectsBody {
+  background-color: #F5F5F5;
 }
 /* Header */
 .all-projects-header {
-  position: fixed;
-  left: 0;
-  top: 0px;
-  width: 100%;
   height: 73px;
-  padding: 14px 32px;
-  z-index: 97;
 }
 .all-projects-header .back-arrow {
   position: absolute;
@@ -18,38 +12,11 @@
 }
 /* End of header */
 
-/* All projects structure */
-.all-projects {
-  display: flex;
-  height: 100%;
-}
-
-.all-projects-right {
-  width: 50%;
-  height: 100%;
-}
-
-.all-projects-left {
-  flex: auto;
-  height: 100%;
-}
-
+/* All projects list container */
 .project-contents {
-  height: 100%;
   position: relative;
-}
-
-.project-content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  display: none;
-}
-
-.project-content.active {
-  display: block;
+  margin: 0 auto;
+  padding: 0 32px;
 }
 
 .project-links {
@@ -62,37 +29,171 @@
   color: white;
   cursor: pointer;
 }
+.project-content {
+  position: relative;
+  display: block;
+  height: 350px;
+}
+.project-content:not(:last-child) {
+  margin-bottom: 20px;
+}
+.project-content.project-summary {
+  padding: 0;
+}
+.project-content .project-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+.project-logo .nexj-logo {
+  width: 30%;
+  min-width: 80px;
+  max-width: 160px;
+}
+.project-logo .eresources-logo {
+  width: 55%;
+  min-width: 186px;
+  max-width: 285px;
+}
+.project-content {
+  vertical-align: -webkit-baseline-middle;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Proxima_nova_sbold";
+  z-index: 2;
+  position: relative;
+}
+.project-content .view-case-link {
+  position: relative;
+  color: #fff;
+}
+.project-content .view-case-link:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  top: 18px;
+}
+.project-logo {
+  color: #fff;
+  width: 100%;
+}
+.project-text {
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: .7px;
+}
+.project-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-image: linear-gradient(-180deg,rgba(20, 25, 31, 0.65) 0,rgba(86, 92, 114, 0.5) 100%);
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+}
+.project-content:hover .project-bg {
+  opacity: 0;
+}
+.project-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+.nexj .project-overlay {
+  background-image: linear-gradient(135deg, #92B5C7 0%, #C0A78D 100%);
+}
+.eresources .project-overlay {
+  background-image: linear-gradient(135deg, #14191F 0%, #383D50 100%);
+}
+.project-content:hover .project-overlay {
+  opacity: 1;
+}
+.project-img-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.project-img {
+  background-size: cover;
+  background-position: 0;
+  height: 100%;
+  width: 100%;
+}
+.nexj .project-img {
+  background-image: url(../images/allProjects/nexj.png);
+}
+.eresources .project-img {
+  background-image: url(../images/allProjects/eresources.png);
+}
+
 /* End of all projects structure */
 
 /* Left side content */
 .projects-page-title-container {
-  padding: 100px 0 80px 25px;
-  color: #ffffff;
-  font-size: 50px;
+  padding: 130px 0 30px;
+  text-align: center;
+  font-size: 60px;
   font-family: "Proxima_nova_bold", serif;
-  color: #00ff78;
+  color: #23252C;
   letter-spacing: -0.8px;
   line-height: 1.05;
-  margin-bottom: 50px;
 }
 .projects-page-title-container .all-work {
   font-family: "Playfair_display_bold_italic";
-  font-size: 30px;
-  color: #ffffff;
+  font-size: 26px;
+  color: #23252C;
   padding-bottom: 10px;
 }
-@media only screen and (max-width: 1200px) {
-  .all-projects-right {
-    display: none;
+.projects-page-title-container hr {
+  margin: 20px auto 45px;
+  height: 2px;
+  background: #0000ff;
+  max-width: 200px;
+  border: 0;
+}
+@media only screen and (max-width: 1210px) {
+  .project-text {
+    font-size: 16px;
   }
-
-  .project-content {
-    position: relative;
-    height: initial;
-    display: block;
+}
+@media only screen and (max-width: 845px) {
+  .project-snippet.flex-container {
+    justify-content: center;
+  }
+  .project-contents {
+    padding: 0 25px;
+  }
+}
+@media only screen and (min-width: 845px) {
+  .nexj .project-img {
+    background-image: url(../images/nexj/nexj-banner.jpg);
+  }
+  .eresources .project-img {
+    background-image: url(../images/eresources/eresources-banner.jpg);
   }
 }
 
-
-
-
+@media only screen and (min-width: 1300px) {
+  .project-content {
+    height: 500px;
+  }
+}

@@ -32,37 +32,60 @@
   <title>Rashna Razdan | UX Design</title>
 </head>
 
-<body class="all-projects-body">
+<body class="allProjectsBody">
   <div class="loader"></div>
   {% include allProjectsHeader.html %}
-  <div class="all-projects">
-    <div class="all-projects-left">
       <div class="projects-page-title-container">
         <div class="all-work">/All Work</div>
-        <div>USER</div>
-        <div>CENTERED</div>
-        <div>DESIGN</div>
+        <div>USER CENTERED DESIGN</div>
+        <hr>
       </div>
       <ul class="project-contents">
-        <li class="project-content active">
-          eResources description
+        <li class="project-content project-summary nexj">
+          <div class="project-img-container">
+            <div class="project-img"></div>
+          </div>
+          <div class="project-overlay"></div>
+          <div class="project-bg"></div>
+          <div class="project-snippet flex-container container-width">
+            <div class="project-text-container">
+              <div class="project-logo">
+                <img class="nexj-logo" src="assets/images/nexj/nexj-logo.png">
+              </div>
+            <div class="project-text">
+              Building the future of healthcare via a mobile first approach.
+            </div>
+            <a href="nexjCaseStudy" class="view-case-link">
+              View case <img class="arrow" src="assets/images/allProjects/right-arrow.svg">
+            </a>
+          </div>
         </li>
-        <li class="project-content">
-          Iteris description
+        <li class="project-content project-summary eresources">
+          <div class="project-img-container">
+            <div class="project-img"></div>
+          </div>
+          <div class="project-overlay"></div>
+          <div class="project-bg"></div>
+          <div class="project-snippet flex-container container-width">
+            <div class="project-text-container">
+               <div class="project-logo">
+                  <img class="eresources-logo" src="assets/images/eresources/eresources-logo.png">
+               </div>
+              <div class="project-text">
+                Creating a clean website for a full-service technology firm.
+              </div>
+              <div class="view-case-link-container">
+                <a href="eresourcesCaseStudy" class="view-case-link">
+                  View case <img class="arrow" src="assets/images/allProjects/right-arrow.svg">
+                </a>
+              </div>
+            </div>
+          </div>
         </li>
       </ul>
-    </div>
-    <div class="all-projects-right">
-      <ul class="project-links">
-        <li class="project-link" data-project="eresources">eResources</li>
-        <li class="project-link" data-project="iteris">Iteris</li>
-      </ul>
-    </div>
-  </div>
-
-
+  {% include footer.html %}
   <script src="assets/js/ext/jquery-3.1.1.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/allProjects.js"></script>
+  <script src="assets/js/ext/jquery.lazyload.js"></script>
+  <script src="assets/js/caseStudy.js"></script>
 </body>
 </html>

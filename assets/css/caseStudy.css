@@ -13,31 +13,19 @@
 .nav-up {
   top: -73px;
 }
-.case-header.shade {
-  background-color: rgba(255, 255, 255, 0.95);
-  box-shadow: #ddddde 3px 0px 8px;
-}
-.case-header.shade .breadcrumb a:after {
-  background-color: #000000;
-}
-.case-header.shade .breadcrumb {
-  color: #000000;
-}
-.case-header.shade .breadcrumb a {
-  color: #000000;
-}
+
 .case-header .breadcrumb a:hover {
-  color: #ACACAC;
+  color: #dddee1;
   opacity: 1;
 }
-.case-header .breadcrumb a:hover:after {
-  background-color: #ACACAC;
-}
-.case-header.shade #breadcrumb-arrow path {
-  fill: #000000;
+.case-header .breadcrumb a:hover .breadcrumb-label:after {
+  background-color: #dddee1;
 }
 #breadcrumb-arrow path {
   transition: fill 0.25s ease-in-out;
+}
+.case-header .breadcrumb-label {
+  position: relative;
 }
 .case-header .breadcrumb {
   position: absolute;
@@ -47,6 +35,7 @@
 }
 .case-header .breadcrumb .current {
   transition: all 0.25s ease-in-out;
+  padding-left: 2px;
 }
 .case-header .breadcrumb a {
   color: #ffffff;
@@ -54,8 +43,9 @@
   position: relative;
   text-transform: uppercase;
   font-size: 13px;
+  padding: 5px;
 }
-.case-header .breadcrumb a:after {
+.case-header .breadcrumb-label:after {
   content: '';
   position: absolute;
   left: 0;
@@ -68,19 +58,41 @@
 .case-header .breadcrumb-seperator {
   padding: 0 5px;
 }
-.case-header.shade svg #mail_icon #mail-oval {
-  stroke: #040404;
-}
-.case-header.shade svg #mail_icon #mail-envelope {
-  fill: #0000ff;
-}
 .case-header .contact {
   float: right;
 }
 .case-header a {
   display: inline-block;
 }
-
+.case-header.shade {
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: #ddddde 3px 0px 8px;
+}
+.case-header.shade .breadcrumb {
+  color: #4a4a4a;
+}
+.case-header.shade .breadcrumb a {
+  color: #4a4a4a;
+}
+.case-header.shade #breadcrumb-arrow path {
+  fill: #4a4a4a;
+}
+.case-header.shade .breadcrumb-label:after {
+  background-color: #4a4a4a;
+}
+.case-header.shade .breadcrumb a:hover {
+  color: #878787;
+  opacity: 1;
+}
+.case-header.shade .breadcrumb a:hover .breadcrumb-label:after {
+  background-color: #878787;
+}
+.case-header.shade svg #mail_icon #mail-oval {
+  stroke: #040404;
+}
+.case-header.shade svg #mail_icon #mail-envelope {
+  fill: #0000ff;
+}
 /* End of header */
 
 /* Flex Container */
@@ -429,6 +441,23 @@ img.banner-display {
   }
   .nexj-image-description-visual {
     padding-top: 0;
+  }
+
+  .case-header .breadcrumb a {
+    font-size: 11px;
+  }
+  .case-header .breadcrumb .current {
+    font-size: 13px;
+  }
+  .case-header .contact {
+    transform: scale(0.85);
+  }
+  .case-header .breadcrumb-label:after {
+    top: 13px;
+    height: 1px;
+  }
+  .case-header .breadcrumb-seperator {
+    padding: 0;
   }
 }
 

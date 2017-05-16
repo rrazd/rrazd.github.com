@@ -462,7 +462,7 @@ a.btn {
   opacity: 1;
 }
 .section a.btn.btn-blue:hover {
-  color: #040404;
+  color: #00ff78;
   opacity: 1;
 }
 a.btn-blue-outline:hover {
@@ -635,10 +635,13 @@ a.btn-blue-outline {
   background: #5b5c5d;
   border-radius: 4px;
 }
+.animated-link:hover span {
+  padding: 10px 8px;
+}
 .animated-link span {
   position: relative;
   z-index: 2;
-  padding: 0 2px;
+  transition: all .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .case-img {
   background-repeat: no-repeat;

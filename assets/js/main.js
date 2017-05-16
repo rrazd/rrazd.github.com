@@ -53,7 +53,7 @@
 				imageToSwap.style.transform = "translateY(0px)";
 			}, 1000);
 
-		}, 4000);
+		}, 3000);
 	}
 
 	$(document).ready(function() {
