@@ -56,7 +56,7 @@ a.green {
 /* Top Header Bar */
 
 .homepage-header {
-  position: absolute;
+  position: fixed;
   margin: 0 auto;
   top: 0;
   right: 0;
@@ -1330,4 +1330,12 @@ footer li {
   }
 }
 /* End of Height Based Media Queries */
+
+/*
+  This is to prevent scrolling of the background when the mobile menu is open.
+  !important needed to override inline styles being applied by fullpage.
+ */
+.noscroll {
+  overflow: hidden !important;
+}
 

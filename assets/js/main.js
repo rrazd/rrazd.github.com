@@ -64,6 +64,7 @@
 			css3: true,
 			scrollingSpeed: 700,
 			responsiveHeight: 560,
+			normalScrollElements: '#mobile-menu',
 			afterRender: function() {
 				setTimeout( function () {
 					$(".section-welcome").addClass("appear");
@@ -94,7 +95,7 @@
 
 		var fnToggleFunc = function() {
 			fnOpen = !fnOpen;
-			$body.toggleClass('fullscreen-nav-open');
+			$body.toggleClass('noscroll');
 			$menu.stop().fadeToggle(500);
 			$menu.toggleClass("active");
 			$('.toggle-menu').toggleClass('on');
@@ -102,7 +103,12 @@
 			return true;
 		};
 
-		$('#mobile-menu .menu-item a, .toggle-menu').on('click', fnToggleFunc);
+		$('#mobile-menu .menu-item a').on('click', fnToggleFunc);
+
+		$('.toggle-menu').on('click', function () {
+			fnToggleFunc();
+			return false;
+		});
 
 		$('.logo').on('click', function () {
 			if (fnOpen) {
