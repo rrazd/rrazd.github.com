@@ -89,42 +89,31 @@
 
 		/* mobile menu */
 		var $menu = $('#mobile-menu'),
-		$body = $('body'),
-		$fn = $('#mobile-menu'),
-		$fnToggle = $('.toggle-menu'),
-		$window = $(window),
-		fnOpen = false;
+			$body = $('body'),
+			fnOpen = false;
 
 		var fnToggleFunc = function() {
 			fnOpen = !fnOpen;
 			$body.toggleClass('fullscreen-nav-open');
-			$fn.stop().fadeToggle(500);
-			$fn.toggleClass("active");
+			$menu.stop().fadeToggle(500);
+			$menu.toggleClass("active");
 			$('.toggle-menu').toggleClass('on');
 			$('.logo').toggleClass('on');
-			return false;
+			return true;
 		};
 
-		$fnToggle.on('click', fnToggleFunc);
+		$('#mobile-menu .menu-item a, .toggle-menu').on('click', fnToggleFunc);
 
-		$fn.find('li:not(.menu-item-has-children) > a').one('click', function() {
-			fnToggleFunc();
-			return true;
-		});
-
-		$menu.on('click', function(){
-			fnToggleFunc();
-			return true;
-		});
-
-		$('.inner-wrap, .fullscreen-menu-toggle').on('click', function(e){
-			e.stopPropagation();
+		$('.logo').on('click', function () {
+			if (fnOpen) {
+				fnToggleFunc();
+			}
 		});
 		/* end of mobile menu */
 
 		/* move down to next section */
 		 $(document).on("click", ".go-down", function() {
-	        $.fn.fullpage.moveSectionDown()
+        $.fn.fullpage.moveSectionDown();
 	    });
 	});
 
