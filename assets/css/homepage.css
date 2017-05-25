@@ -428,8 +428,6 @@ a.btn {
 .section-about a.btn {
   padding: 20px 0 20px;
   width: 188px;
-}
-.section-about a.btn {
   margin-right: 25px;
 }
 .section a.btn.btn-about-me-linkedin {
@@ -1089,6 +1087,7 @@ footer li {
   }
   .section-about a.btn {
     margin-top: 0;
+    width: 190px;
   }
   .section.section-caseStudy2 .case-img {
     margin-left: 0px;

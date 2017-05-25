@@ -18,21 +18,23 @@
   margin: 0 auto;
   padding: 0 32px;
 }
-
-.project-links {
-  list-style: none;
-}
-
-.project-link {
-  padding: 10px 20px;
-  background-color: blue;
-  color: white;
-  cursor: pointer;
-}
 .project-content {
   position: relative;
   display: block;
   height: 350px;
+}
+.project-content.project-summary.end {
+  height: auto;
+  padding: 30px;
+  color: #000;
+  line-height: 1.67;
+  font-size: 18px;
+}
+.end p {
+  width: 70vw;
+}
+.clap {
+  font-size: 24px;
 }
 .project-content:not(:last-child) {
   margin-bottom: 20px;
@@ -47,16 +49,6 @@
   align-content: flex-start;
   justify-content: center;
   z-index: 2;
-}
-.project-logo .nexj-logo {
-  width: 30%;
-  min-width: 80px;
-  max-width: 160px;
-}
-.project-logo .eresources-logo {
-  width: 55%;
-  min-width: 186px;
-  max-width: 285px;
 }
 .project-content {
   vertical-align: -webkit-baseline-middle;
@@ -80,17 +72,70 @@
   background-color: #fff;
   top: 18px;
 }
+.project-content:hover .project-bg {
+  opacity: 0;
+}
+.project-links {
+  list-style: none;
+}
+
+.project-link {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
 .project-logo {
   color: #fff;
   width: 100%;
+  padding-top: 20px;
+}
+.project-logo .nexj-logo {
+  width: 25%;
+  min-width: 80px;
+  max-width: 160px;
+}
+.project-logo .eresources-logo {
+  width: 60%;
+  min-width: 186px;
+  max-width: 285px;
+}
+.project-logo .iteris-logo {
+  width: 30%;
+  min-width: 100px;
+  max-width: 130px;
+}
+.project-logo .riverbed-logo {
+  width: 30%;
+  min-width: 100px;
+  max-width: 145px;
+}
+.project-logo .hpe-logo {
+  width: 67%;
+  min-width: 200px;
+  max-width: 350px;
+}
+.project-logo .mcafee-logo {
+  width: 45%;
+  min-width: 160px;
+  max-width: 235px;
+}
+.category-description {
+  font-size: 35px;
 }
 .project-text {
   color: #fff;
   padding: 20px 0;
   width: 100%;
   font-size: 19px;
-  line-height: 30px;
+  line-height: 1.68;
   letter-spacing: .7px;
+}
+.project-snippet {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 1160px;
 }
 .project-bg {
   position: absolute;
@@ -103,8 +148,11 @@
   opacity: 1;
   transition: opacity .3s ease-in-out;
 }
-.project-content:hover .project-bg {
-  opacity: 0;
+.hpe .project-bg {
+  background-image: linear-gradient(-180deg,rgba(20, 25, 31, 0.72) 0,rgba(64, 69, 86, 0.85) 100%)
+}
+.riverbed .project-bg {
+  background-image: linear-gradient(-180deg,rgba(254, 186, 92, 0.75) 0,rgba(254, 192, 92 0.65) 100%);
 }
 .project-overlay {
   position: absolute;
@@ -117,10 +165,22 @@
   transition: opacity .3s ease-in-out;
 }
 .nexj .project-overlay {
-  background-image: linear-gradient(135deg, #92B5C7 0%, #C0A78D 100%);
+  background-image: linear-gradient(135deg, #59c5a6 0%, #258267 100%);
 }
 .eresources .project-overlay {
   background-image: linear-gradient(135deg, #14191F 0%, #383D50 100%);
+}
+.iteris .project-overlay {
+  background-image: linear-gradient(135deg, #579fdc 0%, #6078ea 100%);
+}
+.hpe .project-overlay {
+  background-image: linear-gradient(135deg, #f5a368 0%, #F38181 100%);
+}
+.riverbed .project-overlay {
+  background-image: linear-gradient(135deg, #35CCF6 0%, #4691EC 100%);
+}
+.mcafee .project-overlay {
+  background-image: linear-gradient(135deg, #E6464B 0%, #A52E32 100%);
 }
 .project-content:hover .project-overlay {
   opacity: 1;
@@ -143,6 +203,60 @@
 }
 .eresources .project-img {
   background-image: url(../images/allProjects/eresources.png);
+}
+.iteris .project-img {
+  background-image: url(../images/allProjects/iteris.png);
+}
+.hpe .project-img {
+  background-image: url(../images/allProjects/hpe.png);
+}
+.riverbed .project-img {
+  background-image: url(../images/allProjects/riverbed.png);
+}
+.mcafee .project-img {
+  background-image: url(../images/allProjects/mcafee.png);
+}
+.project-result-container {
+  z-index: 3;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.nexj .project-result-container {
+  width: 328px;
+}
+.eresources .project-result-container {
+  width: 51%;
+  min-width: 418px;
+}
+.iteris .project-result-container,
+.hpe .project-result-container,
+.riverbed .project-result-container {
+  width: 50%;
+  min-width: 436px;
+}
+.mcafee .project-result-container {
+  width: 45%;
+  min-width: 436px;
+}
+.project-result-container img {
+  width: 100%;
+  position: absolute;
+}
+.nexj .project-result-container img {
+  bottom: 0;
+}
+.eresources .project-result-container img {
+  bottom: 0;
+}
+.iteris .project-result-container img,
+.hpe .project-result-container img,
+.riverbed .project-result-container img {
+  transform: translateY(-50%);
+  top: 50%;
+}
+.mcafee .project-result-container img {
+  bottom: -60px;
 }
 
 /* End of all projects structure */
@@ -174,6 +288,9 @@
   .project-text {
     font-size: 16px;
   }
+  .category-description {
+    font-size: 25px;
+  }
 }
 @media only screen and (max-width: 845px) {
   .project-snippet.flex-container {
@@ -181,6 +298,15 @@
   }
   .project-contents {
     padding: 0 25px;
+  }
+  .project-result-container {
+    display: none;
+  }
+  .project-text-container {
+    align-self: flex-start;
+  }
+  .project-content.project-summary.end {
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 845px) {
@@ -190,10 +316,32 @@
   .eresources .project-img {
     background-image: url(../images/eresources/eresources-banner.jpg);
   }
+  .iteris .project-img {
+    background-image: url(../images/iteris/iteris-banner.jpg);
+  }
+  .hpe .project-img {
+    background-image: url(../images/allProjects/hpe-banner.jpg);
+  }
+  .riverbed .project-img {
+    background-image: url(../images/allProjects/riverbed-banner.jpg);
+  }
+  .mcafee .project-img {
+    background-image: url(../images/allProjects/mcafee-banner.jpg);
+  }
 }
 
 @media only screen and (min-width: 1300px) {
   .project-content {
     height: 500px;
+  }
+  .nexj .project-result-container {
+    width: 40%;
+  }
+  .eresources .project-result-container,
+  .iteris .project-result-container {
+    width: 55%;
+  }
+  .mcafee .project-result-container {
+    width: 50%;
   }
 }
