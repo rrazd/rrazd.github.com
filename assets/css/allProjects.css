@@ -21,7 +21,8 @@
 .project-content {
   position: relative;
   display: block;
-  height: 350px;
+  height: 300px;
+  transition: all 0.3s ease-in-out;
 }
 .project-content.project-summary.end {
   height: auto;
@@ -29,9 +30,7 @@
   color: #000;
   line-height: 1.67;
   font-size: 18px;
-}
-.end p {
-  width: 70vw;
+  text-align: center;
 }
 .clap {
   font-size: 24px;
@@ -42,14 +41,64 @@
 .project-content.project-summary {
   padding: 0;
 }
-.project-content .project-text-container {
+.project-content.expand {
+  height: 480px;
+}
+.project-text-container-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+}
+.project-text-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-content: flex-start;
   justify-content: center;
+  flex: 1;
   z-index: 2;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
 }
+.project-text-container .animated-link {
+  color: #fff;
+  transition: all 0.03s ease-in-out;
+}
+.project-text-container .animated-link #Line,
+.project-text-container .animated-link #Triangle {
+  transition: all 0.03s ease-in-out;
+}
+.project-text-container .animated-link:hover #Line,
+.project-text-container .animated-link:hover #Triangle {
+  stroke: #3D3DF8;
+  fill: #3D3DF8;
+}
+.project-text-container .animated-link span {
+  transition: all 0.3s ease-in-out;
+}
+/* Learn more */
+.project-text-container.learn-more-text {
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+.project-text-container.preview-text {
+}
+.project-text-container.project-text-container-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.project-text-container.project-text-container-hide {
+  opacity: 0;
+  visibility: hidden;
+}
+/* End of Learn more */
+
 .project-content {
   vertical-align: -webkit-baseline-middle;
   font-size: 16px;
@@ -58,21 +107,10 @@
   z-index: 2;
   position: relative;
 }
-.project-content .view-case-link {
-  position: relative;
-  color: #fff;
+.project-content.expand .project-overlay {
+  opacity: 1;
 }
-.project-content .view-case-link:after {
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 100%;
-  bottom: 0;
-  right: 0;
-  background-color: #fff;
-  top: 18px;
-}
-.project-content:hover .project-bg {
+.project-content.expand .project-bg {
   opacity: 0;
 }
 .project-links {
@@ -132,10 +170,12 @@
   letter-spacing: .7px;
 }
 .project-snippet {
+  position: relative;
   width: 90%;
   margin: 0 auto;
   height: 100%;
   max-width: 1160px;
+  transition: opacity .3s ease-in-out;
 }
 .project-bg {
   position: absolute;
@@ -146,14 +186,12 @@
   z-index: 1;
   background-image: linear-gradient(-180deg,rgba(20, 25, 31, 0.65) 0,rgba(86, 92, 114, 0.5) 100%);
   opacity: 1;
-  transition: opacity .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
-.hpe .project-bg {
+.hpe .project-bg, .mcafee .project-bg, .riverbed .project-bg {
   background-image: linear-gradient(-180deg,rgba(20, 25, 31, 0.72) 0,rgba(64, 69, 86, 0.85) 100%)
 }
-.riverbed .project-bg {
-  background-image: linear-gradient(-180deg,rgba(254, 186, 92, 0.75) 0,rgba(254, 192, 92 0.65) 100%);
-}
+
 .project-overlay {
   position: absolute;
   width: 100%;
@@ -162,7 +200,7 @@
   left: 0;
   z-index: 1;
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 .nexj .project-overlay {
   background-image: linear-gradient(135deg, #59c5a6 0%, #258267 100%);
@@ -177,13 +215,10 @@
   background-image: linear-gradient(135deg, #f5a368 0%, #F38181 100%);
 }
 .riverbed .project-overlay {
-  background-image: linear-gradient(135deg, #35CCF6 0%, #4691EC 100%);
+  background-image: linear-gradient(135deg, #85d0e8 0%, #46AAD9 100%);
 }
 .mcafee .project-overlay {
-  background-image: linear-gradient(135deg, #E6464B 0%, #A52E32 100%);
-}
-.project-content:hover .project-overlay {
-  opacity: 1;
+  background-image: linear-gradient(135deg, #F3858A 0%, #F76E81 100%);
 }
 .project-img-container {
   position: absolute;
@@ -258,10 +293,8 @@
 .mcafee .project-result-container img {
   bottom: -60px;
 }
-
 /* End of all projects structure */
 
-/* Left side content */
 .projects-page-title-container {
   padding: 130px 0 30px;
   text-align: center;
@@ -293,8 +326,13 @@
   }
 }
 @media only screen and (max-width: 845px) {
+  .projects-page-title-container {
+    font-size: 50px;
+  }
   .project-snippet.flex-container {
     justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
   }
   .project-contents {
     padding: 0 25px;
@@ -304,9 +342,26 @@
   }
   .project-text-container {
     align-self: flex-start;
+    width: auto;
   }
   .project-content.project-summary.end {
     font-size: 16px;
+  }
+  .project-text-container-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 645px) {
+  .projects-page-title-container {
+    font-size: 40px;
+  }
+  .projects-page-title-container hr {
+    margin: 20px auto 25px
+  }
+}
+@media only screen and (min-width: 545px) {
+  .project-content {
+    height: 500px;
   }
 }
 @media only screen and (min-width: 845px) {
@@ -329,11 +384,7 @@
     background-image: url(../images/allProjects/mcafee-banner.jpg);
   }
 }
-
 @media only screen and (min-width: 1300px) {
-  .project-content {
-    height: 500px;
-  }
   .nexj .project-result-container {
     width: 40%;
   }
