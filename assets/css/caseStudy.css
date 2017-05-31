@@ -381,6 +381,9 @@ img.banner-display {
 /* End of Next Steps*/
 
 /* Next-Previous Navigation Links */
+.next-prev-links.flex-container {
+  align-items: stretch;
+}
 .link-box {
   width: 50%;
   background-color: #1fb6ff;
@@ -540,12 +543,9 @@ img.banner-display {
   .previous-link-arrow {
     display: none;
   }
-  .link-box {
-    padding-right: 21px;
-    padding-left: 21px;
-  }
   .next-link-text, .previous-link-text {
     font-size: 18px;
+    vertical-align: baseline;
   }
   .visual-img-container {
     width: 100%;
@@ -604,6 +604,9 @@ img.banner-display {
 @media only screen and (max-width: 360px) {
   .project-summary .technologies {
     padding-bottom: 10px;
+  }
+  .case-header a.contact {
+    visibility: hidden;
   }
 }
 /* End of width media queries */
